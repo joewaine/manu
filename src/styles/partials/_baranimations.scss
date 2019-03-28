@@ -1,0 +1,519 @@
+.rect-bar-10 {
+				width: 150px;
+				background: #30EFD0;
+				color: transparent;
+				bottom: 0;
+				right: 120px;
+				position: absolute;
+pointer-events: none;
+
+
+
+ -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+
+
+				-webkit-transition: height 1s ease;
+				transition: height 1s ease;
+				-webkit-transition-delay: .5s;
+				transition-delay: .5s;
+
+				height: 0;
+
+				&.one {
+								height: 0;
+
+								&.expanded-10 {
+												height: 12%;
+								}
+
+
+								&.expanded-50 {
+												height: 20%;
+								}
+
+
+								&.expanded-33 {
+												height: 7%;
+								}
+				}
+
+				&.two {
+
+								height: 0;
+								right: 270px;
+
+								&.expanded-10 {
+												height: 11%;
+								}
+
+
+								&.expanded-50 {
+												height: 18%;
+								}
+
+
+								&.expanded-33 {
+												height: 8%;
+								}
+
+				}
+
+				&.three {
+								height: 0;
+								right: 420px;
+
+								&.expanded-10 {
+												height: 11%;
+								}
+
+
+								&.expanded-50 {
+												height: 18%;
+								}
+
+
+								&.expanded-33 {
+												height: 11%;
+								}
+
+				}
+
+
+				&.four {
+								background-color: #3c3c41;
+								width: 125px;
+								height: 0%;
+								position: absolute;
+								bottom: 0;
+								left: 0;
+
+								&.expanded-50 {
+												height: 25%;
+								}
+				}
+
+
+
+
+				&.five {
+								background-color: #3c3c41;
+								width: 125px;
+								height: 0%;
+								position: absolute;
+							    top: 58px;
+								right: 0;
+
+								&.expanded-50 {
+												height: 25%;
+								}
+				}
+
+
+
+
+				&.six {
+								background-color: #3c3c41;
+								width: 150px;
+								height: 0;
+								position: absolute;
+							    top: 58px;
+								left: 120px;
+
+								&.expanded-50 {
+												height: 6%;
+								}
+				}
+
+				&.seven {
+								background-color: #3c3c41;
+
+								width: 150px;
+								height: 0;
+								position: absolute;
+							    top: 58px;
+								left: 270px;
+
+								&.expanded-50 {
+												height: 10%;
+								}
+
+
+				}
+
+
+				&.eight {
+								background-color: #3c3c41;
+
+								width: 150px;
+								height: 0;
+								position: absolute;
+							    top: 58px;
+								left: 420px;
+
+								&.expanded-50 {
+												height: 3%;
+								}
+
+
+				}
+
+
+
+}
+
+
+
+
+
+.rect-bar-6 {
+				height: 34%;
+				background: #3c3c41;
+				color: transparent;
+				top: 0;
+				right: 0;
+				position: absolute;
+pointer-events: none;
+
+
+
+ -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+
+				-webkit-transition: all 1s ease;
+				transition: all 1s ease;
+				width: 50px;
+
+				&.one {
+
+								&.expanded-33 {
+												// width: 40%;
+												width: 30%;
+								}
+				}
+
+				&.two {
+								top: 33.33%;
+
+								&.expanded-10 {
+												width: 20%;
+								}
+				}
+
+				&.three {
+								top: 66.66%;
+
+								&.expanded-50 {
+												width: 10%;
+								}
+				}
+}
+
+
+
+
+
+
+
+.rect-bar-3 {
+				height: 34%;
+				background: #3c3c41;
+				color: transparent;
+				top: 0;
+				right: 0;
+				position: absolute;
+pointer-events: none;
+
+
+
+ -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+
+
+				-webkit-transition: all 1s ease;
+				transition: all 1s ease;
+				width: 0;
+
+				&.one {
+
+								&.expanded-33 {
+												width: 40%;
+								}
+				}
+
+				&.two {
+								top: 33.33%;
+
+								&.expanded-10 {
+												width: 20%;
+								}
+				}
+
+				&.three {
+								top: 66.66%;
+
+								&.expanded-50 {
+												width: 10%;
+								}
+				}
+}
+
+
+
+
+
+
+
+
+
+.rect-bar-2 {
+				height: 25%;
+				background: #fff;
+				color: transparent;
+				top: 0;
+				right: 0;
+				position: absolute;
+
+				z-index: 10;
+pointer-events: none;
+
+
+
+
+ -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+
+				-webkit-transition: all 1s ease;
+				transition: all 1s ease;
+				width: 100%;
+
+				&.one {
+
+								&.expanded-33 {
+												width: 33%;
+								}
+				}
+
+				&.two {
+								top: 25%;
+
+								&.expanded-10 {
+												width: 10%;
+								}
+				}
+
+				&.three {
+								top: 50%;
+
+								&.expanded-50 {
+												width: 25%;
+								}
+				}
+
+
+				&.four {
+								top: 75%;
+
+								&.expanded-50 {
+												width: 40%;
+								}
+				}
+
+
+}
+
+
+
+.rect-bar-1 {
+				height: 34%;
+				background: rgb(0, 130, 115);
+				color: transparent;
+				top: 0;
+				right: 0;
+				position: absolute;
+pointer-events: none;
+
+
+ -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+
+
+				-webkit-transition: all 1s ease;
+				transition: all 1s ease;
+				width: 0%;
+
+				&.one {
+
+								&.expanded-33 {
+												width: 25%;
+								}
+
+
+								&.expanded-stage21 {
+												width: 20%;
+								}
+
+
+								&.expanded-11 {
+												width: 10%;
+								}
+				}
+
+				&.two {
+								top: 33.33%;
+
+								&.expanded-10 {
+												width: 10%;
+								}
+
+								&.expanded-stage22 {
+												width: 30%;
+								}
+
+								&.expanded-12 {
+												width: 20%;
+								}
+				}
+
+				&.three {
+								top: 66.66%;
+
+								&.expanded-50 {
+												width: 25%;
+								}
+
+
+
+								&.expanded-stage23 {
+												width: 10%;
+								}
+
+
+								&.expanded-13 {
+												width: 30%;
+								}
+				}
+}
+
+
+.rect-bar-5 {
+				width: 34%;
+				background: #ffffff;
+				color: transparent;
+				top: 0;
+				right: 0;
+				position: absolute;
+pointer-events: none;
+
+
+ -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+
+
+				-webkit-transition: all 1s ease;
+				transition: all 1s ease;
+				height: 100%;
+
+				&.one {
+								height: 100%;
+
+								&.expanded-33 {
+												height: 40%;
+								}
+				}
+
+				&.two {
+
+								height: 100%;
+								right: 33.33%;
+
+								&.expanded-10 {
+												height: 20%;
+								}
+				}
+
+				&.three {
+								height: 100%;
+								right: 66.66%;
+
+								&.expanded-50 {
+												height: 0px;
+								}
+				}
+}
+
+
+
+.pl-20 {
+
+				padding-left: 20px;
+}
+
+
+.chart__bar-4,
+.chart__bar,
+.dash,
+.stage-box,
+.background-slide{
+
+pointer-events: none;
+-moz-user-select: -moz-none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+-ms-user-select: none;
+user-select: none;
+}
+

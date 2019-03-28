@@ -1,0 +1,3608 @@
+body {
+                overflow-x: hidden !important;
+}
+
+.animated {
+                -webkit-animation-duration: 2s;
+                animation-duration: 2s;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+                -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+
+                0%,
+                100% {
+                                -webkit-transform: translateY(0);
+                }
+
+                50% {
+                                -webkit-transform: translateY(-10px);
+                }
+}
+
+@keyframes bounce {
+
+                0%,
+                100% {
+                                transform: translateY(0);
+                }
+
+                50% {
+                                transform: translateY(-10px);
+                }
+}
+
+.fadeInAnimation {
+                -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+}
+
+@-webkit-keyframes fade-visible {
+                0% {
+                                opacity: 0;
+                }
+
+                50% {
+                                opacity: 1;
+                }
+
+                100% {
+                                opacity: 1;
+                }
+}
+
+@keyframes fade-visible {
+                0% {
+                                opacity: 0;
+                }
+
+                50% {
+                                opacity: 1;
+                }
+
+                100% {
+                                opacity: 1;
+                }
+}
+
+
+@-webkit-keyframes fade-visible-2 {
+                0% {
+                                opacity: 0;
+                }
+
+                50% {
+                                opacity: 1;
+                }
+
+                100% {
+                                opacity: 1;
+                }
+}
+
+@keyframes fade-visible-2 {
+                0% {
+                                opacity: 0;
+                }
+
+                50% {
+                                opacity: 1;
+                }
+
+                100% {
+                                opacity: 1;
+                }
+}
+
+
+.bounce {
+                -webkit-animation-name: bounce;
+                animation-name: bounce;
+}
+
+
+.paused {
+                -webkit-animation-play-state: paused;
+                animation-play-state: paused;
+}
+
+
+header {
+                height: 100px;
+                width: 100%;
+                background: white;
+}
+
+nav {
+                background: $bg--dk-grey-alt;
+                position: fixed;
+                z-index: 100;
+                width: 198px;
+                right: -198px;
+                top: 200px;
+
+
+
+                transition: right 300ms ease-out;
+                padding-top: 40px;
+                padding-bottom: 40px;
+
+                a {
+                                color: $text--mint;
+                                text-decoration: none;
+                                text-transform: uppercase;
+                                font-size: 1em;
+                                line-height: 3em;
+
+
+                }
+}
+
+nav.expanded {
+                right: 0;
+}
+
+.section {
+                position: relative;
+}
+
+.content {
+                background: rgba(255, 255, 255, .85);
+                height: 100vh;
+                // padding: 220px 120px 120px 120px;
+                position: relative;
+
+                h2 {
+                                color: $text--grey;
+                                margin-bottom: 1em;
+
+
+
+
+                               
+
+                                &.green-text{
+                                         margin-bottom: .5em;
+                                        color: $text--btn-link;
+                                }
+                }
+
+}
+
+
+
+.bg-three-women {
+                background: url(assets/img/3-women.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-art-director {
+                background: url(assets/img/art-director.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-containers {
+                background: url(assets/img/containers.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-glasses {
+                background: url(assets/img/glasses-flipped.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-iphone-2 {
+
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+                background-image: url(assets/img/iphone.jpg);
+                width: 100%;
+                height: 100%;
+
+                // background: url(assets/img/iphone.jpg) no-repeat center center;
+                // -webkit-background-size: cover;
+                // -moz-background-size: cover;
+                // -o-background-size: cover;
+                // background-size: cover;
+
+
+
+}
+
+
+
+.bg-iphone {
+                background: url(assets/img/iphone.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+
+
+}
+
+
+
+.bg-home{
+                // background: url(assets/img/home-hero.jpg) no-repeat center center;
+                // -webkit-background-size: cover;
+                // -moz-background-size: cover;
+                // -o-background-size: cover;
+                // background-size: cover;
+
+
+}
+
+
+
+.bg-redmond-window {
+                background: url(assets/img/redmond-window.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-small-table {
+                background: url(assets/img/small-table.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-surface {
+                background: url(assets/img/surface.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-tablet-smiling {
+                background: url(assets/img/tablet-smiling.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-white-paper {
+                background: url(assets/img/white-paper.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-crowd {
+                background: url(assets/img/crowd.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-crowd-2 {
+                background: url(assets/img/crowd-2.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-flat-screen {
+                background: url(assets/img/flat-screen.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-silhouette {
+                background: url(assets/img/silhouette.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-sunset {
+                background: url(assets/img/home-hero.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-sweaters {
+                background: url(assets/img/sweaters.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+
+
+.bg-factory-tablet{
+                background: url(assets/img/bg-factory-tablet.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+
+
+.bg-sweaters-square {
+                // background: url(assets/img/square/sweaters-square.jpg) no-repeat center center;
+                // -webkit-background-size: cover;
+                // -moz-background-size: cover;
+                // -o-background-size: cover;
+                // background-size: cover;
+
+
+                background: url(assets/img/square/sweaters-square.jpg) center center / cover no-repeat;
+
+}
+
+
+.bg-two-women {
+                background: url(assets/img/two-women.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-view {
+                background: url(assets/img/view.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-grass {
+                background: url(assets/img/grass.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+
+.bg-bar-chart {
+                background-image: url(assets/img/stage1-stat.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: #3c3c41;
+}
+
+
+.bg-bar-chart-2 {
+                background-image: url(assets/img/stage2-stat.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: #3c3c41;
+}
+
+.bg-bar-chart-3 {
+                background-image: url(assets/img/stage4-stat.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: #3c3c41;
+}
+
+
+
+
+
+.bg-1 {
+                background: url(assets/img/3-women.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-2 {
+                background: url(assets/img/art-director.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-3 {
+                background: url(assets/img/containers.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-4 {
+                background: url(assets/img/glasses.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+.bg-5 {
+                background: url(assets/img/iphone.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+}
+
+
+
+
+
+
+
+.fp-tableCell {
+                display: inline-block;
+}
+
+.navbar-nav {
+                list-style-type: none;
+}
+
+.grey-bg {
+                background-color: $bg--grey;
+
+                h1,
+                h2,
+                h3,
+                p {
+                                color: $text--white;
+                }
+
+
+
+                p {
+                                margin-bottom: 1em
+                }
+
+}
+
+
+.green-bg {
+
+                background-color: $text--btn-link;
+
+                h1,
+                h2,
+                h3,
+                p {
+                                color: $text--white;
+                }
+
+                p {
+                                margin-bottom: 1em
+                }
+
+}
+
+.light-grey-bg {
+                background-color: $bg--light-grey;
+
+                h2 {
+                                color: $text--dk-grey;
+                }
+}
+
+.dk-grey-bg {
+                background-color: $bg--dk-grey;
+}
+
+.stage {
+                position: relative;
+                display: inherit;
+                height: 30px;
+
+                cursor: pointer;
+
+
+                .stage-name {
+
+                                opacity: 0;
+                                transition: opacity .5s ease;
+                                -webkit-transition: opacity .5s ease;
+                }
+
+
+                &:hover {
+                                .stage-name {
+                                                display: inline-block;
+                                                opacity: 1;
+                                }
+
+                                .stage-stroke {
+                                                width: 42px;
+                                }
+
+                }
+
+
+                &:first-child {
+                                pointer-events: none;
+
+                                &:hover {
+                                                .stage-name {
+                                                                display: inline-block;
+                                                                opacity: 1;
+                                                }
+
+                                                .stage-stroke {
+                                                                width: 42px;
+                                                }
+                                }
+
+                }
+
+                .stage-stroke {
+                                background: #757575;
+                                height: 1px;
+                                width: 25px;
+                                color: transparent;
+                                float: left;
+                                margin-right: 15px;
+                                transition: width 0.5s ease
+                }
+
+
+
+                .stage-stroke.transparent {
+                                background: transparent;
+                }
+
+                &.active {
+                                .stage-stroke {
+                                                width: 42px;
+                                }
+
+                                .stage-name {
+                                                display: inline-block;
+                                                opacity: 1;
+                                }
+
+                }
+
+                .stage-name {
+                                top: -10px;
+                                position: absolute;
+                                display: inline-block;
+                                opacity: 0;
+                                text-transform: uppercase;
+                                transition: opacity 0.25s ease;
+
+                                a {
+                                                cursor: pointer;
+                                                font-family: $segoe--semi;
+                                                font-weight: $semi-bold;
+                                                text-decoration: none;
+
+                                                &:hover {
+                                                                color: $text--btn-link;
+                                                }
+                                }
+                }
+
+
+
+}
+
+
+
+
+
+
+
+.bottom-fix {
+                bottom: 20px;
+                left: 50%;
+                margin-left: -10px;
+                position: absolute;
+                z-index: 10;
+}
+
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+                .bottom-fix {
+                                bottom: -40px;
+                }
+
+}
+
+.section.fp-auto-height.grey-bg.first-panel.fp-section.fp-table,
+.first-panel {
+                height: 80vh
+}
+
+
+
+.top-pad-max {
+                padding-top: 8em
+}
+
+.btm-pad-max {
+                padding-bottom: 4em;
+}
+
+.top-pad-xxl {
+                padding-top: 4em
+}
+
+
+
+.top-pad-xl {
+                padding-top: 3em
+}
+
+.top-pad-lg {
+                padding-top: 1.5em
+}
+
+.top-pad-md {
+                padding-top: 1em
+}
+
+.top-pad-sm {
+                padding-top: .5em
+}
+
+.top-pad-2m {
+                padding-top: 2em;
+}
+
+.btm-pad-xxl {
+                padding-bottom: 4em
+}
+
+.btm-pad-xl {
+                padding-bottom: 3em
+}
+
+.btm-pad-lg {
+                padding-bottom: 1.5em
+}
+
+.btm-pad-md {
+                padding-bottom: 1em
+}
+
+.btm-pad-sm {
+                padding-bottom: .5em
+}
+
+
+.down-arrow {
+                background-color: transparent;
+                color: transparent;
+                cursor: pointer;
+                font-size: 0;
+                width: 20px;
+
+                &.dark {
+
+                                background-color: transparent;
+                }
+
+
+
+
+                transition: all .5s ease;
+                -webkit-transition: all .5s ease;
+
+
+&:hover{
+                    // width: 42px;
+}
+
+}
+
+
+.bottom-fix {
+
+                transition: all .5s;
+                -webkit-transition: all .5s;
+
+&:hover{
+
+        bottom: 16px;
+    // left: 50%;
+    // margin-left: -21px;
+    // position: absolute;
+    // z-index: 10;
+
+}
+
+}
+
+
+.menu {
+                color: transparent;
+                cursor: pointer;
+                float: right;
+                font-size: 0;
+                width: 22px;
+
+                transition: opacity .5s ease;
+                -webkit-transition: opacity .5s ease;
+
+                &:hover {
+                                opacity: .5;
+                }
+}
+
+.header-logo {
+                margin: 40px 0px 10px 0;
+                height: 30px;
+                float: left;
+}
+
+
+.relative {
+                position: relative;
+}
+
+
+.section-title {
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                text-transform: uppercase;
+}
+
+
+.stage-section {}
+
+.col-md-6 {
+                &.grey-bg {
+                                h2 {
+                                                font-size: 3.5em;
+                                }
+                }
+}
+
+.no-pad {
+                padding: 0;
+}
+
+.no-left-pad {
+                padding-left: 0;
+}
+
+.no-margin {
+                margin: 0;
+}
+
+
+
+.bg-white {
+                background-color: $bg--white;
+}
+
+
+h3 {
+                &.dk-green {
+                                color: $text--btn-link;
+                                font-family: $segoe--semi;
+                                font-weight: $semi-bold;
+                }
+}
+
+ul {
+
+                list-style-type: none;
+
+                .nav-item {
+                                margin-bottom: 0;
+                }
+
+                &.secondary-list {
+                                margin-top: 1.6em;
+                                padding-left: 0;
+                }
+
+                &.left-border {
+
+                                margin-top: 0;
+
+
+                                li {
+
+                                                padding-bottom: 10px;
+
+                                                .stage-item {
+                                                                font-size: .8em;
+                                                                line-height: 2.2em;
+
+                                                                a {
+                                                                                font-size: 1.2em;
+                                                                }
+
+                                                }
+
+                                                .title {
+                                                                font-size: 1.2em;
+                                                                line-height: 1.4em;
+                                                }
+
+
+                                                border-left: 15px solid white;
+                                                padding-left: 15px;
+                                                cursor: pointer;
+                                                transition: color 0.5s ease,
+                                                border-left 0.5s ease;
+
+                                                &:hover {
+                                                                border-left: 15px solid $bg--light-grey;
+                                                                color: $text--btn-link;
+                                                                padding-left: 15px;
+
+
+                                                                a {
+                                                                                color: $text--btn-link;
+                                                                }
+
+                                                }
+
+                                }
+                }
+
+                li {
+                                margin-bottom: 1em;
+                                font-family: $segoe--semi;
+                                font-weight: $semi-bold;
+                                font-size: 1.2em;
+
+
+
+
+
+                                .circle {
+                                                background: $bg--dk-grey;
+                                                border-radius: 35px;
+                                                color: $text--mint;
+                                                display: inline-block;
+                                                height: 70px;
+                                                width: 70px;
+                                                text-align: center;
+                                                padding-top: 24px;
+                                                margin-right: 10px;
+                                                font-size: 18px;
+                                                padding-left: 2px;
+
+                                }
+                }
+}
+
+
+.relative {
+                position: relative;
+}
+
+.stage-line {
+                // height: 400px;
+                height: 100vh;
+                border-left: 1px solid #757575;
+                position: relative;
+
+                .stage {
+
+                                -webkit-transition: top .25s ease;
+                                /* Safari */
+                                transition: top .25s ease;
+
+                                &:first-child {
+
+                                                -webkit-transition: top .25s ease;
+                                                /* Safari */
+                                                transition: top .25s ease;
+
+                                                top: 20px;
+                                                pointer-events: none;
+
+
+
+
+                                }
+
+                                &:nth-child(2) {
+
+                                                -webkit-transition: top .25s ease;
+                                                /* Safari */
+                                                transition: top .25s ease;
+
+                                                top: 40px;
+                                                pointer-events: none;
+                                }
+
+                                &:nth-child(3) {
+
+                                                -webkit-transition: top .25s ease;
+                                                /* Safari */
+                                                transition: top .25s ease;
+
+                                                top: 60px;
+                                }
+
+                                &:nth-child(4) {
+
+                                                -webkit-transition: top .25s ease;
+                                                /* Safari */
+                                                transition: top .25s ease;
+
+                                                top: 80px;
+                                }
+
+                                &:nth-child(5) {
+
+                                                -webkit-transition: top .25s ease;
+                                                /* Safari */
+                                                transition: top .25s ease;
+
+                                                top: 100px;
+                                }
+
+                                &:nth-child(6) {
+
+                                                -webkit-transition: top .25s ease;
+                                                /* Safari */
+                                                transition: top .25s ease;
+
+                                                top: 120px;
+                                }
+
+                                &:nth-child(7) {
+
+                                                -webkit-transition: top .25s ease;
+                                                /* Safari */
+                                                transition: top .25s ease;
+
+                                                top: 140px;
+                                }
+                }
+
+}
+
+
+
+.stage-box {
+
+                -webkit-transition: opacity .25s ease;
+                transition: opacity .25s ease;
+
+
+
+
+
+
+
+
+
+
+
+
+                &.phase-0 {
+                                .stage {
+
+                                                -webkit-transition: top .25s;
+                                                /* Safari */
+                                                transition: top .25s;
+
+
+                                                &:first-child {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 20px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+
+
+
+
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+                                                }
+
+                                                &:nth-child(2) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 40px;
+
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+                                                }
+
+
+                                                &:nth-child(3) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 60px;
+
+                                                                .stage-stroke {
+                                                                                width: 42px;
+                                                                }
+
+                                                                .stage-name {
+                                                                                display: inline-block;
+                                                                                opacity: 1;
+
+                                                                                a:hover {
+                                                                                                color: $text--dk-grey;
+                                                                                                cursor: auto;
+                                                                                }
+
+                                                                                // display: none;
+                                                                }
+
+
+                                                }
+
+                                                &:nth-child(4) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 80px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+                                                }
+
+                                                &:nth-child(5) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 100px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+                                                }
+
+                                                &:nth-child(6) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 120px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+                                                }
+
+                                                &:nth-child(7) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 140px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+                                                }
+                                }
+                }
+
+                &.phase-1 {
+                                .stage {
+                                                &:first-child {
+
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 20px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+
+
+
+                                                }
+
+                                                &:nth-child(2) {
+
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 23px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                }
+
+                                                &:nth-child(3) {
+
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 26px;
+
+                                                                .stage-name {
+                                                                                display: inline-block;
+                                                                                opacity: 0;
+
+                                                                                -webkit-transition: opacity .5s ease;
+                                                                                transition: opacity .5s ease;
+                                                                                color: $text--btn-link;
+
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+
+                                                                &:hover {
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+
+
+                                                                                }
+
+
+                                                                                .stage-name {
+                                                                                                display: inline-block;
+                                                                                                opacity: 1;
+
+                                                                                                a {
+                                                                                                                color: $text--dk-grey;
+                                                                                                                cursor: auto;
+                                                                                                                opacity: 1;
+
+                                                                                                }
+
+                                                                                }
+
+
+
+                                                                }
+                                                }
+
+                                                &:nth-child(4) {
+
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 30px;
+
+                                                                .stage-stroke {
+                                                                                width: 42px;
+                                                                }
+
+                                                                .stage-name {
+                                                                                display: inline-block;
+                                                                                opacity: 1;
+
+                                                                                a:hover {
+                                                                                                color: $text--dk-grey;
+                                                                                                cursor: auto;
+                                                                                                opacity: 1;
+
+                                                                                }
+
+                                                                                // display: none;
+
+                                                                }
+                                                }
+
+                                                &:nth-child(5) {
+
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 50px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+
+                                                                &:hover {
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+                                                }
+
+                                                &:nth-child(6) {
+
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 70px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+                                                }
+
+                                                &:nth-child(7) {
+
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 90px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+
+                                                }
+                                }
+                }
+
+                &.phase-2 {
+                                .stage {
+                                                &:first-child {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 20px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                }
+
+                                                &:nth-child(2) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 15px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+
+                                                }
+
+                                                &:nth-child(3) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 10px;
+
+                                                                .stage-name {
+                                                                                opacity: 0;
+                                                                                -webkit-transition: opacity .5s ease;
+
+                                                                                transition: opacity .5s ease;
+                                                                                color: $text--btn-link;
+
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+
+                                                                                .stage-name {
+                                                                                                opacity: 1;
+                                                                                }
+
+
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+                                                }
+
+                                                &:nth-child(4) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 5px;
+
+                                                                .stage-name {
+                                                                                opacity: 0;
+                                                                                -webkit-transition: opacity .5s ease;
+
+                                                                                transition: opacity .5s ease;
+                                                                                color: $text--btn-link;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+
+
+                                                                                .stage-name {
+                                                                                                opacity: 1;
+
+                                                                                }
+
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+
+                                                }
+
+                                                &:nth-child(5) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 0px;
+
+                                                                .stage-stroke {
+                                                                                width: 42px;
+                                                                }
+
+                                                                .stage-name {
+                                                                                display: inline-block;
+                                                                                opacity: 1;
+
+                                                                                a:hover {
+                                                                                                color: $text--dk-grey;
+                                                                                                cursor: auto;
+                                                                                                opacity: 1;
+                                                                                }
+
+                                                                                // display: none;
+
+                                                                }
+                                                }
+
+                                                &:nth-child(6) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 20px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+
+                                                                &:hover {
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+                                                }
+
+                                                &:nth-child(7) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 40px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+
+                                                }
+                                }
+                }
+
+                &.phase-3 {
+                                .stage {
+                                                &:first-child {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 20px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                }
+
+                                                &:nth-child(2) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 10px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                }
+
+                                                &:nth-child(3) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 0px;
+
+                                                                .stage-name {
+                                                                                opacity: 0;
+                                                                                -webkit-transition: opacity .5s ease;
+
+                                                                                transition: opacity .5s ease;
+                                                                                color: $text--btn-link;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+
+
+                                                                                .stage-name {
+                                                                                                opacity: 1;
+                                                                                }
+
+
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+
+                                                }
+
+                                                &:nth-child(4) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: -10px;
+
+                                                                .stage-name {
+                                                                                opacity: 0;
+                                                                                -webkit-transition: opacity .5s ease;
+
+                                                                                transition: opacity .5s ease;
+                                                                                color: $text--btn-link;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+
+
+                                                                                .stage-name {
+                                                                                                opacity: 1;
+                                                                                }
+
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+
+                                                }
+
+                                                &:nth-child(5) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: -20px;
+
+
+
+
+
+                                                                .stage-name {
+                                                                                opacity: 0;
+                                                                                -webkit-transition: opacity .5s ease;
+
+                                                                                transition: opacity .5s ease;
+                                                                                color: $text--btn-link;
+
+                                                                }
+
+
+                                                                &:hover {
+
+                                                                                .stage-name {
+                                                                                                opacity: 1;
+                                                                                }
+
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+
+                                                }
+
+                                                &:nth-child(6) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: -30px;
+
+                                                                .stage-stroke {
+                                                                                width: 42px;
+                                                                }
+
+                                                                .stage-name {
+                                                                                display: inline-block;
+                                                                                opacity: 1;
+
+                                                                                a:hover {
+                                                                                                color: $text--dk-grey;
+                                                                                                cursor: auto;
+                                                                                                opacity: 1;
+                                                                                }
+
+                                                                                // display: none;
+
+                                                                }
+                                                }
+
+                                                &:nth-child(7) {
+
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 40px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+
+                                                                &:hover {
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+                                                }
+                                }
+                }
+
+
+
+                &.phase-4,
+                &.phase-5 {
+                                .stage {
+                                                &:first-child {
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 20px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                }
+
+                                                &:nth-child(2) {
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: 6px;
+
+                                                                .stage-name {
+                                                                                display: none;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                }
+
+                                                &:nth-child(3) {
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: -8px;
+
+                                                                .stage-name {
+                                                                                opacity: 0;
+                                                                                -webkit-transition: opacity .5s ease;
+                                                                                transition: opacity .5s ease;
+                                                                                color: $text--btn-link;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+
+                                                                &:hover {
+
+
+
+                                                                                .stage-name {
+                                                                                                opacity: 1;
+                                                                                }
+
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+
+                                                }
+
+                                                &:nth-child(4) {
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: -22px;
+
+                                                                .stage-name {
+                                                                                opacity: 0;
+                                                                                -webkit-transition: opacity .5s ease;
+                                                                                transition: opacity .5s ease;
+                                                                                color: $text--btn-link;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+
+                                                                                .stage-name {
+                                                                                                opacity: 1;
+                                                                                }
+
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+
+                                                }
+
+                                                &:nth-child(5) {
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: -36px;
+
+                                                                .stage-name {
+                                                                                opacity: 0;
+                                                                                -webkit-transition: opacity .5s ease;
+                                                                                transition: opacity .5s ease;
+                                                                                color: $text--btn-link;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+
+                                                                                .stage-name {
+                                                                                                opacity: 1;
+                                                                                }
+
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+
+                                                }
+
+                                                &:nth-child(6) {
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: -50px;
+
+                                                                .stage-name {
+                                                                                opacity: 0;
+                                                                                -webkit-transition: opacity .5s ease;
+                                                                                transition: opacity .5s ease;
+                                                                                color: $text--btn-link;
+                                                                }
+
+                                                                .stage-stroke {
+                                                                                width: 25px;
+                                                                }
+
+                                                                &:hover {
+
+
+
+                                                                                .stage-name {
+                                                                                                opacity: 1;
+                                                                                }
+
+
+                                                                                .stage-stroke {
+                                                                                                width: 42px;
+                                                                                }
+
+                                                                }
+
+
+                                                }
+
+                                                &:nth-child(7) {
+                                                                -webkit-transition: top .25s ease;
+                                                                /* Safari */
+                                                                transition: top .25s ease;
+
+                                                                top: -60px;
+
+                                                                .stage-stroke {
+                                                                                width: 42px;
+                                                                }
+
+                                                                .stage-name {
+                                                                                display: inline-block;
+                                                                                opacity: 1;
+
+                                                                                a:hover {
+                                                                                                color: $text--dk-grey;
+                                                                                                cursor: auto;
+                                                                                                opacity: 1;
+                                                                                }
+
+                                                                                // display: none;
+
+                                                                }
+                                                }
+                                }
+                }
+
+
+                &.phase--1,
+                &.phase-5 {
+                                opacity: 0;
+                }
+
+}
+
+.stage-line-border {
+                // border-left: 1px solid #757575;
+}
+
+.stage-box {
+                // height: 100vh;
+                height: 400px;
+                padding-top: 0px;
+                position: fixed;
+                // border-left: 1px solid ;
+                width: 300px;
+                pointer-events: none;
+}
+
+.top-pad-200 {
+                // padding-top: 200px;
+                // padding-left: 0;
+
+                padding-top: 200px;
+                padding-left: 0;
+                padding-left: 8.333333%;
+                margin-left: 0;
+
+
+}
+
+.top-pad-110{
+        padding-top: 110px;   
+        padding-left: 0;
+        padding-left: 8.333333%;
+        margin-left: 0;     
+
+
+
+
+
+
+}    
+
+
+// .top-pad-110.no-left-pad{
+//         padding-left: 0;
+// }
+
+h2.top-pad-110.no-left-pad{
+    padding-left: 0;    
+}
+
+.stage-container {
+                z-index: 10000;
+                // pointer-events: none;
+}
+
+#stage-line {
+                opacity: 1;
+                -webkit-transition: opacity .25s ease-in;
+                transition: opacity .25s ease-in;
+                height: 0;
+
+                &.nostroke,
+                &.stroke--1 {
+                                opacity: 0;
+                                display: none;
+                }
+}
+
+
+.stage-container {
+                // pointer-events: none;
+}
+
+
+
+.stage-stroke.mobile,
+.section-title.mobile {
+                display: none;
+}
+
+
+.show-hide {
+                display: none;
+
+
+
+}
+
+.extra {
+                display: block;
+}
+
+.show-hide .show {
+                display: none;
+}
+
+.show-hide .hide {
+                display: block;
+}
+
+
+
+.show-hide.visible .show {
+                display: block;
+}
+
+.show-hide.visible .hide {
+                display: none;
+}
+
+
+.overflowed-section-top {
+                position: relative;
+                width: 100%;
+                height: 500px;
+                z-index: 100;
+}
+
+.overflowed-section-top-container {
+                position: relative;
+                width: 100%;
+                height: 500px;
+}
+
+.overflowed-section-bottom {
+                margin-top: -140px;
+}
+
+
+
+
+.no-bottom-pad {
+                padding-bottom: 0;
+}
+
+.one-hundred-height {
+                height: 100%;
+}
+
+
+.no-lr-margin {
+                margin-left: 0;
+                margin-right: 0;
+}
+
+
+.no-lr-pad {
+                padding-left: 0;
+                padding-right: 0;
+}
+
+
+.show-hide {
+                text-align: center;
+                width: 100%;
+                background: $bg--light-grey;
+
+
+                span {
+                                color: $text--dk-grey;
+                }
+
+}
+
+.show-hide.dark {
+                text-align: left;
+                width: 100%;
+
+                span {
+                                transition: background .25s ease;
+                                color: $text--btn-link;
+
+                                &:hover {
+                                                color: $text--dk-grey;
+                                }
+
+                }
+
+}
+
+
+
+
+
+
+@media (max-width: 640px) {
+
+                .top-pad-110,
+                .top-pad-200 {
+                                padding-top: 20px;
+                }
+
+
+                .content h2 {
+                                margin-bottom: .5em;
+                                font-size: 1.5em;
+                                line-height: 1.2em;
+                }
+
+                .top-pad-110,
+                .top-pad-200 {
+                                padding-top: 10px;
+                }
+
+
+                p {
+                                font-size: .9em;
+                }
+
+
+                h1,
+                h2 {
+                                font-size: 2em;
+                                line-height: 1.2em;
+                }
+
+                .top-pad-lg {
+                                padding-top: 1em;
+                }
+
+                .stage {
+                                display: none;
+                }
+
+                .stage-mobile .stage-stroke {
+                                background: #757575;
+                                height: 1px;
+                                width: 22px;
+                                color: transparent;
+                                float: left;
+                                margin-right: 10px;
+                                transition: width 0.5s ease;
+                                position: absolute;
+                                top: 25px;
+                }
+
+                .stage-mobile .stage {
+                                background: #757575;
+                                height: 1px;
+                                width: 25px;
+                                color: transparent;
+                                float: left;
+                                margin-right: 10px;
+                                transition: width 0.5s ease;
+                }
+
+                .stage-mobile .stage-name {
+                                top: 15px;
+                                position: absolute;
+                                display: inline-block;
+                                opacity: 1;
+                                text-transform: uppercase;
+                                transition: opacity 0.25s ease;
+                                left: 30px;
+
+
+                }
+
+                .section-title.mobile {
+                                color: $text--dk-grey;
+                                display: block;
+                                font-size: .8em;
+                                margin-bottom: .8em;
+                                margin-left: 2px;
+                                display: none;
+                }
+
+                .stage-stroke.mobile {
+                                background: #757575;
+                                height: 1px;
+                                width: 24px;
+                                color: transparent;
+                                float: left;
+                                margin-right: 10px;
+                                transition: width 0.5s ease;
+                                position: absolute;
+                                left: 0;
+                                top: 20px;
+                                display: block;
+                                // display: none;
+
+
+                }
+
+                .show-hide {
+                                cursor: pointer;
+                                display: block;
+                }
+
+                .extra {
+                                display: none;
+                }
+
+
+                .extra.visible {
+                                display: block;
+                }
+
+                .btm-pad-xl {
+                                padding-bottom: .5em;
+                }
+
+                .hide-image-mobile {
+                                display: none;
+                }
+
+
+
+
+
+                .top-pad-xl.stage-header {
+                                padding-top: 0.05em;
+                }
+
+                nav {
+                                top: 146px;
+                                padding-top: 30px;
+                                padding-bottom: 30px;
+
+                                a {
+                                                color: $text--mint;
+                                                text-decoration: none;
+                                                text-transform: uppercase;
+                                                font-size: .9em;
+                                                line-height: 2.5em;
+
+                                                -webkit-transition: color .5s ease;
+                                                transition: color .5s ease;
+
+                                                &:hover {
+
+                                                                color: $text--white;
+
+
+                                                }
+                                }
+
+
+
+                                li a {
+
+                                                -webkit-transition: color .5s ease;
+                                                transition: color .5s ease;
+
+                                                &:hover {
+
+                                                                color: $text--white;
+
+
+                                                }
+
+                                }
+                }
+}
+
+
+@media (max-width: 500px) {
+
+                .col-xs-12 {
+                                width: 100% !important;
+                }
+
+
+
+
+}
+
+
+.blurred-box {
+
+
+
+                position: relative;
+                width: 700px;
+
+                top: 0;
+                left: 16.666667%;
+
+                background: inherit;
+
+
+
+
+                border-radius: 2px;
+                overflow: hidden;
+                height: 100vh;
+                width: 41.66%;
+                height: 100vh;
+
+}
+
+.blurred-box:after {
+                content: '';
+                width: 750px;
+                height: 110vh;
+                background: inherit;
+
+
+
+                position: absolute;
+                left: -25px;
+                right: 0;
+                top: -25px;
+                bottom: 0;
+                box-shadow: inset 0 0 0 10000px rgba(255, 255, 255, 0.5);
+                filter: blur(10px);
+
+
+}
+
+
+.fp-tableCell {
+                background: inherit;
+}
+
+@media (max-width: 1200px) {
+
+                .blurred-box {
+                                left: 0;
+                                width: 66.66%
+                }
+
+                .blurred-box:after {
+                                width: 1000px;
+                }
+
+
+                .overflowed-section-bottom {
+                                margin-top: 0;
+                }
+
+
+
+}
+
+
+
+@media (max-width: 1080px) {
+
+
+                .mobile-image {
+                                height: 500px;
+                }
+
+}
+
+@media (max-width: 992px) {
+                .blurred-box {
+                                left: 0;
+                                width: 100%;
+                }
+
+
+                .left-border {
+                                padding-left: 0;
+                }
+
+                ul.left-border li {
+                                margin-left: 0;
+                                // padding-left: 0;
+                }
+
+
+                .li-stages {
+                                padding-left: 0;
+                }
+
+
+                .hide-image-mobile {
+                                display: none;
+                }
+
+
+
+                .moveToTop {
+
+
+bottom: 80px;
+right: 10px;
+
+
+                }
+
+                .content h2 {
+                                margin-bottom: 0em;
+
+
+                                &.green-text {
+                                    color: #008273;
+                }
+
+                }
+}
+
+
+.short-arrow-right {
+                height: 55px;
+                float: right;
+                padding-top: 20px;
+                position: absolute;
+                right: 30px;
+}
+
+
+.short-arrow-bottom-left {
+                transform: rotate(90deg);
+                bottom: 80px;
+                left: -46px;
+                height: 55px;
+                float: right;
+                padding-top: 20px;
+                position: absolute;
+}
+
+.short-arrow-bottom-left-2 {
+                -webkit-transform: rotate(90deg);
+                transform: rotate(90deg);
+                bottom: 280px;
+                left: -46px;
+                height: 55px;
+                float: right;
+                padding-top: 20px;
+                position: absolute;
+}
+
+
+
+.fade-opacity,
+.fade-opacity-1,
+.fade-opacity-2,
+.fade-opacity-3,
+.fade-opacity-4,
+.fade-opacity-5,
+.fade-opacity-6 {
+                opacity: 0;
+                transition: opacity 3s, transform .5s ease;
+                -moz-transition: opacity 3s, transform .25s ease;
+                -webkit-transition: opacity 3s, transform .5s ease;
+
+
+
+                transform: translateY(40px);
+
+
+
+                &.fade-visible {
+                                -webkit-animation-name: fade-visible;
+                                animation-name: fade-visible;
+                                transform: translateY(0px);
+
+                }
+
+                &.fade-visible-2 {
+                                -webkit-animation-name: fade-visible-2;
+                                animation-name: fade-visible-2;
+                                transform: translateY(0px);
+
+                }
+
+}
+
+
+.slide-in,
+.slide-in-1,
+.slide-in-2,
+.slide-in-3,
+.slide-in-4,
+.slide-in-5,
+.slide-in-6 {
+
+                opacity: 1;
+                transform: translateX(0);
+                transition: opacity .5s ease, transform .5s ease;
+                -moz-transition: opacity .5s ease, transform .25s ease;
+                -webkit-transition: opacity .5s ease, transform .5s ease;
+
+
+                &.slide-in-left {
+                                opacity: 0;
+                                transform: translateX(60px);
+                }
+
+
+}
+
+
+
+
+.slide-in {
+
+
+                opacity: 1;
+                margin-left: 0;
+                transition: opacity 2s ease, margin .5s ease;
+                -moz-transition: opacity 2s ease, margin .25s ease;
+                -webkit-transition: opacity 2s ease, margin .5s ease;
+
+
+                &.slide-in-right {
+                                opacity: 0;
+                                margin-left: -40px;
+                }
+
+
+   
+
+
+
+}
+
+
+.slide-in-from-left {
+
+
+                opacity: 1;
+                                margin-left: 40px;
+                    transform: translateX(-40px);
+                transition: all .5s ease;
+                -moz-transition: all .5s ease;
+                -webkit-transition: all .5s ease;
+
+
+
+
+                &.slide-in-left {
+
+
+                              transform: translateX(0px);
+                                opacity: 0;
+
+                }
+
+
+
+}
+
+
+
+.landing-element {
+
+                opacity: 0;
+                transition: opacity 2s, transform .5s ease;
+                -moz-transition: opacity 2s, transform .5s ease;
+                -webkit-transition: opacity 2s, transform .5s ease;
+                transform: translateY(40px);
+
+                &.fade-visible {
+                                opacity: 1;
+                                transform: translateY(0px);
+
+                }
+
+}
+
+.overflow-hidden {
+                overflow: hidden;
+}
+
+.overflow-x-hidden {
+                overflow-x: hidden;
+}
+
+
+.image-bg-transition {
+                margin: 0;
+
+
+                background: url(assets/img/square/redmond-window-square.jpg) center center / cover no-repeat;
+
+
+                background-blend-mode: darken;
+                // blend mode optional at this stage; will be used more in the next demo.
+                transition: .25s;
+                -webkit-transition: .25s;
+}
+
+#stage-line-container {
+                pointer-events: none;
+
+}
+
+
+.moveToTop {
+                width: 50px;
+                height: 50px;
+                color: transparent;
+                font-size: 0;
+
+
+                svg {
+
+
+                                transition: fill .5s ease;
+                                -webkit-transition: fill .5s ease;
+
+
+
+
+                                .st0 {
+                                                fill: rgba(255, 255, 255, 1);
+
+                                }
+
+                                .st1 {
+                                                fill: #008273;
+
+                                }
+
+                                &:hover {
+
+                                                .st0 {
+                                                                fill: $bg--light-grey;
+                                                }
+
+
+
+
+                                }
+
+
+
+
+
+
+                }
+
+
+}
+
+.cls-1-light {
+                fill: #fff;
+}
+
+
+.cls-1 {
+                fill: #333132;
+}
+
+
+
+
+.background-slide, 
+.background-slide-square{
+position: absolute;
+}
+
+
+
+
+
+
+.background-slide-square{
+
+
+                // width: 100%;
+                // height: 100%;
+                // color: transparent;
+                // background-size: cover;
+                // transition: opacity .5s ease;
+                // -webkit-transition: opacity .5s ease;
+
+
+    &.slide-1{
+
+
+    background: url(assets/img/redmond-window-square.jpg) center center/cover no-repeat;
+    background-blend-mode: darken;
+    transition: .25s;
+    -webkit-transition: .25s;
+
+    }
+
+    &.slide-2{
+    
+    background: url(assets/img/square/sweaters-square.jpg) center center/cover no-repeat;
+    background-blend-mode: darken;
+    transition: .25s;
+    -webkit-transition: .25s;
+    }
+
+
+    &.slide-3{
+  
+     margin: 0;
+    background: url(assets/img/bg-factory-tablet.jpg) center center/cover no-repeat;
+    background-blend-mode: darken;
+    transition: .25s;
+    -webkit-transition: .25s;
+
+    }
+
+    &.slide-4{
+
+    background: url(assets/img/glasses-flipped.jpg) center center/cover no-repeat;
+    background-blend-mode: darken;
+    transition: .25s;
+    -webkit-transition: .25s;
+
+    }
+
+    &.slide-5{
+
+    background: url(assets/img/square/silhouette-square.jpg) center center/cover no-repeat;
+    background-blend-mode: darken;
+    transition: .25s;
+    -webkit-transition: .25s;
+
+    }
+
+    &.slide-6{
+                
+      margin: 0;
+    background: url(assets/img/square/view-square.jpg) center center/cover no-repeat;
+    background-blend-mode: darken;
+    transition: .25s;
+    -webkit-transition: .25s;
+
+
+    }
+
+
+
+
+}
+
+
+.slide-1 {
+                background: url(assets/img/stage-2.jpg) no-repeat center center;
+                width: 100%;
+                height: 100%;
+                color: transparent;
+                background-size: cover;
+
+                transition: opacity .5s ease;
+                -webkit-transition: opacity .5s ease;
+
+
+
+
+
+}
+
+
+
+.slide-2 {
+
+
+                background: url(assets/img/sunset.jpg) no-repeat center center;
+                width: 100%;
+                height: 100%;
+                color: transparent;
+                background-size: cover;
+
+                transition: opacity .5s ease;
+                -webkit-transition: opacity .5s ease;
+}
+
+.slide-3 {
+                background: url(assets/img/tablet-smiling.jpg) no-repeat center center;
+                width: 100%;
+                height: 100%;
+                color: transparent;
+                background-size: cover;
+
+                transition: opacity .5s ease;
+                -webkit-transition: opacity .5s ease;
+}
+
+
+.slide-0 {
+
+
+
+                background: url(assets/img/home-hero.jpg) no-repeat center center;
+                width: 100%;
+                height: 100%;
+                color: transparent;
+                background-size: cover;
+
+                transition: opacity .5s ease;
+                -webkit-transition: opacity .5s ease;
+}
+
+
+.slide-6{
+
+
+background-color: $bg--grey;
+                // background: url(assets/img/home-hero.jpg) no-repeat center center;
+                width: 100%;
+                height: 100%;
+                color: transparent;
+                background-size: cover;
+
+                transition: opacity .5s ease;
+                -webkit-transition: opacity .5s ease;
+
+
+}
+
+
+.slide-4 {
+                background: url(assets/img/tablet-smiling.jpg) no-repeat center center;
+                width: 100%;
+                height: 100%;
+                color: transparent;
+                background-size: cover;
+
+                transition: opacity .5s ease;
+                -webkit-transition: opacity .5s ease;
+
+
+
+
+&.bg-view{
+             background: url(assets/img/stage-4.jpg) no-repeat center center;
+                             width: 100%;
+                height: 100%;
+                color: transparent;
+                background-size: cover;
+
+                transition: opacity .5s ease;
+                -webkit-transition: opacity .5s ease;
+}
+
+}
+
+
+.slide-5 {
+                background: url(assets/img/view.jpg) no-repeat center center;
+                width: 100%;
+                height: 100%;
+                color: transparent;
+                background-size: cover;
+
+                transition: opacity .5s ease;
+                -webkit-transition: opacity .5s ease;
+
+}
+
+
+
+
+.stage-name-1,
+.stage-name-2,
+.stage-name-3,
+.stage-name-4,
+.stage-name-5 {
+                -webkit-transition: opacity .5s ease-in;
+                transition: opacity .5s ease-in;
+}
+
+
+
+.stage-name {
+                a:hover {
+                                cursor: pointer !important;
+                }
+}
+
+
+
+.st0.pop {
+                fill: #FEF000;
+}
+
+.st1.pop {
+                fill: #FFFFFF;
+}
+
+svg.svg-pop {
+                height: 300px;
+                width: 50%;
+                margin: 60px 100px 0px auto;
+}
+
+
+.popbox {
+    pointer-events: none;
+                height: 300px;
+                width: 165px;
+                margin: 60px 100px 0px auto;
+                height: 300px;
+                width: 20%;
+                margin: 0 auto;
+                left: 50%;
+                position: absolute;
+                margin-left: -16%;
+                top: 60px;
+ -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+
+
+
+
+
+                .box {
+                                width: 30px;
+                                background: yellow;
+                                color: transparent;
+                                height: 30px;
+                                position: absolute;
+                                opacity: 0;
+
+
+
+
+
+                                &:nth-child(28) {
+                                                top: 0;
+                                                left: 0;
+                                                background-color: transparent;
+
+                                                &.visible-box {
+                                                                animation: fade-seq .05s forwards;
+                                                }
+
+
+                                }
+
+                                &:nth-child(27) {
+                                                top: 0;
+                                                left: 45px;
+                                                background-color: red;
+
+                                                background-color: transparent;
+
+
+                                                &.visible-box {
+                                                                animation: fade-seq .1s forwards;
+                                                }
+
+                                }
+
+                                &:nth-child(26) {
+                                                top: 0;
+                                                left: 90px;
+                                                background-color: blue;
+
+                                                background-color: transparent;
+
+
+                                                &.visible-box {
+                                                                animation: fade-seq .15s forwards;
+                                                }
+
+                                }
+
+
+                                &:nth-child(25) {
+                                                top: 0;
+                                                left: 135px;
+                                                background-color: #fef000;
+
+
+                                                &.visible-box {
+                                                                 animation: fade-seq .2s forwards;
+                                                                animation-delay: 1.9s;
+
+                                                }
+
+                                }
+
+
+                                &:nth-child(24) {
+                                                top: 45px;
+                                                left: 0;
+
+                                                background-color: transparent;
+
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                }
+
+                                }
+
+                                &:nth-child(23) {
+                                                top: 45px;
+                                                left: 45px;
+                                                background-color: red;
+
+                                                background-color: transparent;
+
+
+                                                &.visible-box {
+                                                                animation: fade-seq .25s forwards;
+                                                }
+
+                                }
+
+                                &:nth-child(22) {
+                                                top: 45px;
+                                                left: 90px;
+                                                background-color: #fef000;
+
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 1.2s;
+                                                }
+
+
+                                }
+
+
+                                &:nth-child(21) {
+                                                top: 45px;
+                                                left: 135px;
+                                                background-color: #fef000;
+
+
+                                                &.visible-box {
+                                                                 animation: fade-seq .2s forwards;
+                                                                animation-delay: 1.8s;
+                                                }
+
+
+                                }
+
+                                &:nth-child(20) {
+                                                top: 90px;
+                                                left: 0;
+
+                                                background-color: transparent;
+                                }
+
+                                &:nth-child(19) {
+                                                top: 90px;
+                                                left: 45px;
+                                                background-color: #fef000;
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 0.6s;
+                                                }
+
+                                }
+
+                                &:nth-child(18) {
+                                                top: 90px;
+                                                left: 90px;
+                                                background-color: #fef000;
+
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 1.1s;
+                                                }
+
+                                }
+
+
+                                &:nth-child(17) {
+                                                top: 90px;
+                                                left: 135px;
+                                                background-color: #fef000;
+
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 1.7s;
+                                                }
+
+                                }
+
+                                &:nth-child(16) {
+                                                top: 135px;
+                                                left: 0;
+
+                                                background-color: transparent;
+
+
+                                }
+
+                                &:nth-child(15) {
+                                                top: 135px;
+                                                left: 45px;
+                                                background-color: #fef000;
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 0.5s;
+                                                }
+
+
+
+
+                                }
+
+                                &:nth-child(14) {
+                                                top: 135px;
+                                                left: 90px;
+                                                background-color: #fef000;
+
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 1.0s;
+                                                }
+
+                                }
+
+
+                                &:nth-child(13) {
+                                                top: 135px;
+                                                left: 135px;
+                                                background-color: #fef000;
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 1.6s;
+                                                }
+
+
+
+
+
+                                }
+
+                                &:nth-child(12) {
+                                                top: 180px;
+                                                left: 0;
+                                                background-color: transparent;
+
+
+
+                                }
+
+                                &:nth-child(11) {
+                                                top: 180px;
+                                                left: 45px;
+                                                background-color: #fef000;
+
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 0.4s;
+                                                }
+
+
+
+                                }
+
+                                &:nth-child(10) {
+                                                top: 180px;
+                                                left: 90px;
+                                                background-color: #fef000;
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 0.9s;
+                                                }
+
+
+
+
+
+                                }
+
+
+                                &:nth-child(9) {
+                                                top: 180px;
+                                                left: 135px;
+                                                background-color: #fef000;
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 1.5s;
+                                                }
+
+
+
+
+                                }
+
+                                &:nth-child(8) {
+                                                top: 225px;
+                                                left: 0;
+
+
+                                                background-color: transparent;
+
+
+
+
+
+                                }
+
+                                &:nth-child(7) {
+                                                top: 225px;
+                                                left: 45px;
+                                                background-color: #fef000;
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 0.3s;
+                                                }
+
+                                }
+
+                                &:nth-child(6) {
+                                                top: 225px;
+                                                left: 90px;
+                                                background-color: #fef000;
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 0.8s;
+                                                }
+
+                                }
+
+
+                                &:nth-child(5) {
+                                                top: 225px;
+                                                left: 135px;
+                                                background-color: #fef000;
+
+
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 1.4s;
+                                                }
+
+
+                                }
+
+
+                                &:nth-child(4) {
+                                                top: 270px;
+                                                left: 0;
+                                                background-color: white;
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: .1s;
+                                                }
+
+
+                                }
+
+                                &:nth-child(3) {
+                                                top: 270px;
+                                                left: 45px;
+                                                background-color: #fef000;
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 0.2s;
+                                                }
+
+
+
+                                }
+
+                                &:nth-child(2) {
+                                                top: 270px;
+                                                left: 90px;
+                                                background-color: #fef000;
+
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 0.7s;
+                                                }
+
+
+                                }
+
+                                &:nth-child(1) {
+                                                top: 270px;
+                                                left: 135px;
+                                                background-color: #fef000;
+
+                                                &.visible-box {
+                                                                animation: fade-seq .2s forwards;
+                                                                animation-delay: 1.3s;
+                                                }
+
+
+
+                                }
+
+                }
+
+
+
+
+
+
+}
+
+
+.wh100-percent {
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+
+}
+
+.popbox-container {
+                height: 440px;
+}
+
+
+
+@-webkit-keyframes fade-in-item {
+                0% {
+                                display: block;
+                                opacity: 0;
+                }
+
+                5% {
+                                display: block;
+                                opacity: 1;
+                }
+
+                100% {
+                                display: block;
+                                opacity: 1;
+                }
+}
+
+
+
+
+
+// fade border-image: none;
+
+.box.visible-box {
+                opacity: 0;
+                animation: fade-seq .5s forwards;
+}
+
+
+
+@keyframes fade-seq {
+                1% {
+                                opacity: 0;
+                      transform: scale(1);
+                }
+        
+                100% {
+                                opacity: 1;
+                }
+}
+
+
+.cela-footer{
+        position: absolute;
+    bottom: 0;width: 100%;background-color: #e9e9e9;    padding: 10px 0 12px 0;width: 100%;
+}
+
+.bar-content.container{
+        margin-left: auto;margin-right: auto;padding-left: 15px;padding-right: 15px;width: 100%;max-width: 90%;
+}
+
+.cela-footer .link-holder {
+    font-weight: 600;
+    margin-left: auto;
+}
+
+
+.cela-footer .link-holder a {
+    color: #75757a;
+    font-size: 11px!important;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.font {
+font-family: $segoe;
+    font-weight: 400;
+    line-height: 1.15;
+
+}
+
+.cela-footer .link-holder span{
+    color: #75757a;
+    font-size: 11px!important;
+    padding: 0;
+}
+
+
+.ms-header{
+    background-color: #fff;
+    border-bottom: 1px solid #e9e9e9;
+    height: auto;
+    padding: 15px 0;
+
+// position: absolute;
+top: 0;
+width: 100%;
+
+
+&.position-inherit{
+        position: inherit;
+}
+
+    .container{
+                margin-left: auto;margin-right: auto;padding-left: 15px;padding-right: 15px;width: 100%;max-width: 90%;
+    }
+}
+
+
+.ms-header__logo{
+
+    height: 27px;
+    width: 125px;
+
+.cls-1{fill:#ee5125;}
+.cls-2{fill:#80b942;}
+.cls-3{fill:#787878;}
+.cls-4{fill:#349ed8;}
+.cls-5{fill:#fbb613;}
+
+}
+
+.container.green-bg.relative > div:first-of-type{
+    position: absolute;
+    width: 100%;
+    height: 58px;
+    z-index: 2;
+
+
+.ms-header__logo{
+
+    height: 27px;
+    width: 125px;
+}
+
+}
+
+
+@media (max-width: 992px){
+      .ms-header .container{
+        padding-left: 0;
+}  
+}
+
+@media (max-width: 539px) and (min-width: 320px){
+
+.ms-header__logo {
+    height: 23px;
+    width: 110px;
+}
+
+
+
+
+}
+
+
+.blue-bg{
+        background-color: blue;
+        background-color: transparent;
+}
+
+
+
+
+
+.down-arrow-global{
+transition: all 300ms ease-out;
+-webkit-transition: all 300ms ease-out;
+}
+
+
+.visibility-1{
+        // opacity: 1 !important;
+}
+
+.visibility5{
+        opacity: 0 !important;
+        pointer-events: none;
+}
+
+
+.white-transparent{
+    background: rgba(255, 255, 255, 0.85);
+}
+
+
+.lm-twelve{
+    margin-left: 12px;
+}
+
+
+.arrow-path-white{
+    fill: #fff;
+}
+

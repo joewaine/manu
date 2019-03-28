@@ -1,0 +1,588 @@
+// Typography declaration
+
+body {
+                font-family: $segoe;
+                font-size: 16px;
+                line-height: 22px;
+                color: $text--default;
+}
+
+h1 {
+                color: $text--dk-grey;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 3.5em;
+                line-height: 1.2em;
+                margin: 0 0 .3em 0;
+                padding: 0;
+}
+
+h2 {
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 2.5em;
+                line-height: 1.2em;
+                margin: 0 0 .3em 0;
+                padding: 0;
+}
+
+h3 {
+                font-family: $segoe;
+                font-weight: $normal;
+                font-size: 2em;
+                line-height: 1.2em;
+                margin: 0 0 .3em 0;
+                padding: 0;
+}
+
+h3.dk-green {
+                font-size: 1.8em;
+}
+
+h4 {
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 1.5em;
+                line-height: 1.2em;
+                margin: 0;
+                padding: 0;
+}
+
+p {
+                color: $text--dk-grey;
+                font-family: $segoe;
+                font-weight: $normal;
+                font-size: 1em;
+                // line-height: 1.8em;
+                line-height: 1.4em;
+                margin: 0 0 1.5emw 0;
+                padding: 0;
+
+                &:last-child {
+                                // margin-bottom: 0;
+                }
+
+                &.size-md {
+                                font-family: $segoe--semi;
+                                font-weight: $semi-bold;
+                                font-size: 1.2em;
+                                margin-bottom: .5em;
+                                margin-top: .5em;
+
+                                a {
+                                                color: $text--white;
+                                }
+
+                }
+
+}
+
+
+.moveToTop {
+
+                bottom: 20px;
+                color: $text--white;
+                cursor: pointer;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 1.2em;
+                margin-bottom: .5em;
+                margin-top: .5em;
+                position: absolute;
+                right: 50px;
+                font-size: 1em;
+
+                &:hover {
+                                text-decoration: underline;
+                }
+}
+
+strong {
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+}
+
+a {
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 1em;
+}
+
+// Custom highlight state
+::selection {
+                background: $bg--blue;
+                /* WebKit/Blink Browsers */
+                color: #fff;
+}
+
+::-moz-selection {
+                background: $bg--blue;
+                /* Gecko Browsers */
+                color: #fff;
+}
+
+
+a {
+
+                color: $text--dk-grey;
+                cursor: pointer;
+                text-decoration: none;
+
+                &.header-sign-in {
+                                position: absolute;
+                                width: 100px;
+                                right: 10px;
+                                bottom: 6px;
+                }
+
+
+                &.btn {
+                                color: $text--default;
+                                background-color: $bg--white;
+                                border: 2px solid $text--default;
+                                display: inline-block;
+                                margin-top: 10px;
+                                padding: 20px 25px;
+                                text-align: center;
+                                width: 350px;
+
+                                transition: color .5s ease, background-color .5s ease;
+                                -webkit-transition: color .5s ease, background-color .5s ease;
+
+                                &:hover {
+
+
+                                                background-color: rgba(255, 255, 255, .75);
+
+                                }
+
+                                &.dark-btn-border {
+                                                border: 2px solid #3c3c41;
+                                }
+
+                                &.dark-btn {
+                                                color: $text--white;
+                                                background-color: $bg--black;
+
+
+                                                border: 2px solid $bg--black;
+
+                                                &:hover {
+                                                                color: #fff;
+                                                                background-color: rgba(65, 65, 65, .75);
+
+
+
+                                                }
+
+                                                &.white-txt {
+                                                                color: $text--white;
+
+                                                                &:hover {
+                                                                                // color: $text--mint;
+                                                                }
+                                                }
+
+
+
+                                }
+                }
+}
+
+.text-right {
+                text-align: right;
+}
+
+
+
+.green-text {
+                color: $text--btn-link;
+}
+
+
+.quote {
+    color: $text--white;
+    font-family: $segoe;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 1.4em;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.name,
+.title,
+.org{
+color: $text--white;
+font-family: $segoe;
+font-weight: 400;
+font-size: 1.2em;
+line-height: 1.4em;
+
+
+margin-bottom: 4px;
+}
+
+
+.title-2 {
+                color: $text--white;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 1.6em;
+                line-height: 1.4em;
+}
+
+
+.bold {
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+}
+
+
+
+h2 {
+                color: $text--dk-grey;
+}
+
+
+
+.white-text-block {
+                color: $text--white;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 1.4em;
+                padding: 15px;
+                line-height: 1.5em;
+
+
+                &.bold {
+                                font-family: $segoe--semi;
+                                font-weight: $semi-bold;
+                                font-size: 2em;
+                }
+
+}
+
+
+
+
+
+
+.mint-text-block {
+                color: $text--mint;
+                font-size: 2em;
+                line-height: 1.4em;
+                padding: 15px;
+
+                &.bold {
+                                font-family: $segoe--semi;
+                                font-weight: $semi-bold;
+
+
+                                ul {
+                                                padding-left: 0;
+                                }
+                }
+
+
+                &.xxl-text {
+                                font-family: $segoe--semi;
+                                font-size: 10em;
+                                font-weight: $semi-bold;
+                }
+
+}
+
+
+.mint-text {
+                color: $text--mint;
+
+}
+
+
+.underline-text-block {
+                color: $text--white;
+                text-decoration: underline;
+                font-size: 19.2px;
+                padding: 15px;
+                line-height: 1.2em;
+
+}
+
+.text-center {
+                text-align: center;
+}
+
+
+.yellow-text {
+                color: $text--yellow;
+}
+
+
+.bg-home h1 {
+                color: $text--white;
+}
+
+
+
+.st0-chevron {
+                fill: #3C3C41;
+
+                transition: all .25s ease;
+                -webkit-transition: all .25s ease;
+
+}
+
+.chevron-link {
+
+
+
+                color: $text--btn-link;
+
+                .stage-text {
+                                margin-right: 2px;
+                                border-bottom: 1px solid transparent;
+                                transition: all .25s ease;
+                                -webkit-transition: all .25s ease;
+                }
+
+                &:hover {
+
+                                color: $text--dk-grey;
+
+                                .stage-text {
+                                                border-bottom: 1px solid $text--dk-grey;
+                                                margin-right: 4px;
+                                }
+
+
+
+                                .st0-chevron {
+                                                // fill: $text--btn-link;
+                                }
+
+
+                }
+}
+
+
+.inline-link {
+
+                transition: all .25s ease;
+                -webkit-transition: all .25s ease;
+
+                border-bottom: 1px solid transparent;
+
+                &:hover {
+                                border-bottom: 1px solid $text--btn-link;
+                                color: $text--btn-link;
+                }
+
+}
+
+.white-text {
+                color: #fff;
+
+
+
+}
+
+
+.grey-text {
+                color: $text--dk-grey;
+
+
+
+}
+
+
+.grey-article-link {
+                // font-size: 1.2em;
+                font-size: 1em;
+                color: $text--dk-grey;
+                font-family: $segoe;
+                font-weight: 400;
+                border-bottom: 1px solid;
+
+                transition: all .25s ease;
+                -webkit-transition: all .25s ease;
+
+
+
+
+                &:hover {
+                                color: $text--btn-link;
+                }
+
+}
+
+
+
+
+.white-article-link {
+                font-size: 1.2em;
+                color: white;
+                font-family: $segoe;
+                font-weight: $normal;
+                border-bottom: 1px solid;
+
+                transition: all .25s ease;
+                -webkit-transition: all .25s ease;
+
+
+
+
+                &:hover {
+                                color: $text--mint;
+                }
+
+}
+
+
+.stat-list {
+                li {
+                                font-size: .6em;
+                                color: white;
+                                font-family: $segoe;
+                                font-weight: $normal;
+
+
+                                span {
+                                                -moz-user-select: -moz-none;
+                                                -khtml-user-select: none;
+                                                -webkit-user-select: none;
+
+                                                /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+                                                -ms-user-select: none;
+                                                user-select: none;
+                                }
+
+                }
+
+}
+
+
+#value {
+                color: $text--mint;
+
+                display: inline-block;
+                width: 80px;
+                font-size: 1.6em;
+
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+
+
+}
+
+.white-text-block.bold.md-text {
+                font-size: 1.6em;
+}
+
+
+.navbar-nav {
+
+
+                li {
+                                a {
+
+                                                transition: all .25s ease;
+                                                -webkit-transition: all .25s ease;
+
+                                                &:hover {
+                                                                color: $text--light-grey;
+                                                }
+                                }
+                }
+
+
+
+}
+
+
+
+.next-stage-link {
+                display: block;
+                font-family: $segoe;
+                font-size: 1.25em;
+                margin-top: .2em;
+}
+
+
+
+.grey-link{
+    color: $text--md-grey;
+    border-bottom:1px solid transparent;
+
+transition: all .5s ease;
+-webkit-transition: all .5s ease;
+
+    &:hover{
+        border-bottom:1px solid $text--md-grey;
+    }
+}
+
+
+.grey-link-md{
+
+    color: $text--md-grey;
+        border-bottom:1px solid $text--md-grey;
+
+    font-size: 1.3em;
+
+
+
+    padding-left: 18px;
+position: relative;
+
+
+svg{
+    position: absolute;
+top: 6px;
+    left: 0px;
+transition: all .25s ease;
+-webkit-transition: all .25s ease;
+
+}
+
+    &:hover{
+        border-bottom:1px solid $text--md-grey;
+
+
+
+
+svg{
+    position: absolute;
+    left: -2px;
+}
+
+    }
+}
+
+
+
+
+.semibold{
+                    font-family: $segoe--semi;
+}
+
+.list-item{
+                    font-family: $segoe;
+                font-weight: $normal;
+}
+
+ul li .list-item{
+    font-size: .835em;
+    width: 68%;
+    margin-top: 22px;
+    margin-left: 0px;
+
+}
+
+
+.half-width-sub-header{
+    width: 66%;
+}

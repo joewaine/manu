@@ -1,0 +1,88 @@
+<template>
+				<div>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 63 63" style="enable-background:new 0 0 63 63;" xml:space="preserve">
+<!-- <style type="text/css">
+	.st0{fill:#0078D4;}
+	.st1{fill:#50E6FF;}
+	.st2{fill:none;stroke:#757575;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#0078D4;stroke-width:2.88;stroke-miterlimit:10;}
+	.st4{fill:#0078D4;stroke:#EBEBEB;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;stroke:#EBEBEB;stroke-miterlimit:10;}
+	.st6{fill:#E6E7E8;stroke:#939598;stroke-miterlimit:10;}
+	.st7{fill:#FFFFFF;}
+	.st8{fill:none;stroke:#FFFFFF;stroke-width:2.88;stroke-miterlimit:10;}
+	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#0078D4;}
+	.st10{clip-path:url(#SVGID_2_);fill:none;stroke:#212121;stroke-miterlimit:10;}
+	.st11{clip-path:url(#SVGID_2_);fill:#BCBCBC;}
+	.st12{clip-path:url(#SVGID_2_);fill:#5E5E5E;}
+	.st13{clip-path:url(#SVGID_2_);fill:#0078D4;}
+	.st14{clip-path:url(#SVGID_2_);fill:#50E6FF;}
+	.st15{clip-path:url(#SVGID_2_);}
+	.st16{fill:#6D6E71;}
+	.st17{fill:#3C3C3C;}
+	.st18{opacity:0.8;fill:#FFFFFF;}
+	.st19{fill:#333132;}
+	.st20{fill:none;stroke:#333132;stroke-miterlimit:10;}
+	.st21{fill:#0078D4;stroke:#000000;stroke-miterlimit:10;}
+	.st22{fill:#EBEBEB;}
+	.st23{fill:none;stroke:#5E5E5E;stroke-miterlimit:10;}
+	.st24{fill:none;stroke:#50E6FF;stroke-miterlimit:10;}
+	.st25{clip-path:url(#SVGID_4_);}
+	.st26{fill:none;stroke:#212121;stroke-miterlimit:10;}
+	.st27{fill:#BCBCBC;}
+	.st28{fill:#5E5E5E;}
+	.st29{clip-path:url(#SVGID_6_);}
+	.st30{clip-path:url(#SVGID_8_);}
+	.st31{fill:#EF5125;}
+	.st32{fill:#80BA42;}
+	.st33{fill:#787878;}
+	.st34{fill:#757575;}
+	.st35{fill:#349FD9;}
+	.st36{fill:#FCB713;}
+</style> -->
+<g id="Guidelines">
+	<polygon class="st0" points="57.65,-0.08 57.65,2.58 60.3,2.58 60.3,5.22 62.95,5.22 62.95,-0.08 	"/>
+	<polygon class="st0" points="46.5,-0.08 46.5,5.22 49.15,5.22 49.15,2.58 51.8,2.58 51.8,-0.08 	"/>
+	<polygon class="st0" points="51.8,16.37 46.5,16.37 46.5,11.07 49.15,11.07 49.15,13.72 51.8,13.72 	"/>
+	<polygon class="st0" points="60.3,11.07 60.3,13.72 57.65,13.72 57.65,16.37 62.95,16.37 62.95,11.07 	"/>
+	<polygon class="st1" points="0,0 0,63 63,63 63,25.66 51.13,25.66 51.13,51.13 11.87,51.13 11.87,11.87 37.34,11.87 37.34,0 	"/>
+	<polygon class="st0" points="37.34,11.87 25.88,11.87 25.88,37.12 51.13,37.12 51.13,25.66 37.34,25.66 	"/>
+</g>
+<g id="Guides">
+</g>
+<g id="Layer_8">
+</g>
+<g id="Download_Blade">
+</g>
+<g id="Middle_Section">
+</g>
+<g id="Blade_1">
+</g>
+<g id="Hero">
+</g>
+<g id="Colors">
+</g>
+<g id="Nav_Bars">
+</g>
+<g id="Footers">
+</g>
+<g id="Header">
+</g>
+<g id="Names">
+</g>
+<g id="Layer_13">
+</g>
+<g id="Layer_14">
+</g>
+</svg>
+
+				</div>
+</template>
+<script>
+export default {
+
+}
+
+</script>
