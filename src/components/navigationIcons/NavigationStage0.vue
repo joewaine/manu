@@ -90,7 +90,7 @@
 </g>
 
 </svg>
-<div class="blue-menu-text extra-up">MENU</div>
+<!-- <div class="blue-menu-text extra-up">MENU</div> -->
 
 				</div>
 </template>

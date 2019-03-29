@@ -1,6 +1,32 @@
 <template>
 				<div class="col-lg-12 drop-shadow-box no-pad flexbox-container mb-30">
-								<div class="bg-black pad-60">
+
+
+
+
+
+
+								<div class="bg-black pad-60 relative">
+
+
+
+																<div v-if="this._props.ctaIcon === '1'">
+																				<CsPattern1 />
+																</div>
+																<div v-else-if="this._props.ctaIcon === '2'">
+																				<CsPattern2 />
+																</div>
+																<div v-else-if="this._props.ctaIcon === '3'">
+																				<CsPattern3 />
+																</div>
+																<div v-else-if="this._props.ctaIcon === '4'">
+																				<CsPattern4 />
+																</div>
+																<div v-else="this._props.ctaIcon === '5'">
+																				<CsPattern5 />
+																</div>
+
+
 												{{this._props.quoteOrg }}
 												<Quote />
 												<div class="quote top-pad-sm">
@@ -54,6 +80,15 @@ import CtaIcon2 from '../components/ctaicons/CtaIcon2'
 import CtaIcon3 from '../components/ctaicons/CtaIcon3'
 import CtaIcon4 from '../components/ctaicons/CtaIcon4'
 import CtaIcon5 from '../components/ctaicons/CtaIcon5'
+
+import CsPattern1 from '../components/csgridpatterns/CsPattern1'
+import CsPattern2 from '../components/csgridpatterns/CsPattern2'
+import CsPattern3 from '../components/csgridpatterns/CsPattern3'
+import CsPattern4 from '../components/csgridpatterns/CsPattern4'
+import CsPattern5 from '../components/csgridpatterns/CsPattern5'
+
+
+
 import Quote from '../components/icons/Quote'
 
 
@@ -66,6 +101,11 @@ export default {
 								CtaIcon3,
 								CtaIcon4,
 								CtaIcon5,
+								CsPattern1,
+								CsPattern2,
+								CsPattern3,
+								CsPattern4,
+								CsPattern5,
 								Quote
 
 				},

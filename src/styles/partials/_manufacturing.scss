@@ -242,6 +242,14 @@ padding: 40px;
 	padding: 60px;
 }
 
+.pt-20{
+    padding-top: 20px;
+}
+
+.pb-30{
+	padding-bottom: 30px;
+}
+
 .st1{
 	&.arrow-up{
 	fill: #007bcd;
@@ -282,6 +290,33 @@ margin: 10px;
 
 }
 
+.white-link{
+    font-weight: 400;
+    font-size: 2em;
+    color: $text--white;
+    border-bottom: 0px solid transparent;
+    line-height: 48px;
+
+&:hover{
+
+#learn-more-down{
+	top: -18px;
+}
+
+}
+
+}
+
+.ul{
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 4px;
+    font-size: .7em;
+    }
+
+
+.down-arrow{
+	position: relative;
+}
 
 
 .next{
@@ -426,7 +461,7 @@ svg{
 
 
 .icon-box-logo > div{
-    min-height: 400px;
+    // min-height: 400px;
     display: table;
 }
 
@@ -459,6 +494,7 @@ svg{
     width: 50px;
     margin: 0 0 10px 0;
 }
+
 
 
 

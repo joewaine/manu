@@ -11,11 +11,17 @@
 
 																<div class="row">
 
-<IconRow v-bind:logo="'1'" v-bind:subheader="'Case Study'" v-bind:bodyText="'<ul><li>sadc</li><li>sadc</li><li>sadc</li><li>sadc</li></ul>ThyssenKrupp, the global elevator manufacturing company, wanted to better compete in their industry by boosting their preventive maintenance capabilities to greater heights and offering dramatically increased uptime.'" />
+<IconRow v-bind:logo="'1'" v-bind:subheader="'Case Study'" v-bind:bodyText="'ThyssenKrupp, the global elevator manufacturing company, wanted to better compete in their industry by boosting their preventive maintenance capabilities to greater heights and offering dramatically increased uptime.'" />
 
 
 
-<ListRow v-bind:backgroundImage="'bg-white-paper'" v-bind:Subheader1="'1'" v-bind:BodyText1="'one'" v-bind:Subheader2="'2'" v-bind:BodyText2="'two'" v-bind:Subheader3="'3'" v-bind:BodyText3="'three'"/>
+<ListRow v-bind:backgroundImage="'bg-white-paper'"
+v-bind:Subheader1="'1'"
+v-bind:BodyText1="'<ul><li>sadc</li><li>sadc</li><li>sadc</li><li>sadc</li></ul>'"
+v-bind:Subheader2="'2'"
+v-bind:BodyText2="'<ul><li>sadc</li><li>sadc</li><li>sadc</li><li>sadc</li></ul>'"
+v-bind:Subheader3="'3'"
+v-bind:BodyText3="'<ul><li>sadc</li><li>sadc</li><li>sadc</li><li>sadc</li></ul>'"/>
 
 
 

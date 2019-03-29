@@ -1,7 +1,13 @@
 <template>
 				<div>
 								<div>
-												<section class="bg-black section-pad">
+												<section class="bg-black section-pad pb-30 overflow-hidden relative">
+
+
+						<HeroLeft />
+						<HeroRight />
+
+
 																<div class="container">
 																				<div class="row">
 																								<div class="col-lg-6">
@@ -11,25 +17,24 @@
 																																				5 Case Studies from Manufacturing
 																																</span>
 																												</h1>
-																												<p class="white-text">
+																												<p class="white-text mb-40">
 										Evolving customer expectations, thinning profit margins, and the increasing commoditization of products are bringing new challenges to manufacturers around the globe. As a result, customer experience is becoming a key differentiator across industries. As customers demand better, faster service, innovative manufacturers are focused on providing a model designed for success in the field, building customer relatinships, optimizing operations, and increasing profitability across their organizations.
 																												</p>
-																												<a href="" class="underline-link">Learn More <span class="right-chevron"><svg width="15" height="15" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 9.89 16.55" xml:space="preserve">
-																												<g>
-																																<g>
-																																				<g>
-																																								<g>
-																																												<polygon points="1.62,16.55 0,14.94 6.64,8.28 0,1.62 1.62,0 9.89,8.28" class="st0-chevron"></polygon>
-																																								</g>
-																																				</g>
-																																</g>
-																												</g>
-																								</svg></span></a>
+																												<a href="" class="white-link"><span class="ul">Learn More</span> <span class="down-arrow">
+																													
+
+
+<svg id="learn-more-down" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve"><g id="Hero"><g><g><g><g><circle class="st0" cx="17.5" cy="17.5" r="17.5"/></g><g><path class="st7" d="M25.68,12.6l0.81,0.81L17.5,22.4l-8.99-8.99l0.81-0.81l8.18,8.18L25.68,12.6z"/></g></g></g></g></g></svg>
+
+
+
+																												</span></a>
 
 
 																								</div>
 																								<div class="col-lg-6 text-center">
-																												<div class="turquiose-text">
+																												<div class="turquiose-text pt-20">
 																																How five organizations are transforming field service
 																												
 
@@ -87,28 +92,28 @@
  
   <!-- Circles closest to the central point -->
   <div id="inner-orbit2">
-    <div class="inner-orbit-circles2"></div>
+    <!-- <div class="inner-orbit-circles2"></div> -->
   </div>
 
 
   <div id="inner-orbit3">
-    <div class="inner-orbit-circles3"></div>
+
   </div>
  
   <!-- Circles closest to the central point -->
   <div id="inner-orbit4">
-    <div class="inner-orbit-circles4"></div>
+
   </div>
 
    <!-- Circles closest to the central point -->
   <div id="inner-orbit5">
-    <div class="inner-orbit-circles5"></div>
+
   </div>
 
 
 
   <div id="inner-orbit6">
-    <div class="inner-orbit-circles6"></div>
+
   </div>
 
 
@@ -128,12 +133,12 @@
 
 
   <div id="inner-orbit10">
-    <div class="inner-orbit-circles10"></div>
+    <!-- <div class="inner-orbit-circles10"></div> -->
   </div>
 
 
  <div id="inner-orbit11">
-    <div class="inner-orbit-circles11"></div>
+    <!-- <div class="inner-orbit-circles11"></div> -->
   </div>
 
 
@@ -147,15 +152,12 @@
   </div>
   
    <div id="inner-orbit14">
-    <div class="inner-orbit-circles14"></div>
   </div>
   
    <div id="inner-orbit15">
-    <div class="inner-orbit-circles15"></div>
   </div>
   
    <div id="inner-orbit16">
-    <div class="inner-orbit-circles16"></div>
   </div>
   
    <div id="inner-orbit17">
@@ -163,7 +165,7 @@
   </div>
   
    <div id="inner-orbit18">
-    <div class="inner-orbit-circles18"></div>
+
   </div>
   
    <div id="inner-orbit19">
@@ -298,7 +300,7 @@
 																				<div class="col-xl-6 bg-white-paper btm-pad-xxl text-center mobile-image no-lr-pad">
 																				</div>
 																				<div class="col-xl-6 bg-black section-pad-md">
-
+<QuotePattern1 />
 
 																								<div class="row justify-content-center">
 																												<div class="col-lg-10">
@@ -595,6 +597,7 @@
 												<section class="justify-content-center">
 																<div class="row no-lr-margin">
 																				<div class="col-xl-6 bg-black section-pad-md">
+																					<QuotePattern2 />
 																								<div class="row justify-content-center">
 																												<div class="col-lg-10">
 																																<Quote />
@@ -858,6 +861,7 @@ Scalable cloud solutions that are available in more regions than any other provi
 																				<div class="col-xl-6 bg-white-paper btm-pad-xxl text-center mobile-image no-lr-pad">
 																				</div>
 																				<div class="col-xl-6 bg-black section-pad-md">
+																					<QuotePattern3 />
 																								<div class="row justify-content-center">
 																												<div class="col-lg-10">
 																																<Quote />
@@ -890,6 +894,13 @@ import FooterModule from '../components/FooterModule';
 
 
 import Quote from '../components/icons/Quote';
+import QuotePattern1 from '../components/griddecoration/QuotePattern1';
+import QuotePattern2 from '../components/griddecoration/QuotePattern2';
+import QuotePattern3 from '../components/griddecoration/QuotePattern3';
+
+
+import HeroLeft from '../components/griddecoration/HeroLeft';
+import HeroRight from '../components/griddecoration/HeroRight';
 
 
 export default {
@@ -905,7 +916,13 @@ export default {
 				components: {
 						WayFinder,
 						FooterModule,
-						Quote
+						Quote,
+						HeroLeft,
+						HeroRight,
+						QuotePattern1,
+						QuotePattern2,
+						QuotePattern3
+
 				},
 				methods: {
 		scrollToTop(scrollDuration) {
