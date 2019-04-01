@@ -12,17 +12,27 @@
 																<div class="row">
 														
 																	
-<IconRow v-bind:logo="'3'" v-bind:subheader="'Case Study'" v-bind:bodyText="'ThyssenKrupp, the global elevator manufacturing company, wanted to better compete in their industry by boosting their preventive maintenance capabilities to greater heights and offering dramatically increased uptime.'" />
+<IconRow v-bind:logo="'3'" v-bind:subheader="'Case Study'" v-bind:bodyText="'Michelin extends their premium customer service model to a seamless, on-site customer experience with Michelin OnSite, where they send technicians into the field to perform installations and repairs for customers.'" />
 
-<ListRow v-bind:backgroundImage="'bg-white-paper'" v-bind:Subheader1="'1'" v-bind:BodyText1="'one'" v-bind:Subheader2="'2'" v-bind:BodyText2="'two'" v-bind:Subheader3="'3'" v-bind:BodyText3="'three'"/>
+<ListRow v-bind:backgroundImage="'bg-michelin'" v-bind:Subheader1="'Process'" v-bind:BodyText1="'Using a CRM customer records system, Michelin schedules availability for their technicians and customer inventory. A self-service customer portal allows customers to choose their tires and an appointment time online, creating an automated process to go from the customer to the technician. Customer records and product information enables technicians to meet customer needs and solve any problems that arise.'" v-bind:Subheader2="'Results'"
+
+
+
+
+v-bind:BodyText2="'<ul><li>Created a seamless, automated customer experience from purchase to installation</li><li>Gained greater visibility into inventory and purchase patterns</li><li>Delivered real-time understanding of product availability</li></ul>'" v-bind:Subheader3="'Related Products:'" v-bind:BodyText3="'<ul><li>Microsoft Dynamics 365 for Field Service</li></ul>'"/>
+
+
+
+
+
 <QuoteRow
-v-bind:quoteText="'ThyssenKrupp, the global elevator manufacturing company, wanted to better compete in their industry by boosting their preventive maintenance capabilities.'"
-v-bind:quoteAuthor="'Nigella Lawson'"
-v-bind:quoteTitle="'CEO and Corporate Director'"
-v-bind:quoteOrg="'The Travel Channel'"
+v-bind:quoteText="'As we continue to grow and build, the Microsoft platform is going to help us manage the routing and schedule and keep us on top of the customer expectations—that’s critical to our business.'"
+v-bind:quoteAuthor="'Kevin Doyle'"
+v-bind:quoteTitle="'Initiative Leader, Michelin OnSite'"
+v-bind:quoteOrg="''"
 v-bind:ctaIcon="'3'"
 v-bind:ctaText="'Read the case study'"
-v-bind:ctaLink="'ctaLink!'"
+v-bind:ctaLink="''"
  />
 																</div>
 												</div>

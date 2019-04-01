@@ -65,7 +65,7 @@ color: $text--turquoise;
 	color: $text--md-grey;
 	font-family: $segoe;
 	font-weight: 400;
-    font-size: .9em;
+    font-size: .8em;
 
 
    a{
@@ -179,7 +179,14 @@ padding: 40px;
 
 
 &.third{
-	    padding: 80px 50px;
+	    padding: 60px 50px;
+
+
+	    p{
+	    	margin-bottom: 0;
+	    	    min-height: 70px;
+
+	    }
 
 }
 

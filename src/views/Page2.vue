@@ -16,16 +16,20 @@
 																<div class="row">
 														
 																			
-<IconRow v-bind:logo="'2'" v-bind:subheader="'Case Study'" v-bind:bodyText="'ThyssenKrupp, the global elevator manufacturing company, wanted to better compete in their industry by boosting their preventive maintenance capabilities to greater heights and offering dramatically increased uptime.'" />
-<ListRow v-bind:backgroundImage="'bg-white-paper'" v-bind:Subheader1="'1'" v-bind:BodyText1="'one'" v-bind:Subheader2="'2'" v-bind:BodyText2="'two'" v-bind:Subheader3="'3'" v-bind:BodyText3="'three'"/>
+<IconRow v-bind:logo="'2'" v-bind:subheader="'Case Study'" v-bind:bodyText="'Ecolab—a leading global provider of water, hygiene, and energy technologies and services—is helping companies worldwide operate more sustainably.'" />
+<ListRow v-bind:backgroundImage="'bg-water-treatment'" v-bind:Subheader1="'Process'" v-bind:BodyText1="'Inside production facilities, equipment based on Ecolab’s Nalco 3D TRASARTM Technology sends data to a highly secure analytics and storage platform on Microsoft Azure. The technology monitors and controls streams for water-intensive processes, and collects and analyzes water usage data in real time.By connecting to thousands of sensors in facilities worldwide, their platform improves efficiency and reduces water, energy, and operational costs.'" v-bind:Subheader2="'Results'" v-bind:BodyText2="'<ul><li>Delivered real-time sensing data from over 36,000 water systems.</li><li>Scaled delivery of water management solutions</li><li>Established operational benchmarks from millions of data points</li></ul>'" v-bind:Subheader3="'Related products:'" v-bind:BodyText3="'<ul><li>Microsoft Azure IoT Hub</li><li>Microsoft Azure IoT solution accelerators</li><li>Microsoft Azure Machine Learning</li><li>Microsoft Dynamics 365 for Field Service</li><li>Microsoft Dynamics 365 for Sales</li><li>Microsoft Power BI</li></ul>'"/>
+
+
+
+
 <QuoteRow
-v-bind:quoteText="'ThyssenKrupp, the global elevator manufacturing company, wanted to better compete in their industry by boosting their preventive maintenance capabilities.'"
-v-bind:quoteAuthor="'Nigella Lawson'"
-v-bind:quoteTitle="'CEO and Corporate Director'"
-v-bind:quoteOrg="'The Travel Channel'"
+v-bind:quoteText="'We need to collect and analyze massive amounts of information. Now, we can identify opportunities and gaps, provide the right solutions and, most importantly, manage our customers’ process so that they can get closer to net-zero water usage.'"
+v-bind:quoteAuthor="'Christophe Beck'"
+v-bind:quoteTitle="'Executive Vice President and President,'"
+v-bind:quoteOrg="'Nalco Water, an Ecolab company'"
 v-bind:ctaIcon="'2'"
 v-bind:ctaText="'Read the case study'"
-v-bind:ctaLink="'ctaLink!'"
+v-bind:ctaLink="''"
  />
 
 

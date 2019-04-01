@@ -10,16 +10,15 @@
 																<div class="row">
 														
 																		
-<IconRow v-bind:logo="'5'" v-bind:subheader="'Case Study'" v-bind:bodyText="'ThyssenKrupp, the global elevator manufacturing company, wanted to better compete in their industry by boosting their preventive maintenance capabilities to greater heights and offering dramatically increased uptime.'" />
+<IconRow v-bind:logo="'5'" v-bind:subheader="'Case Study'" v-bind:bodyText="'Sandvik Coromant, part of the Sandvik Group, is a global engineering organization that produces machining tools and tooling systems for the manufacturing industry. Sandvik Coromant’s employees have years of in-depth knowledge of machining and tooling processes in multiple industries. These proficiencies enable Coromant’s specialists to offer a personalized approach to help their customers. However, these technical experts can’t be everywhere all the time. Therefore, Sandvik Coromant decided to digitize their knowledge to make the information available to all parts of the production loop. Plus, by applying analysis tools, they were able to provide intelligent feedback—both to the relevant machines and their human operators.'" />
 																				
-<ListRow v-bind:backgroundImage="'bg-white-paper'" v-bind:Subheader1="'1'" v-bind:BodyText1="'one'" v-bind:Subheader2="'2'" v-bind:BodyText2="'two'" v-bind:Subheader3="'3'" v-bind:BodyText3="'three'"/>
-
+<ListRow v-bind:backgroundImage="'bg-gradient'" v-bind:Subheader1="'Process'" v-bind:BodyText1="'The predictive analytics manufacturing solution includes an in-house shop floor control tool that collects machining and tool data. It then sends the data to Microsoft Azure for real-time analysis using machine learning algorithms from Cortana Intelligence. Machining data is also collected from sensorized cutting tools through Azure IoT. With the help of Azure Machine Learning and Streaming Analytics, Sandvik Coromant added embedded intelligence to these tools to capture data that can be used to automatically adjust equipment, notify technicians when maintenance is needed, and alert plant managers of a potential failure.'" v-bind:Subheader2="'Results'" v-bind:BodyText2="'<ul><li>Reduced the time needed to make emergency shutdown decisions from two seconds to 100 milliseconds</li><li>Provided instant feedback to customers to improve efficiencies</li><li>Delivered cost savings of millions of dollars</li></ul>'" v-bind:Subheader3="'Related products:'" v-bind:BodyText3="'<ul><li>Microsoft Azure IoT Hub</li><li>Microsoft Azure IoT solution accelerators</li><li>Cortana Intelligence Suite</li><li>Microsoft Dynamics 365 for Field Service</li></ul>'"/>
 
 <QuoteRow
-v-bind:quoteText="'ThyssenKrupp, the global elevator manufacturing company, wanted to better compete in their industry by boosting their preventive maintenance capabilities.'"
-v-bind:quoteAuthor="'Nigella Lawson'"
-v-bind:quoteTitle="'CEO and Corporate Director'"
-v-bind:quoteOrg="'The Travel Channel'"
+v-bind:quoteText="'We are looking to convert the knowledge our people have in their heads into a digital format and apply machine learning tools that can look at the data, optimize it, and adjust configurations to optimize production. It will not replace the operator, but will give the operator another tool to improve production.'"
+v-bind:quoteAuthor="'Nevzat Ertan'"
+v-bind:quoteTitle="'Chief Enterprise Architect and Senior Manager,'"
+v-bind:quoteOrg="'Sandvik Coromant'"
 v-bind:ctaIcon="'5'"
 v-bind:ctaText="'Read the case study'"
 v-bind:ctaLink="'ctaLink!'"

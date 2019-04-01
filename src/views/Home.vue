@@ -73,8 +73,10 @@ viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve
 	
 																												<h2>Digital transformation is enabling manufacturers to create connected networks.</h2>
 																												<p>
-																																Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-																												</p>
+																								By leveraging Internet of Things (IoT), machine learning, mixed reality (MR), and big data, manufacturers can drive revenue growth, optimize processes, increase productivity, and improve the customer experience.
+</p>
+																								<p>
+Microsoft is helping organizations to transform their organizations with end-to-end solutions that connects data, people, and equipment. With connected field service solutions, manufacturers can deliver a profitable field service that deepens customer loyalty. Using these solutions provide manufacturers with higher visibility across their organization while minimizing downtime, reducing costs, and increasing customer satisfaction and sales through cross-selling and upselling opportunities. As a result, manufacturers are transforming their market offerings to deliver a rich set of value-added business services and provide a complete, connected customer experience.	</p>
 
 
 </div>
@@ -211,7 +213,7 @@ viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve
 																																				26%
 																																</div>
 																																<p>
-																																				Lorem ipsum dolor sit amet<sup>2</sup>
+																																		of service calls require return visits.<sup>1</sup>
 																																</p>
 																												</div>
 																								</div>
@@ -253,7 +255,7 @@ viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve
 																																				81%
 																																</div>
 																																<p>
-																																									Lorem ipsum dolor sit amet<sup>2</sup>
+																																								of service teams say service has the largest impact on how customers perceive their brand.<sup>2</sup>
 																																</p>
 																												</div>
 																								</div>
@@ -284,11 +286,11 @@ viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve
 																																				47%
 																																</div>
 																																<p>
-																																							Lorem ipsum dolor sit amet<sup>2</sup>
+																									increase of uptime through the use of smart devices.<sup>3</sup>
 																																</p>
 																												</div>
 																								</div>
-																								<div class="col-lg-12 sub-text">
+																								<div class="col-lg-12 sub-text no-lr-pad">
 																												Sources soucres <a href="srounc">source</a> 2019
 																								</div>
 																				</div>
@@ -297,22 +299,25 @@ viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve
 												<!-- full width image section -->
 												<section class="justify-content-center">
 																<div class="row no-lr-margin">
-																				<div class="col-xl-6 bg-white-paper btm-pad-xxl text-center mobile-image no-lr-pad">
+																				<div class="col-xl-6 bg-two-men btm-pad-xxl text-center mobile-image no-lr-pad">
 																				</div>
 																				<div class="col-xl-6 bg-black section-pad-md">
 <QuotePattern1 />
 
 																								<div class="row justify-content-center">
-																												<div class="col-lg-10">
+																												<div class="col-lg-10 offset-lg-1">
 																																<Quote />
 																																<div class="quote top-pad-sm">
-																																				“These days, sellers can’t wait for buyers to come to them. Buyers are doing their research online, getting up to speed on their options on their own. Sales professionals have to go find those informed, savvy prospects where they are, engage them in conversation, and begin building relationships with them.”
+																																	Together with Microsoft, we are on the leading edge, combining our technologies to leverage the Internet of Things and people to help realize business and social innovations in this hyper-connected world.
 																																</div>
 																																<div class="name">
-																																				Jennifer Tomlinson
+																																			Ryosuke Mori
 																																</div>
 																																<div class="title">
-																																				Global Channel Marketing Leader, Microsoft
+																																				Vice President, Global Strategic Alliances,
+																																</div>
+																																<div class="org">
+																																	Fujitsu Ltd.
 																																</div>
 																												</div>
 																								</div>
@@ -329,12 +334,13 @@ viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve
 
 <div class="row">
 	
-<div class="col-lg-6">
+<div class="col-lg-5">
 
-																												<h2>Digital transformation is enabling manufacturers to create connected networks.</h2>
+																												<h2>Less downtime more satisfied customers</h2>
 																												<p>
-																																Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-																												</p>
+																					Connected field service solutions enable manufacturers to transform their products and services. IoT capabilities allow devices to be connected and monitored, furnishing visibility into equipment performance. This paves the way for organizations to move from a costly break/fix model to a proactive, predictive service model— gaining awareness of equipment failures before they happen and the ability to systematically
+prevent them. Through data insights gleaned from these solutions, manufacturers can recommend more effective equipment to cross- sell and upsell to their customers. Together with scheduling, mobile, and resource optimization, these capabilities minimize downtime, accelerate repairs, increase technician productivity, and improve customer satisfaction.
+																								</p>
 
 
 
@@ -428,6 +434,41 @@ viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve
 
 																																				<p>Reduce downtime with proactive alerts from connected devices.</p>
 																																</div>
+
+
+											<div class="col-sm-4 mb-30">
+
+
+<div class="list-icon-box">
+	
+
+<svg id="tools" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 41.66 66.65" style="enable-background:new 0 0 41.66 66.65;" xml:space="preserve">
+
+<g id="Guidelines">
+	<g>
+		<path class="st0" d="M41.66,8.23V0h-12.5v8.23c0,2.77,1.73,5.11,4.15,5.99v21.18h-4.15v24.81c0,3.55,2.8,6.43,6.25,6.43h0
+			c3.45,0,6.25-2.88,6.25-6.43V35.41h-4.18V14.23C39.91,13.36,41.66,11.01,41.66,8.23z"/>
+		<path d="M14.58,51.12V18.86c3.68-1.61,6.25-5.27,6.25-9.54c0-4.05-2.61-7.96-6.25-9.27v10.37H6.25V0.05C2.77,1.25,0,5.28,0,9.32
+			c0,4.27,2.57,7.93,6.25,9.54v32.26c-0.15,0.09-0.31,0.16-0.46,0.26c-3.83,2.55-4.86,7.73-2.3,11.55c1.61,2.41,4.25,3.71,6.94,3.71
+			c1.59,0,3.2-0.45,4.62-1.4c3.83-2.55,4.86-7.73,2.3-11.55C16.61,52.59,15.65,51.74,14.58,51.12z M12.46,58.72
+			c-0.06,0.32-0.26,0.91-0.89,1.32c-0.35,0.23-0.74,0.35-1.15,0.35c-0.7,0-1.35-0.35-1.74-0.93c-0.64-0.96-0.38-2.25,0.58-2.89
+			c0.35-0.23,0.74-0.35,1.15-0.35c0.7,0,1.35,0.35,1.74,0.93C12.56,57.79,12.52,58.41,12.46,58.72z"/>
+	</g>
+</g>
+
+</svg>
+
+
+
+
+
+</div>
+
+																																				<p>Accelerate repair times by ensuring service technicians are fully equipped to deliver a first-time fix.</p>
+																																</div>
+
+
 																																<div class="col-sm-4 mb-30">
 
 
@@ -467,37 +508,7 @@ viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve
 
 																																				<p>Lower maintenance costs by dispatching the right technician only when needed.</p>
 																																</div>
-																												<div class="col-sm-4 mb-30">
-
-
-<div class="list-icon-box">
-	
-
-<svg id="tools" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 41.66 66.65" style="enable-background:new 0 0 41.66 66.65;" xml:space="preserve">
-
-<g id="Guidelines">
-	<g>
-		<path class="st0" d="M41.66,8.23V0h-12.5v8.23c0,2.77,1.73,5.11,4.15,5.99v21.18h-4.15v24.81c0,3.55,2.8,6.43,6.25,6.43h0
-			c3.45,0,6.25-2.88,6.25-6.43V35.41h-4.18V14.23C39.91,13.36,41.66,11.01,41.66,8.23z"/>
-		<path d="M14.58,51.12V18.86c3.68-1.61,6.25-5.27,6.25-9.54c0-4.05-2.61-7.96-6.25-9.27v10.37H6.25V0.05C2.77,1.25,0,5.28,0,9.32
-			c0,4.27,2.57,7.93,6.25,9.54v32.26c-0.15,0.09-0.31,0.16-0.46,0.26c-3.83,2.55-4.86,7.73-2.3,11.55c1.61,2.41,4.25,3.71,6.94,3.71
-			c1.59,0,3.2-0.45,4.62-1.4c3.83-2.55,4.86-7.73,2.3-11.55C16.61,52.59,15.65,51.74,14.58,51.12z M12.46,58.72
-			c-0.06,0.32-0.26,0.91-0.89,1.32c-0.35,0.23-0.74,0.35-1.15,0.35c-0.7,0-1.35-0.35-1.74-0.93c-0.64-0.96-0.38-2.25,0.58-2.89
-			c0.35-0.23,0.74-0.35,1.15-0.35c0.7,0,1.35,0.35,1.74,0.93C12.56,57.79,12.52,58.41,12.46,58.72z"/>
-	</g>
-</g>
-
-</svg>
-
-
-
-
-
-</div>
-
-																																				<p>Accelerate repair times by ensuring service technicians are fully equipped to deliver a first-time fix.</p>
-																																</div>
+																	
 																									<div class="col-sm-4 mb-30">
 
 
@@ -527,33 +538,7 @@ viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve
 
 																																				<p>Gain enhanced visibility into products, services, performance, and customer satisfaction.</p>
 																																</div>
-																																						<div class="col-sm-4 mb-30">
-
-
-<div class="list-icon-box">
-	<svg id="arrows" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 70.2 70.2" style="enable-background:new 0 0 70.2 70.2;" xml:space="preserve">
-
-<g id="Guidelines">
-	<g>
-		<polygon class="st0" points="63.62,0 63.62,0.06 48.27,0.06 48.27,6.64 59.02,6.64 30.82,34.84 35.48,39.49 63.62,11.34 
-			63.62,21.94 70.2,21.94 70.2,6.64 70.2,0.06 70.2,0 		"/>
-		<polygon points="70.15,63.62 70.15,48.27 63.56,48.27 63.56,58.94 39.49,34.86 39.55,34.8 11.33,6.58 21.94,6.58 21.94,0 6.64,0 
-			0.06,0 0,0 0,6.58 0.06,6.58 0.06,21.94 6.64,21.94 6.64,11.2 30.47,35.02 6.58,58.91 6.58,48.27 0,48.27 0,63.56 0,70.15 0,70.2 
-			6.58,70.2 6.58,70.15 21.94,70.15 21.94,63.56 11.23,63.56 35.06,39.74 58.94,63.62 48.27,63.62 48.27,70.2 63.56,70.2 
-			70.15,70.2 70.2,70.2 70.2,63.62 		"/>
-	</g>
-</g>
-
-</svg>
-
-
-
-
-</div>
-
-																																				<p>Maximise upselling and cross-selling opportunities with deeper insight into customer usage and trends.</p>
-																																</div>
+																											
 																															<div class="col-sm-4 mb-30">
 
 
@@ -586,6 +571,36 @@ viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve
 
 																																				<p>Address issues faster by monitoring devices remotely and keeping customers in the loop.</p>
 																																</div>
+
+
+											<div class="col-sm-4 mb-30">
+
+
+<div class="list-icon-box">
+	<svg id="arrows" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 70.2 70.2" style="enable-background:new 0 0 70.2 70.2;" xml:space="preserve">
+
+<g id="Guidelines">
+	<g>
+		<polygon class="st0" points="63.62,0 63.62,0.06 48.27,0.06 48.27,6.64 59.02,6.64 30.82,34.84 35.48,39.49 63.62,11.34 
+			63.62,21.94 70.2,21.94 70.2,6.64 70.2,0.06 70.2,0 		"/>
+		<polygon points="70.15,63.62 70.15,48.27 63.56,48.27 63.56,58.94 39.49,34.86 39.55,34.8 11.33,6.58 21.94,6.58 21.94,0 6.64,0 
+			0.06,0 0,0 0,6.58 0.06,6.58 0.06,21.94 6.64,21.94 6.64,11.2 30.47,35.02 6.58,58.91 6.58,48.27 0,48.27 0,63.56 0,70.15 0,70.2 
+			6.58,70.2 6.58,70.15 21.94,70.15 21.94,63.56 11.23,63.56 35.06,39.74 58.94,63.62 48.27,63.62 48.27,70.2 63.56,70.2 
+			70.15,70.2 70.2,70.2 70.2,63.62 		"/>
+	</g>
+</g>
+
+</svg>
+
+
+
+
+</div>
+
+																																				<p>Maximise upselling and cross-selling opportunities with deeper insight into customer usage and trends.</p>
+																																</div>
+
 																												</div>
 																								</div>
 																				</div>
@@ -599,21 +614,21 @@ viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve
 																				<div class="col-xl-6 bg-black section-pad-md">
 																					<QuotePattern2 />
 																								<div class="row justify-content-center">
-																												<div class="col-lg-10">
+																												<div class="col-lg-10 offset-lg-1">
 																																<Quote />
 																																<div class="quote top-pad-sm">
-																																				“These days, sellers can’t wait for buyers to come to them. Buyers are doing their research online, getting up to speed on their options on their own. Sales professionals have to go find those informed, savvy prospects where they are, engage them in conversation, and begin building relationships with them.”
+																																With this solution we are able to reinvent the art of manufacturing. Tools, machines, processes working together, all the way from the customer to the sales interaction, helping us deliver an unprecedented level of field service.
 																																</div>
 																																<div class="name">
-																																				Jennifer Tomlinson
+																													Klas Forsström
 																																</div>
 																																<div class="title">
-																																				Global Channel Marketing Leader, Microsoft
+President, Sandvik Coromant
 																																</div>
 																												</div>
 																								</div>
 																				</div>
-																				<div class="col-xl-6 bg-white-paper btm-pad-xxl text-center mobile-image no-lr-pad">
+																				<div class="col-xl-6 bg-milling btm-pad-xxl text-center mobile-image no-lr-pad">
 																				</div>
 																</div>
 												</section>
@@ -858,21 +873,25 @@ Scalable cloud solutions that are available in more regions than any other provi
 												<!-- full width image section -->
 												<section class="justify-content-center">
 																<div class="row no-lr-margin">
-																				<div class="col-xl-6 bg-white-paper btm-pad-xxl text-center mobile-image no-lr-pad">
+																				<div class="col-xl-6 bg-surface btm-pad-xxl text-center mobile-image no-lr-pad">
 																				</div>
 																				<div class="col-xl-6 bg-black section-pad-md">
 																					<QuotePattern3 />
 																								<div class="row justify-content-center">
-																												<div class="col-lg-10">
+																												<div class="col-lg-10 offset-lg-1">
 																																<Quote />
 																																<div class="quote top-pad-sm">
-																																				“These days, sellers can’t wait for buyers to come to them. Buyers are doing their research online, getting up to speed on their options on their own. Sales professionals have to go find those informed, savvy prospects where they are, engage them in conversation, and begin building relationships with them.”
+																																			What truly impressed me with our Microsoft collaboration was that it was not about selling us a product. It was about building something
+and addressing the world’s water challenge together.
 																																</div>
 																																<div class="name">
-																																				Jennifer Tomlinson
+																																			Christophe Beck
 																																</div>
 																																<div class="title">
-																																				Global Channel Marketing Leader, Microsoft
+																															Executive Vice President and President,
+																																</div>
+																																<div class="org">
+																																	Nalco Water, an Ecolab company
 																																</div>
 																												</div>
 																								</div>

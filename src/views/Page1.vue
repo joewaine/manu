@@ -15,24 +15,24 @@
 
 
 
-<ListRow v-bind:backgroundImage="'bg-white-paper'"
-v-bind:Subheader1="'1'"
-v-bind:BodyText1="'<ul><li>sadc</li><li>sadc</li><li>sadc</li><li>sadc</li></ul>'"
-v-bind:Subheader2="'2'"
-v-bind:BodyText2="'<ul><li>sadc</li><li>sadc</li><li>sadc</li><li>sadc</li></ul>'"
-v-bind:Subheader3="'3'"
-v-bind:BodyText3="'<ul><li>sadc</li><li>sadc</li><li>sadc</li><li>sadc</li></ul>'"/>
+<ListRow v-bind:backgroundImage="'bg-holo-vision'"
+v-bind:Subheader1="'Process'"
+v-bind:BodyText1="'<ul><li>Reduced Costs</li><li>Increased elevator uptime</li><li>Developed real-time data visualization and awareness of issues</li></ul>'"
+v-bind:Subheader2="'Results'"
+v-bind:BodyText2="'<ul><li>Reduced Costs</li><li>Increased elevator uptime</li><li>Developed real-time data visualization and awareness of issues</li></ul>'"
+v-bind:Subheader3="'Related products:'"
+v-bind:BodyText3="'<ul><li>Microsoft Azure IoT Suite</li><li>Microsoft Azure</li><li>Microsoft Power BI</li><li>Windows Server</li></ul>'"/>
 
 
 
 <QuoteRow
-v-bind:quoteText="'ThyssenKrupp, the global elevator manufacturing company, wanted to better compete in their industry by boosting their preventive maintenance capabilities.'"
-v-bind:quoteAuthor="'Nigella Lawson'"
-v-bind:quoteTitle="'CEO and Corporate Director'"
-v-bind:quoteOrg="'The Travel Channel'"
+v-bind:quoteText="'We wanted to go beyond the industry standard of preventative maintenance, to offer predictive and even preemptive maintenance.'"
+v-bind:quoteAuthor="'Andreas Schierenbeck'"
+v-bind:quoteTitle="'CEO, ThyssenKrupp Elevator'"
+v-bind:quoteOrg="''"
 v-bind:ctaIcon="'1'"
 v-bind:ctaText="'Read the case study'"
-v-bind:ctaLink="'ctaLink!'"
+v-bind:ctaLink="''"
  />
 																
 																				

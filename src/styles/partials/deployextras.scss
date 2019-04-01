@@ -1,0 +1,25 @@
+.m-skip-to-main,
+.entry-header{
+display: none;
+}
+
+
+.ms-footer {
+ position: absolute;
+ width: 100%;
+ height: auto !important;
+ .fp-tableCell {
+ height: auto !important;
+ }
+}
+
+
+
+.fp-auto-height.fp-section,
+.fp-auto-height .fp-slide,
+.fp-auto-height .fp-tableCell,
+.fp-responsive .fp-auto-height-responsive.fp-section,
+.fp-responsive .fp-auto-height-responsive .fp-slide,
+.fp-responsive .fp-auto-height-responsive .fp-tableCell {
+ height: auto !important;
+}
