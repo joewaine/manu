@@ -461,20 +461,22 @@ transition: all .25s ease;
 margin: 0 auto;
 
 svg{
-	height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 80%;
 }
 
 }
 
 
 .icon-box-logo > div{
-    // min-height: 400px;
-    display: table;
+    // // min-height: 400px;
+    // display: table;
 }
 
 .icon-box-logo > div > div{
-	    display: table-cell;
-    vertical-align: middle;
+	   //  display: table-cell;
+    // vertical-align: middle;
 }
 
 .icon-box-centered{
@@ -502,6 +504,23 @@ svg{
     margin: 0 0 10px 0;
 }
 
+.list-row{
+	ul {
 
+    padding-left: 1.2em;
+    list-style-type: initial;
+
+	li{
+
+    color: #333333;
+    font-family: "Segoe UI Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.4em;
+	margin: 0 0 0 0;
+    padding: 0;
+    margin-bottom: .4em;
+	}
+}}
 
 

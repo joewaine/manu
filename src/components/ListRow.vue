@@ -1,5 +1,5 @@
 <template>
-								<div class="col-lg-12 drop-shadow-box no-pad flexbox-container mb-30">
+								<div class="col-lg-12 drop-shadow-box no-pad flexbox-container mb-30 list-row">
 												<div  v-bind:class="this._props.backgroundImage">
 
 
