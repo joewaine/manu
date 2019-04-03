@@ -51,13 +51,20 @@ color: $text--turquoise;
 	font-weight: $semi-bold;
 	margin: -34px auto 0;
 	text-align: center;
-	width: 100%;
-
+    width: fit-content;
+	border-bottom: 2px solid transparent;
+transform: border .5s ease;
+-webkit-transform: border .5s ease;
 
 	&.extra-up{
 			margin: -64px auto 0;
 	}
 
+
+
+&:hover{
+	border-bottom: 1px solid $text--blue;
+}
 
 }
 
@@ -585,10 +592,134 @@ svg{
 
 
 .eighty-vh{
-	    height: 80vh;
+	    // height: 80vh;
 }
 
 .mb-0{
 	margin-bottom: 0;
 }
 
+
+
+.access-module{
+	height: 100vh;
+	background: #000;
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+}
+
+.blue-menu-text{
+	cursor: pointer;
+}
+
+.close-modal{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+svg{
+
+.st7.close{
+	fill: #fff;
+	-webkit-transform: all .25s ease;
+	transform: all .25s ease;
+
+	&:hover{
+		fill: #4ae7fc;
+}
+
+}
+
+
+}
+
+
+
+
+.full-width-100{
+	width: 100%;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
+
+#access-module{
+	display: none;
+}
+
+
+
+.tag-1{
+    color: #fff;
+    font-size: .8em;
+    position: absolute;
+    top: 14%;
+    left: -3%;
+    width: 30%;
+    line-height: 1.4em;
+    z-index: 1000;
+}
+.tag-2{
+    color: #fff;
+    font-size: .8em;
+    position: absolute;
+    top: 15.75%;
+    right: 3.5%;
+    width: 30%;
+    line-height: 1.4em;
+    z-index: 1000;
+}
+.tag-3{
+    color: #fff;
+    font-size: .8em;
+    position: absolute;
+    bottom: 41.25%;
+    right: -13%;
+    width: 30%;
+    line-height: 1.4em;
+    z-index: 1000;
+}
+
+.tag-4{
+    color: #fff;
+    font-size: .8em;
+    position: absolute;
+    bottom: 11%;
+    left: 50%;
+    width: 30%;
+    line-height: 1.4em;
+    margin-left: -90px;
+    z-index: 1000;
+}
+.tag-5{
+    color: #fff;
+    font-size: .8em;
+    position: absolute;
+    bottom: 41.25%;
+    left: -7.75%;
+    width: 30%;
+    line-height: 1.4em;
+    z-index: 1000;
+}
+
+.pent-tag a{
+	    color: #fff;
+    	-webkit-transform: all .5s ease;
+		transform: all .5s ease;
+	    &:hover{
+	    	color: #4ae7fc;
+	    }
+
+
+
+	    	    &:focus{
+	    	color: #4ae7fc;
+	    }
+}

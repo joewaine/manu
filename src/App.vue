@@ -5,6 +5,9 @@ import UniversalFooter from './components/UniversalFooter'
 
 
 
+
+import AccessModule from './components/AccessModule'
+
 import ShareSlider from './components/ShareSlider'
 import DownloadSlider from './components/DownloadSlider'
 import FeedbackSlider from './components/FeedbackSlider'
@@ -23,7 +26,8 @@ export default {
 								Page1,
 								DownloadSlider,
 								FeedbackSlider,
-								ShareSlider
+								ShareSlider,
+								AccessModule
 
 
 				}
@@ -36,6 +40,10 @@ export default {
 </style>
 <template>
 				<div id="app">
+
+<AccessModule />
+
+
 		<HeaderModule />
 
 

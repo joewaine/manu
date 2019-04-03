@@ -515,12 +515,27 @@ nav.expanded {
 .bg-milling-alt{
 
             background-color: black;
-            background-image: url(assets/img/milling.png);
-            background-repeat: no-repeat;
-            background-size: 50% 100%;
-            background-position: right top;
+            // background-image: url(assets/img/milling.png);
+            // background-repeat: no-repeat;
+            // background-size: 50% 100%;
+            // background-position: right top;
             position: relative;
 
+
+
+}
+
+
+
+.half-picture-milling{
+
+            position: absolute;
+            width: 50%;
+            background-image: url(assets/img/milling.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            right: 0;
 
 
 }
@@ -529,14 +544,30 @@ nav.expanded {
 
 .bg-two-men-alt{
             background-color: black;
-            background-image: url(assets/img/two-men.jpg);
-            background-repeat: no-repeat;
-            background-size: 50% 100%;
-            background-position: left top;
+            // background-image: url(assets/img/two-men.jpg);
+            // background-repeat: no-repeat;
+            // background-size: 50% 100%;
+            // background-position: left top;
             position: relative;
 
 
 
+
+
+}
+
+
+.half-picture-two-men{
+
+position: absolute;
+width: 50%;
+
+
+            background-image: url(assets/img/two-men.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            left: 0;
 
 
 }
@@ -545,13 +576,31 @@ nav.expanded {
 
 
             background-color: black;
-            background-image: url(assets/img/surface.jpg);
-            background-repeat: no-repeat;
-            background-size: 50% 100%;
-            background-position: left top;
+            // background-image: url(assets/img/surface.jpg);
+            // background-repeat: no-repeat;
+            // background-size: 50% 100%;
+            // background-position: left top;
             position: relative;
 
 }
+
+
+
+.half-picture-surface{
+
+position: absolute;
+width: 50%;
+
+
+            background-image: url(assets/img/surface.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            left: 0;
+
+
+}
+
 
 // {{{{}}}}
 

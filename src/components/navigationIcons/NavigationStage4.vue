@@ -10,23 +10,23 @@
 
 
 
-					<a href="#/page3" id="url:page3-page">
+<a v-on:click.prevent="openModal()">
 
 																																<polygon points="111.71,130.98 69.48,69.76 137.82,50.64 					" class="st4"></polygon>
 																											
 
 </a>
-					<a href="#/page2" id="url:page2-page">
+<a v-on:click.prevent="openModal()">
 																																<polygon points="69.48,0.98 69.48,69.76 137.82,50.64 					" class="st4"></polygon>
 																										
 
 </a>
-					<a href="#/page1" id="url:page1-page">
+<a v-on:click.prevent="openModal()">
 																																<polygon points="69.48,0.98 69.48,69.76 1.13,50.64 					" class="st4"></polygon>
 
 
 </a>
-					<a href="#/page5" id="url:page5-page">
+<a v-on:click.prevent="openModal()">
 
 																																<polygon points="27.24,130.98 69.48,69.76 1.13,50.64 					" class="st4"></polygon>
 </a>
@@ -103,12 +103,20 @@
 
 								</svg>
 
-<div class="blue-menu-text">MENU</div>
-								
+<div class="blue-menu-text" v-on:click="openModal()">MENU</div>
+
+
 				</div>
 </template>
 <script>
 export default {
+	methods: {
+		openModal(){
+			// alert('1234')
+			document.getElementById('access-module').style.display = 'block';
+		}
+	}
+
 
 }
 

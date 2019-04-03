@@ -1,5 +1,15 @@
 <template>
 				<div>
+
+
+<!-- 					stage ten -->
+<!-- 					stage ten -->
+<!-- 					stage ten -->
+<!-- 					stage ten -->
+<!-- 					stage ten -->
+<!-- 					stage ten -->
+<!-- 					stage ten -->
+<!-- 					stage ten -->
 <svg id="stage-0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 138.95 159.32" style="enable-background:new 0 0 138.95 159.32;" xml:space="preserve">
 
@@ -11,24 +21,24 @@
 
 
 
-<a data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(1)" @mouseleave="unHoverSiblingtext2(1)" v-on:click="closeModal()" href="#/page1" id="url:page1-page">
-<polygon class="st4 hover-wedges" points="69.48,0.98 69.48,69.76 1.13,50.64 					"/>
+<a data="closemod" @mouseover="hoverSiblingtext(1)" @mouseleave="unHoverSiblingtext(1)" v-on:click="closeModal()" href="#/page1" id="url:page1-page">
+<polygon class="st4 hover-wedges-10" points="69.48,0.98 69.48,69.76 1.13,50.64 					"/>
 	</a>
-<a data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(2)" @mouseleave="unHoverSiblingtext2(2)" v-on:click="closeModal()" href="#/page2" id="url:page2-page">
-					<polygon class="st4 hover-wedges" points="69.48,0.98 69.48,69.76 137.82,50.64 					"/>
+<a data="closemod" @mouseover="hoverSiblingtext(2)" @mouseleave="unHoverSiblingtext(2)" v-on:click="closeModal()" href="#/page2" id="url:page2-page">
+					<polygon class="st4 hover-wedges-10" points="69.48,0.98 69.48,69.76 137.82,50.64 					"/>
 					</a>
-<a data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(3)" @mouseleave="unHoverSiblingtext2(3)" v-on:click="closeModal()" href="#/page3" id="url:page3-page">
-					<polygon class="st4 hover-wedges" points="111.71,130.98 69.48,69.76 137.82,50.64 					"/>
+<a data="closemod" @mouseover="hoverSiblingtext(3)" @mouseleave="unHoverSiblingtext(3)" v-on:click="closeModal()" href="#/page3" id="url:page3-page">
+					<polygon class="st4 hover-wedges-10" points="111.71,130.98 69.48,69.76 137.82,50.64 					"/>
 					
 </a>
-
-<a data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(4)" @mouseleave="unHoverSiblingtext2(4)" v-on:click="closeModal()" href="#/page4" id="url:page4-page">
-					<polygon class="st4 hover-wedges" points="111.71,130.98 69.48,69.76 27.24,130.98 					"/>
+					
+<a data="closemod" @mouseover="hoverSiblingtext(4)" @mouseleave="unHoverSiblingtext(4)" v-on:click="closeModal()" href="#/page4" id="url:page4-page">
+					<polygon class="st4 hover-wedges-10" points="111.71,130.98 69.48,69.76 27.24,130.98 					"/>
 </a>
 
 
-<a data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(5)" @mouseleave="unHoverSiblingtext2(5)"  v-on:click="closeModal()" href="#/page5" id="url:page5-page">
-					<polygon class="st4 hover-wedges" points="27.24,130.98 69.48,69.76 1.13,50.64 					"/>
+<a data="closemod" @mouseover="hoverSiblingtext(5)" @mouseleave="unHoverSiblingtext(5)" v-on:click="closeModal()" href="#/page5" id="url:page5-page">
+					<polygon class="st4 hover-wedges-10" points="27.24,130.98 69.48,69.76 1.13,50.64 					"/>
 
 </a>
 
@@ -110,12 +120,12 @@ export default {
 		closeModal(){
 			document.getElementById('access-module').style.display = 'none';
 		},
-		hoverSiblingtext2(i){
-				var linksxl = document.getElementsByClassName('pent-tag-modal');
+		hoverSiblingtext(i){
+				var linksxl = document.getElementsByClassName('pent-tag-landing');
 				linksxl[i-1].style.color = "#4ae7fc";
 				},
-		 unHoverSiblingtext2(x){
-				var links2xl = document.getElementsByClassName('pent-tag-modal');
+		 unHoverSiblingtext(x){
+				var links2xl = document.getElementsByClassName('pent-tag-landing');
 				links2xl[x-1].style.color = "#ffffff"
 				}
 	}

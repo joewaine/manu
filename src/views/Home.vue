@@ -52,7 +52,42 @@
 																																				</g>
 																																</svg>
 																												</div>
-																												<WayFinder data-aos="fade-down" data-aos-delay="200" v-bind:pageTitle="0" />
+
+
+
+																												<div class="relative">
+	<div data-aos="fade-down" data-aos-delay="300" class="pent-tag tag-1">
+
+
+
+
+		<a class="pent-tag-landing" href="#/page1" @mouseover="hoverSibling2(1)" @mouseleave="unHoverSibling2(1)" v-on:click="closeModal();scrollToZero();" id="url:page-1-page">Remote monitoring and predictive maintenace</a></div>
+<div data-aos="fade-down" data-aos-delay="300" class="pent-tag tag-2">
+
+
+
+
+	<a class="pent-tag-landing" @mouseover="hoverSibling2(2)" @mouseleave="unHoverSibling2(2)" href="#/page2" v-on:click="closeModal();scrollToZero();" id="url:page-2-page">Service alerts</a></div>
+<div data-aos="fade-down" data-aos-delay="300" class="pent-tag tag-3">
+
+
+
+
+	<a class="pent-tag-landing" @mouseover="hoverSibling2(3)" @mouseleave="unHoverSibling2(3)" href="#/page3" v-on:click="closeModal();scrollToZero();" id="url:page-3-page">Technician dispatching</a></div>
+<div data-aos="fade-down" data-aos-delay="300" class="pent-tag tag-4">
+
+
+
+
+	<a class="pent-tag-landing" @mouseover="hoverSibling2(4)" @mouseleave="unHoverSibling2(4)" href="#/page4" v-on:click="closeModal();scrollToZero();" id="url:page-4-page">Field enablement</a></div>
+<div data-aos="fade-down" data-aos-delay="300" class="pent-tag tag-5">
+
+
+
+
+	<a class="pent-tag-landing" @mouseover="hoverSibling2(5)" @mouseleave="unHoverSibling2(5)" href="#/page5" v-on:click="closeModal();scrollToZero();" id="url:page-5-page">Global visibility</a></div>
+																												<WayFinder data-aos="fade-down" data-aos-delay="200" v-bind:pageTitle="10" />
+																												</div>
 																								</div>
 																				</div>
 																</div>
@@ -222,10 +257,22 @@
 
 
 <section class="bg-two-men-alt">
+
+
+
+
 											<QuotePattern1 />
 															
 	<div class="container">
 		<div class="row no-lr-margin">
+
+
+	<div class="col-lg-6 half-picture-two-men">
+		
+
+
+	</div>
+
 																				<div class="col-lg-6 offset-lg-6 bg-black section-pad-md">
 										
 																								<div class="row justify-content-center">
@@ -444,6 +491,7 @@
 															
 	<div class="container">
 		<div class="row no-lr-margin">
+
 																				<div class="col-lg-6 bg-black section-pad-md">
 																								<!-- <QuotePattern2 /> -->
 																								<div class="row">
@@ -460,7 +508,7 @@
 																																</div>
 																												</div>
 																								</div>
-																				</div>
+																				</div>					<div class="col-lg-6 half-picture-milling"></div>
 																			<!-- 	<div class="col-xl-6 bg-milling btm-pad-xxl text-center mobile-image no-lr-pad">
 																				</div> -->
 																</div>
@@ -648,6 +696,11 @@
 															
 	<div class="container">
 		<div class="row no-lr-margin">
+				<div class="col-lg-6 half-picture-surface">
+		
+
+
+	</div>
 																				<div class="col-lg-6 offset-lg-6 bg-black section-pad-md">
 										
 																								<div class="row justify-content-center">
@@ -741,7 +794,20 @@ export default {
 
 												}
 
-								}
+								},
+												hoverSibling2(i){
+				var linksx = document.getElementsByClassName('hover-wedges-10');
+				console.log(linksx[i]);
+				linksx[i-1].style.fill = "#888888";
+// console.log('mouse enter ten')
+
+				},
+				unHoverSibling2(x){
+				var links2x = document.getElementsByClassName('hover-wedges-10');
+
+				links2x[x-1].style.fill = "#0078D4"
+console.log('mouse leave ten')
+				}
 				}
 }
 

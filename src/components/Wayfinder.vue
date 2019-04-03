@@ -79,7 +79,7 @@
 
 </div>
 </div>
-<div v-else="this._props.pageTitle === 0">
+<div v-else-if="this._props.pageTitle === 0">
 
 	<div>
 		
@@ -87,6 +87,19 @@
 
 <div class="icon-box-large">
 <NavigationStage0 />
+
+</div>
+</div>
+</div>
+</div>
+<div v-else>
+
+	<div>
+		
+<div>
+
+<div class="icon-box-large">
+<NavigationStage10 />
 
 </div>
 </div>
@@ -112,7 +125,7 @@ import NavigationStage2 from '../components/navigationIcons/NavigationStage2'
 import NavigationStage3 from '../components/navigationIcons/NavigationStage3'
 import NavigationStage4 from '../components/navigationIcons/NavigationStage4'
 import NavigationStage5 from '../components/navigationIcons/NavigationStage5'
-
+import NavigationStage10 from '../components/navigationIcons/NavigationStage10'
 
 
 export default {
@@ -137,7 +150,8 @@ NavigationStage1,
 NavigationStage2,
 NavigationStage3,
 NavigationStage4,
-NavigationStage5
+NavigationStage5,
+NavigationStage10
 
 
 				},
