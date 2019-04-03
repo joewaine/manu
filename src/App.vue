@@ -3,6 +3,13 @@ import HeaderModule from './components/HeaderModule'
 import UniversalFooter from './components/UniversalFooter'
 
 
+
+
+import ShareSlider from './components/ShareSlider'
+import DownloadSlider from './components/DownloadSlider'
+import FeedbackSlider from './components/FeedbackSlider'
+
+
 import Home from './views/Home'
 import Page1 from './views/Page1'
 
@@ -13,7 +20,12 @@ export default {
 								HeaderModule,
 								UniversalFooter,
 								Home,
-								Page1
+								Page1,
+								DownloadSlider,
+								FeedbackSlider,
+								ShareSlider
+
+
 				}
 }
 
@@ -25,6 +37,13 @@ export default {
 <template>
 				<div id="app">
 		<HeaderModule />
+
+
+
+<DownloadSlider />
+<FeedbackSlider />
+<ShareSlider />
+
 <router-view class="view"></router-view>
 
 

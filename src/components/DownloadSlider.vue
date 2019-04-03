@@ -16,21 +16,11 @@
                      viewBox="0 0 23.8 38"
                      width="24"
                      height="32">
-                     <path class="st0" fill="#008273" d="M22.8 19.8l-10.9 11L1 19.8l1.6-1.6 8.2 8.3V1H13v25.5l8.2-8.3 1.6 1.6zM1.8 37v-2.3H22V37H1.8z"/>
+                     <path class="" fill="#FFFFFF" d="M22.8 19.8l-10.9 11L1 19.8l1.6-1.6 8.2 8.3V1H13v25.5l8.2-8.3 1.6 1.6zM1.8 37v-2.3H22V37H1.8z"/>
                 </svg>
             </div>
             <div class="download-slider__content__text">
-                <a
-                    title="Send Mail"
-                    href="https://discover.microsoft.com/dynamics365-savvy-sales-leaders-guide-ebook/wp-content/uploads/sites/83/Dynamics365_SavvySeller_ebook.pdf"
-                    target="_blank"
-                    data-bi-bhvr="DOWNLOAD"
-                    data-bi-dltype="e-book"
-                    data-bi-dlnm="Manufacturing.pdf"
-                    download
-                    id="Download-ebook-PDF:Dynamics365_SavvySeller_ebook"
-                    @click="toggleClass"
-                >
+ <a title="[]" id="[Download-ebook-PDF:placeholder-tag]" href="" target="_blank">
                   <span>Download e-book</span>
                 </a>
             </div>
@@ -81,15 +71,17 @@ export default {
   position: fixed;
   right: -225px;
   // top: calc(30% + 55px);
-      bottom: calc(30% - 55px);
-  width: 225px !important;
-  height: 50px;
-  border: 1px solid #707070;
-  padding: 0;
-  transition-duration: 0.4s;
-  background-color: #fff;
-  z-index: 100000;
-  // transform: translateX(50%);
+    bottom: calc(30% - 50px);
+    width: 225px !important;
+    height: 50px;
+    border: none;
+    padding: 0;
+    transition-duration: 0.4s;
+    background-color: rgba(255,255,255,.8);
+    z-index: 100000;
+
+
+
   &__content {
     height: 100%;
     width: 100%;
@@ -109,13 +101,14 @@ export default {
       padding-right: 0;
       padding-left: 0;
       cursor: pointer;
-      border-right: 1px solid #30752f;
+      border-right: 1px solid black;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
       align-content: center;
       align-items: center;
+      background: black;
       svg {
         &:hover {
           transform: scale(1.03);
@@ -135,7 +128,7 @@ export default {
       a {
         text-decoration: none;
         color: #3c3c41;
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid transparent;
         transition: all 250ms ease;
         line-height: 20px;
         cursor: pointer;

@@ -17,11 +17,12 @@
 
 <ListRow v-bind:backgroundImage="'bg-holo-vision'"
 v-bind:Subheader1="'Process'"
-v-bind:BodyText1="'<ul><li>Reduced Costs</li><li>Increased elevator uptime</li><li>Developed real-time data visualization and awareness of issues</li></ul>'"
+v-bind:BodyText1="'<ul><li><span>Reduced Costs</span></li><li><span>Increased elevator uptime</span></li><li><span>Developed real-time data visualization and awareness of issues</span></li></ul>'"
 v-bind:Subheader2="'Results'"
-v-bind:BodyText2="'<ul><li>Reduced Costs</li><li>Increased elevator uptime</li><li>Developed real-time data visualization and awareness of issues</li></ul>'"
+v-bind:BodyText2="'<ul><li><span>Reduced Costs</span></li><li><span>Increased elevator uptime</span></li><li><span>Developed real-time data visualization and awareness of issues</span></li></ul>'"
 v-bind:Subheader3="'Related products:'"
-v-bind:BodyText3="'<ul><li>Microsoft Azure IoT Suite</li><li>Microsoft Azure</li><li>Microsoft Power BI</li><li>Windows Server</li></ul>'"/>
+v-bind:BodyText3="'<ul><li><span>Microsoft Azure IoT Suite</span></li><li><span>Microsoft Azure</span></li><li><span>Microsoft Power BI</span></li><li><span>Windows Server</span></li></ul>'"/>
+
 
 
 

@@ -14,13 +14,7 @@
 																	
 <IconRow v-bind:logo="'3'" v-bind:subheader="'Case Study'" v-bind:bodyText="'Michelin extends their premium customer service model to a seamless, on-site customer experience with Michelin OnSite, where they send technicians into the field to perform installations and repairs for customers.'" />
 
-<ListRow v-bind:backgroundImage="'bg-michelin'" v-bind:Subheader1="'Process'" v-bind:BodyText1="'Using a CRM customer records system, Michelin schedules availability for their technicians and customer inventory. A self-service customer portal allows customers to choose their tires and an appointment time online, creating an automated process to go from the customer to the technician. Customer records and product information enables technicians to meet customer needs and solve any problems that arise.'" v-bind:Subheader2="'Results'"
-
-
-
-
-v-bind:BodyText2="'<ul><li>Created a seamless, automated customer experience from purchase to installation</li><li>Gained greater visibility into inventory and purchase patterns</li><li>Delivered real-time understanding of product availability</li></ul>'" v-bind:Subheader3="'Related Products:'" v-bind:BodyText3="'<ul><li>Microsoft Dynamics 365 for Field Service</li></ul>'"/>
-
+<ListRow v-bind:backgroundImage="'bg-michelin'" v-bind:Subheader1="'Process'" v-bind:BodyText1="'Using a CRM customer records system, Michelin schedules availability for their technicians and customer inventory. A self-service customer portal allows customers to choose their tires and an appointment time online, creating an automated process to go from the customer to the technician. Customer records and product information enables technicians to meet customer needs and solve any problems that arise.'" v-bind:Subheader2="'Results'" v-bind:BodyText2="'<ul><li><span>Created a seamless, automated customer experience from purchase to installation</span></li><li><span>Gained greater visibility into inventory and purchase patterns</span></li><li><span>Delivered real-time understanding of product availability</span></li></ul>'" v-bind:Subheader3="'Related Products:'" v-bind:BodyText3="'<ul><li><span>Microsoft Dynamics 365 for Field Service</span></li></ul>'"/>
 
 
 

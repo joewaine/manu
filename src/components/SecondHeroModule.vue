@@ -13,7 +13,7 @@
 																																</g>
 																												</g>
 																								</g>
-																				</svg> Home</router-link>
+																				</svg> <span class="txt">Home</span></router-link>
 																<div class="icon-box">
 																				<div v-if="this._props.icon === '1'">
 																								<IconPhase1 />

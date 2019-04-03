@@ -1,5 +1,5 @@
 <template>
-								<div class="col-lg-12 drop-shadow-box no-pad flexbox-container mb-30">
+								<div data-aos="fade-up" class="col-lg-12 drop-shadow-box no-pad flexbox-container mb-30">
 												<div class="bg-light-blue text-center">
 																<!-- <h3> {{this._props.logo }}</h3> -->
 

@@ -15,7 +15,7 @@
 																<div v-if="!downloadCtas" class="white-text next mb-30">Next</div>
 												</div>
 												<div class="row relative">
-																<router-link :to="{ path: this._props.link }" @click.native="scrollToZero" class="underline-link">{{this._props.linkText}} <span class="right-chevron">
+																<router-link :to="{ path: this._props.link }" @click.native="scrollToZero" class="underline-link"><span class="txt">{{this._props.linkText}}</span> <span class="right-chevron">
 
 																	<svg width="15" height="15" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 9.89 16.55" xml:space="preserve">
 																												<g>
@@ -49,7 +49,8 @@
 				</section>
 
 <div class="uhf-placeholder">
-	c
+	<br><br><br>
+	[placeholder footer]
 
 </div>
 

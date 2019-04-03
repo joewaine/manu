@@ -1,9 +1,14 @@
 import Vue from 'vue'
+
+require('intersection-observer');
+
+import VueObserveVisibility from 'vue-observe-visibility'
 import VueRouter from 'vue-router'
- import App from './App.vue'
 
-
-
+import App from './App.vue'
+import VueScrollTo from 'vue-scrollto';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import Home from './views/Home.vue';
 import Page1 from './views/Page1.vue';
@@ -13,6 +18,18 @@ import Page4 from './views/Page4.vue';
 import Page5 from './views/Page5.vue';
 
 
+Vue.use(VueObserveVisibility)
+Vue.use(VueScrollTo)
+
+
+const aosConfig = {
+  offset: 120,
+  delay: 0,
+  duration: 700,
+  easing: 'ease',
+  once: true,
+  anchorPlacement: 'top-bottom'
+};
 
 Vue.config.productionTip = false
 Vue.use(VueRouter);
@@ -36,6 +53,11 @@ const router = new VueRouter({
 });
 
 new Vue({
+    created() {
+    let html = document.documentElement;
+    html.classList.remove('no-js');
+    AOS.init(aosConfig);
+  },
   router,
   render: h => h(App)
 }).$mount('#app');

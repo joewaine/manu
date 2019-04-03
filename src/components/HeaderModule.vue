@@ -31,7 +31,7 @@
 																				<div class="col-6 header-right text-right">
 																								<div class="ms-header__link">
 																									<a class="grey-link" href="">
-																										Manufacturing & Resources
+																										[Placeholder Header]
 																								</a>
 																						</div>
 																				</div>

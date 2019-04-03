@@ -1,5 +1,5 @@
 <template>
-								<div class="col-lg-12 drop-shadow-box no-pad flexbox-container mb-30 list-row">
+					<div data-aos="fade-up" class="col-lg-12 drop-shadow-box no-pad flexbox-container mb-30 list-row">
 												<div  v-bind:class="this._props.backgroundImage">
 
 
@@ -17,7 +17,7 @@
 
 																</p>
 																<h4>{{this._props.Subheader3 }}</h4>
-																<p v-html="this._props.BodyText3">
+																<p class="mb-0" v-html="this._props.BodyText3">
 
 																</p>
 												</div>

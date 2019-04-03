@@ -512,6 +512,53 @@ nav.expanded {
 }
 
 
+.bg-milling-alt{
+
+            background-color: black;
+            background-image: url(assets/img/milling.png);
+            background-repeat: no-repeat;
+            background-size: 50% 100%;
+            background-position: right top;
+            position: relative;
+
+
+
+}
+
+
+
+.bg-two-men-alt{
+            background-color: black;
+            background-image: url(assets/img/two-men.jpg);
+            background-repeat: no-repeat;
+            background-size: 50% 100%;
+            background-position: left top;
+            position: relative;
+
+
+
+
+
+}
+
+.bg-surface-alt{
+
+
+            background-color: black;
+            background-image: url(assets/img/surface.jpg);
+            background-repeat: no-repeat;
+            background-size: 50% 100%;
+            background-position: left top;
+            position: relative;
+
+}
+
+// {{{{}}}}
+
+// {{{{}}}}
+
+
+
 .bg-surface{
                 background: url(assets/img/surface.jpg) no-repeat center center;
                 -webkit-background-size: cover;
@@ -3682,3 +3729,9 @@ transition: all 300ms ease-out;
     fill: #fff;
 }
 
+
+.no-lr-pad,
+.container.no-lr-pad{
+    padding-left: 0;
+    padding-right: 0;
+}

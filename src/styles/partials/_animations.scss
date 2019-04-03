@@ -1,0 +1,140 @@
+
+.aos-init{
+
+	#arrow-animation{
+		bottom: -120%;
+
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+
+	}
+
+	&.aos-animate{
+		#arrow-animation{
+			bottom: -10%;
+
+
+	 -webkit-transition-delay: 0.25s;
+	 transition-delay: 0.25s;
+
+		}
+
+	}
+
+}
+
+
+#ladder{
+
+
+.first{
+	opacity: 0;
+
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+
+	 -webkit-transition-delay: 0s;
+	 transition-delay: 0.25s;
+
+}
+
+
+.second{
+	opacity: 0;
+
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+
+	 -webkit-transition-delay: 0.1s;
+	 transition-delay: 0.35s;
+
+}
+
+
+.third{
+	opacity: 0;
+
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+
+	 -webkit-transition-delay: .2s;
+	 transition-delay: .45s;
+
+}
+
+
+.fourth{
+	opacity: 0;
+
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+
+	 -webkit-transition-delay: .3s;
+	 transition-delay: .55s;
+
+}
+
+.fifth{
+	opacity: 0;
+
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+
+	 -webkit-transition-delay: .4s;
+	 transition-delay: .65s;
+
+
+}
+
+&.seen{
+
+
+
+.first{
+	opacity: 1;
+
+}
+
+
+.second{
+	opacity: 1;
+
+}
+
+
+.third{
+	opacity: 1;
+
+}
+
+
+.fourth{
+	opacity: 1;
+
+}
+
+.fifth{
+	opacity: 1;
+
+
+
+
+}
+
+
+}
+
+
+
+
+
+	
+	-webkit-transition: all 5s ease;
+	transition: all 5s ease;
+
+	&.seen{
+		opacity: 1;
+	}
+}
+
+
