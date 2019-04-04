@@ -25,8 +25,8 @@ v-bind:quoteAuthor="'Kevin Doyle'"
 v-bind:quoteTitle="'Initiative Leader, Michelin OnSite'"
 v-bind:quoteOrg="''"
 v-bind:ctaIcon="'3'"
-v-bind:ctaText="'Read the case study'"
-v-bind:ctaLink="''"
+v-bind:ctaText="'Watch the video'"
+v-bind:ctaLink="'https://www.youtube.com/watch?v=_vJS2Knz-cQ'"
  />
 																</div>
 												</div>

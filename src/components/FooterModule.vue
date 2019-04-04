@@ -9,7 +9,7 @@
 												</div>
 												<div v-if="downloadCtas" class="row mb-40 footer-text-row">
 																<a id="url:visit-microsoft-cfs" href="https://www.microsoft.com/en-us/enterprise/manufacturing/connected-field-services?rtc=1&activetab=pillars:primaryr4" target="_blank" class="btn dark-btn white-txt mr-20">Visit Microsoft Connected Field Services</a>
-																<a id="url:external-watch-videos-now" href="https://info.microsoft.com/rs/157-GQE-382/images/EN-US-CNTNT-Infographic-Manufacturing-Connected-Field-Service-for-Manufa....pdf" target="_blank" class="btn">Download the e-book</a>
+																<a id="url:external-watch-videos-now" href="https://info.microsoft.com/ww-landing-Connected-Field-Service-for-Manufacturing-eBook.html?lcid=en-us" target="_blank" class="btn">Download the e-book</a>
 												</div>
 												<div class="row relative footer-text-row">
 																<div v-if="!downloadCtas" class="white-text next mb-30">Next</div>

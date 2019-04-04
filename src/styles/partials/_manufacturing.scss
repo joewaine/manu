@@ -1,3 +1,10 @@
+
+body,
+#app{
+        width: 100%;
+    overflow-x: hidden;
+}
+
  .bg-black{
 	background: $bg--black;
 }
@@ -341,12 +348,15 @@ margin: 10px;
     border-bottom: 1px solid #ffffff;
     padding-bottom: 4px;
     font-size: .7em;
+    cursor: pointer;
     }
 
 
 .down-arrow{
 	position: relative;
+    cursor: pointer;
 }
+
 
 
 .next{
@@ -602,11 +612,20 @@ svg{
 
 
 .access-module{
-	height: 100vh;
-	background: #000;
-	position: absolute;
-	width: 100%;
-	z-index: 1000;
+
+    height: 100vh;
+    background: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1000000;
+
+
+    #stage-0{
+    width: 100%;
+    margin-top: 40px;
+    }
+
+
 
 }
 
@@ -657,6 +676,7 @@ svg{
 
 
 
+
 .tag-1{
     color: #fff;
     font-size: .8em;
@@ -672,7 +692,7 @@ svg{
     font-size: .8em;
     position: absolute;
     top: 15.75%;
-    right: 3.5%;
+    right: 3%;
     width: 30%;
     line-height: 1.4em;
     z-index: 1000;
@@ -704,11 +724,75 @@ svg{
     font-size: .8em;
     position: absolute;
     bottom: 41.25%;
-    left: -7.75%;
+    left: -9%;
     width: 30%;
     line-height: 1.4em;
     z-index: 1000;
 }
+
+
+
+.modal-wayfinder-box{
+
+.tag-1{
+    color: #fff;
+    font-size: .8em;
+    position: absolute;
+    top: 14%;
+    left: -8%;
+    width: 30%;
+    line-height: 1.4em;
+    z-index: 1000;
+}
+.tag-2{
+    color: #fff;
+    font-size: .8em;
+    position: absolute;
+    top: 15.75%;
+    right: 0;
+    width: 30%;
+    line-height: 1.4em;
+    z-index: 1000;
+}
+.tag-3{
+color: #fff;
+    font-size: .8em;
+    position: absolute;
+    bottom: 41.25%;
+    right: -24%;
+    width: 30%;
+    line-height: 1.4em;
+    z-index: 1000;
+}
+
+.tag-4{
+    color: #fff;
+    font-size: .8em;
+    position: absolute;
+    bottom: 11%;
+    left: 50%;
+    width: 30%;
+    line-height: 1.4em;
+    margin-left: -90px;
+    z-index: 1000;
+}
+.tag-5{
+    color: #fff;
+    font-size: .8em;
+    position: absolute;
+    bottom: 41.25%;
+    left: -20%;
+    width: 30%;
+    line-height: 1.4em;
+    z-index: 1000;
+}
+
+}
+
+
+
+
+
 
 .pent-tag a{
 	    color: #fff;
@@ -723,4 +807,13 @@ svg{
 	    	    &:focus{
 	    	color: #4ae7fc;
 	    }
+}
+
+.h4-pad-bottom-extra{
+        margin-bottom: 25px;    
+}
+
+.h4-pad-top-extra{
+    margin-top: 25px;
+        margin-bottom: 25px;
 }

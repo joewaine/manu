@@ -24,7 +24,7 @@ v-bind:quoteTitle="'Vice President, Tetra Pak Services'"
 v-bind:quoteOrg="''"
 v-bind:ctaIcon="'4'"
 v-bind:ctaText="'Read the case study'"
-v-bind:ctaLink="'ctaLink!'"
+v-bind:ctaLink="'https://news.microsoft.com/transform/total-package-tetra-paks-technology-keeps-food-drink-flowing-safely-from-farm-table/'"
  />
 																</div>
 												</div>

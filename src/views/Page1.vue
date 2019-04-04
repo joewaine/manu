@@ -33,7 +33,7 @@ v-bind:quoteTitle="'CEO, ThyssenKrupp Elevator'"
 v-bind:quoteOrg="''"
 v-bind:ctaIcon="'1'"
 v-bind:ctaText="'Read the case study'"
-v-bind:ctaLink="''"
+v-bind:ctaLink="'https://news.microsoft.com/transform/quicker-fixes-hands-free-when-thyssenkrupp-elevators-service-technicians-use-microsoft-hololens/'"
  />
 																
 																				

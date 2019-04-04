@@ -21,7 +21,7 @@ v-bind:quoteTitle="'Chief Enterprise Architect and Senior Manager,'"
 v-bind:quoteOrg="'Sandvik Coromant'"
 v-bind:ctaIcon="'5'"
 v-bind:ctaText="'Read the case study'"
-v-bind:ctaLink="'ctaLink!'"
+v-bind:ctaLink="'https://customers.microsoft.com/en-US/story/sandvik-coromant-process-manufacturing-sweden'"
  />
 																</div>
 												</div>

@@ -19,7 +19,11 @@ import Page5 from './views/Page5.vue';
 
 
 Vue.use(VueObserveVisibility)
-Vue.use(VueScrollTo)
+
+Vue.use(VueScrollTo,{
+   duration: 650,
+     easing: "ease"
+})
 
 
 const aosConfig = {

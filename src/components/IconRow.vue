@@ -17,7 +17,9 @@
 <PartnerIcon3 />
 </div>
 <div v-else-if="this._props.logo === '4'">
+<div class="smaller-icon-height">
 <PartnerIcon4 />
+</div>
 </div>
 <div v-else="this._props.logo === '5'">
 <PartnerIcon5 />

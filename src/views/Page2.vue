@@ -31,7 +31,7 @@ v-bind:quoteTitle="'Executive Vice President and President,'"
 v-bind:quoteOrg="'Nalco Water, an Ecolab company'"
 v-bind:ctaIcon="'2'"
 v-bind:ctaText="'Read the case study'"
-v-bind:ctaLink="''"
+v-bind:ctaLink="'https://customers.microsoft.com/en-us/story/ecolabcustomerstory'"
  />
 
 

@@ -68,7 +68,7 @@
 .right{
     position: absolute;
     right: 15px;
-    top: 90px;
+    top: 10px;
     z-index: 100;
 }
 
@@ -127,9 +127,7 @@ font-size: 1.2em;
     height: 10px;
 }
 
-.pent-tag{
-    display: none;
-}
+
 
 .close-modal {
     width: 40px;
@@ -138,4 +136,211 @@ font-size: 1.2em;
 
 }
 
+
+
+
 }
+
+
+
+@media (max-width: 640px) {
+
+ .tag-1{
+     font-size: .6em;
+    width: 20%;
+    left: 0;
+    top: 10%;
+
+}
+
+.tag-2{
+    font-size: .6em;
+    width: 20%;
+    right: 4%;
+}
+
+.tag-3{
+    font-size: .6em;
+    bottom: 26.25%;
+    right: 0%;
+    width: 20%;
+
+  
+
+}
+
+ .tag-4{
+
+
+
+  font-size: .6em;
+     margin-left: 0; 
+    width: 20%;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 9%;
+
+}
+
+ .tag-5{
+    width: 20%;
+    font-size: .6em;
+    bottom: 28%;
+    left: -2%;
+}
+
+
+.modal-wayfinder-box{
+ .tag-1{
+    font-size: .5em;
+    width: 20%;
+    left: -4%;
+    top: 10%;
+
+}
+
+.tag-2{
+font-size: .5em;
+    width: 20%;
+        right: 4%;
+}
+
+.tag-3{
+font-size: .5em;
+    bottom: 26.25%;
+    right: -10%;
+    width: 20%;
+
+
+  
+
+}
+
+ .tag-4{
+
+
+
+  font-size: .5em;
+     margin-left: 0; 
+    width: 20%;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 9%;
+
+}
+
+ .tag-5{
+    width: 20%;
+    font-size: .5em;
+    bottom: 27%;
+    left: -10%;
+}
+
+}
+
+}
+
+
+@media (max-width: 480px) {
+
+ .tag-1{
+    font-size: .6em;
+    width: 25%;
+    left: 5%;
+    top: 3%;
+
+
+}
+
+.tag-2{
+    font-size: .6em;
+    width: 20%;
+    right: 9%;
+    top: 7%;
+}
+
+.tag-3{
+font-size: .6em;
+    bottom: 26.25%;
+    right: -2%;
+    width: 20%;
+
+  
+
+}
+
+ .tag-4{
+
+
+
+  font-size: .6em;
+     margin-left: 0; 
+    width: 20%;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 9%;
+
+}
+
+ .tag-5{
+    width: 20%;
+    font-size: .6em;
+    bottom: 28%;
+    left: -2%;
+}
+
+
+.modal-wayfinder-box{
+ .tag-1{
+    font-size: .5em;
+    width: 20%;
+    left: -4%;
+    top: 10%;
+
+}
+
+.tag-2{
+font-size: .5em;
+    width: 20%;
+        right: 4%;
+}
+
+.tag-3{
+font-size: .5em;
+    bottom: 26.25%;
+    right: -10%;
+    width: 20%;
+
+
+  
+
+}
+
+ .tag-4{
+
+
+
+  font-size: .5em;
+     margin-left: 0; 
+    width: 20%;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 9%;
+
+}
+
+ .tag-5{
+    width: 20%;
+    font-size: .5em;
+    bottom: 27%;
+    left: -10%;
+}
+
+}
+
+}
+

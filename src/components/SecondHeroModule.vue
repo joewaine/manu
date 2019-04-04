@@ -1,5 +1,5 @@
 <template>
-				<div>
+				<div data-aos="fade-up">
 								<WayFinder v-bind:pageTitle=" this._props.phase " />
 								<div class="row full-width-head">
 

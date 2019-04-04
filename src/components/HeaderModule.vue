@@ -30,7 +30,7 @@
 																				</div>
 																				<div class="col-6 header-right text-right">
 																								<div class="ms-header__link">
-																									<a class="grey-link" href="">
+																									<a class="grey-link" href="" style="font-size: 12px;">
 																										[Placeholder Header]
 																								</a>
 																						</div>
