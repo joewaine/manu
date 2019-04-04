@@ -197,6 +197,25 @@ padding-right: 15px;
 }
 
 
+
+#heroBottomGraphic{
+    width: 100%;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+}
+
+
+#heroTopGraphic{
+    width: 50%;
+    position: absolute;
+    display: block;
+    top: -2px;
+    right: 0;
+}
+
+
 #qp1,
 #qp2,
 #qp3{
@@ -268,8 +287,7 @@ margin-bottom: 15px;
 
 .section-pad{
     padding-top: 60px;
-    // padding-bottom: 60px;
-    padding-bottom: 200px;
+    padding-bottom: 160px;
 }
 
 .pb-30{

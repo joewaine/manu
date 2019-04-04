@@ -5,6 +5,9 @@
 		>
 			<HeroLeft />
 			<HeroRight />
+			<HeroPatternBottom />
+			<HeroPatternTop />
+			
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
@@ -1374,6 +1377,11 @@ import QuotePattern3 from "../components/griddecoration/QuotePattern3";
 import HeroLeft from "../components/griddecoration/HeroLeft";
 import HeroRight from "../components/griddecoration/HeroRight";
 
+import HeroPatternBottom from "../components/griddecoration/HeroPatternBottom";
+import HeroPatternTop from "../components/griddecoration/HeroPatternTop";
+
+
+
 export default {
 	data() {
 		return {
@@ -1388,7 +1396,9 @@ export default {
 		HeroRight,
 		QuotePattern1,
 		QuotePattern2,
-		QuotePattern3
+		QuotePattern3,
+		HeroPatternBottom,
+		HeroPatternTop
 	},
 	methods: {
 		scrollToTop(scrollDuration) {
