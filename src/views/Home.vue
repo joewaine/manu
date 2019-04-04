@@ -34,7 +34,7 @@
 						<div
 							data-aos="fade-right"
 							data-aos-delay="200"
-							class="mob-text-center"
+							class="mob-text-center learn-more-down-container"
 						>
 							<a
 								href=""
@@ -452,7 +452,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-12 sub-text no-lr-pad">
+					<div data-aos="fade-left" class="col-lg-12 sub-text no-lr-pad">
 						Sources: <sup>1</sup> Astea.
 						<a href="" target="_blank"
 							>A Fix for First Time Rates.</a
@@ -486,6 +486,7 @@
 					<div
 						class="col-lg-6 offset-lg-6 bg-black section-pad-md col-md-12"
 					>
+					<QuotePattern1 />
 						<div class="row justify-content-center">
 							<div
 								data-aos="fade-left"
@@ -925,7 +926,7 @@
 				<div class="row no-lr-margin">
 					<div class="col-lg-6 half-picture-milling mobile"></div>
 					<div class="col-lg-6 bg-black section-pad-md col-md-12">
-						<!-- <QuotePattern2 /> -->
+						<QuotePattern2 />
 						<div class="row">
 							<div data-aos="fade-right" class="col-lg-10">
 								<Quote />
@@ -1323,6 +1324,7 @@
 					<div
 						class="col-lg-6 offset-lg-6 bg-black section-pad-md col-md-12"
 					>
+					<QuotePattern3 />
 						<div class="row justify-content-center">
 							<div
 								data-aos="fade-left"

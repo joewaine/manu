@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="svg-container">
 		<svg
 			id="stage-0"
 			version="1.1"

@@ -10,6 +10,7 @@
 			viewBox="0 0 138.95 159.32"
 			style="enable-background:new 0 0 138.95 159.32;"
 			xml:space="preserve"
+
 		>
 			<g id="Guidelines">
 				<g>
@@ -213,6 +214,13 @@
 			</g>
 		</svg>
 		<!-- <div class="blue-menu-text extra-up">MENU</div> -->
+
+
+
+
+
+
+
 	</div>
 </template>
 <script>
