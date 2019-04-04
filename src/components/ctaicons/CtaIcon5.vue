@@ -1,9 +1,16 @@
 <template>
-				<div>
-
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 35.9 47.87" style="enable-background:new 0 0 35.9 47.87;" xml:space="preserve">
-<!-- <style type="text/css">
+	<div>
+		<svg
+			version="1.1"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			x="0px"
+			y="0px"
+			viewBox="0 0 35.9 47.87"
+			style="enable-background:new 0 0 35.9 47.87;"
+			xml:space="preserve"
+		>
+			<!-- <style type="text/css">
 	.st0{fill:#0078D4;}
 	.st1{fill:#50E6FF;}
 	.st2{fill:none;stroke:#757575;stroke-miterlimit:10;}
@@ -42,45 +49,33 @@
 	.st35{fill:#349FD9;}
 	.st36{fill:#FCB713;}
 </style> -->
-<g id="Guidelines">
-</g>
-<g id="Guides">
-</g>
-<g id="Layer_8">
-</g>
-<g id="Download_Blade">
-</g>
-<g id="Middle_Section">
-	<g>
-		<path d="M32.92,47.87H0V0h32.79c1.72,0,3.11,1.39,3.11,3.11v41.78C35.9,46.54,34.57,47.87,32.92,47.87z"/>
-		<polygon class="st1" points="28.89,19.45 24.41,14.96 19.92,19.45 19.92,0 28.89,0 		"/>
-	</g>
-</g>
-<g id="Blade_1">
-</g>
-<g id="Hero">
-</g>
-<g id="Colors">
-</g>
-<g id="Nav_Bars">
-</g>
-<g id="Footers">
-</g>
-<g id="Header">
-</g>
-<g id="Names">
-</g>
-<g id="Layer_13">
-</g>
-<g id="Layer_14">
-</g>
-</svg>
-
-				</div>
+			<g id="Guidelines"></g>
+			<g id="Guides"></g>
+			<g id="Layer_8"></g>
+			<g id="Download_Blade"></g>
+			<g id="Middle_Section">
+				<g>
+					<path
+						d="M32.92,47.87H0V0h32.79c1.72,0,3.11,1.39,3.11,3.11v41.78C35.9,46.54,34.57,47.87,32.92,47.87z"
+					/>
+					<polygon
+						class="st1"
+						points="28.89,19.45 24.41,14.96 19.92,19.45 19.92,0 28.89,0 		"
+					/>
+				</g>
+			</g>
+			<g id="Blade_1"></g>
+			<g id="Hero"></g>
+			<g id="Colors"></g>
+			<g id="Nav_Bars"></g>
+			<g id="Footers"></g>
+			<g id="Header"></g>
+			<g id="Names"></g>
+			<g id="Layer_13"></g>
+			<g id="Layer_14"></g>
+		</svg>
+	</div>
 </template>
 <script>
-export default {
-
-}
-
+export default {};
 </script>

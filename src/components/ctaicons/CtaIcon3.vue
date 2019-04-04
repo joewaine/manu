@@ -1,9 +1,16 @@
 <template>
-				<div>
-
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 72.64 72.64" style="enable-background:new 0 0 72.64 72.64;" xml:space="preserve">
-<!-- <style type="text/css">
+	<div>
+		<svg
+			version="1.1"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			x="0px"
+			y="0px"
+			viewBox="0 0 72.64 72.64"
+			style="enable-background:new 0 0 72.64 72.64;"
+			xml:space="preserve"
+		>
+			<!-- <style type="text/css">
 	.st0{fill:#0078D4;}
 	.st1{fill:#50E6FF;}
 	.st2{fill:none;stroke:#757575;stroke-miterlimit:10;}
@@ -42,47 +49,33 @@
 	.st35{fill:#349FD9;}
 	.st36{fill:#FCB713;}
 </style> -->
-<g id="Guidelines">
-	<g>
-		<g>
-			<rect width="72.64" height="72.64"/>
-			<polygon class="st1" points="47.67,36.31 24.97,49.94 24.97,22.7 			"/>
-		</g>
-	</g>
-</g>
-<g id="Guides">
-</g>
-<g id="Layer_8">
-</g>
-<g id="Download_Blade">
-</g>
-<g id="Middle_Section">
-</g>
-<g id="Blade_1">
-</g>
-<g id="Hero">
-</g>
-<g id="Colors">
-</g>
-<g id="Nav_Bars">
-</g>
-<g id="Footers">
-</g>
-<g id="Header">
-</g>
-<g id="Names">
-</g>
-<g id="Layer_13">
-</g>
-<g id="Layer_14">
-</g>
-</svg>
-
-				</div>
+			<g id="Guidelines">
+				<g>
+					<g>
+						<rect width="72.64" height="72.64" />
+						<polygon
+							class="st1"
+							points="47.67,36.31 24.97,49.94 24.97,22.7 			"
+						/>
+					</g>
+				</g>
+			</g>
+			<g id="Guides"></g>
+			<g id="Layer_8"></g>
+			<g id="Download_Blade"></g>
+			<g id="Middle_Section"></g>
+			<g id="Blade_1"></g>
+			<g id="Hero"></g>
+			<g id="Colors"></g>
+			<g id="Nav_Bars"></g>
+			<g id="Footers"></g>
+			<g id="Header"></g>
+			<g id="Names"></g>
+			<g id="Layer_13"></g>
+			<g id="Layer_14"></g>
+		</svg>
+	</div>
 </template>
 <script>
-export default {
-
-}
-
+export default {};
 </script>

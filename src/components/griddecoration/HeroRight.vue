@@ -1,108 +1,228 @@
 <template>
 	<div>
-<svg id="heroright" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 112.93 597.13" style="enable-background:new 0 0 112.93 597.13;" xml:space="preserve">
-
-
-<g id="Hero">
-	<g>
-		<g>
-			<g>
+		<svg
+			id="heroright"
+			version="1.1"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			x="0px"
+			y="0px"
+			viewBox="0 0 112.93 597.13"
+			style="enable-background:new 0 0 112.93 597.13;"
+			xml:space="preserve"
+		>
+			<g id="Hero">
 				<g>
 					<g>
-						<path class="st0" d="M29.81,580.26v15.87H1v-15.87H29.81 M30.81,579.26H0v17.87h30.81V579.26L30.81,579.26z"/>
+						<g>
+							<g>
+								<g>
+									<path
+										class="st0"
+										d="M29.81,580.26v15.87H1v-15.87H29.81 M30.81,579.26H0v17.87h30.81V579.26L30.81,579.26z"
+									/>
+								</g>
+							</g>
+							<g>
+								<path
+									class="st19"
+									d="M111.93,580.26v15.87H83.12v-15.87H111.93 M112.93,579.26H82.12v17.87h30.81V579.26L112.93,579.26z"
+								/>
+							</g>
+						</g>
+						<g>
+							<rect
+								x="41.06"
+								y="518.34"
+								class="st20"
+								width="30.81"
+								height="17.87"
+							/>
+							<rect
+								x="41.06"
+								y="548.8"
+								class="st19"
+								width="30.81"
+								height="17.87"
+							/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<rect
+								x="82.12"
+								y="457.42"
+								class="st17"
+								width="30.81"
+								height="17.87"
+							/>
+							<g>
+								<path
+									class="st19"
+									d="M111.93,488.88v15.87H83.12v-15.87H111.93 M112.93,487.88H82.12v17.87h30.81V487.88L112.93,487.88z"
+								/>
+							</g>
+							<rect
+								x="41.06"
+								y="457.42"
+								class="st20"
+								width="30.81"
+								height="17.87"
+							/>
+							<rect
+								x="41.06"
+								y="487.88"
+								class="st19"
+								width="30.81"
+								height="17.87"
+							/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<g>
+								<path
+									class="st19"
+									d="M29.81,397.49v15.87H1v-15.87H29.81 M30.81,396.49H0v17.87h30.81V396.49L30.81,396.49z"
+								/>
+							</g>
+							<rect
+								x="82.12"
+								y="366.03"
+								class="st0"
+								width="30.81"
+								height="17.87"
+							/>
+							<rect
+								x="41.06"
+								y="396.49"
+								class="st19"
+								width="30.81"
+								height="17.87"
+							/>
+						</g>
+						<g>
+							<rect
+								x="41.06"
+								y="335.57"
+								class="st19"
+								width="30.81"
+								height="17.87"
+							/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<rect
+								x="41.06"
+								y="335.57"
+								class="st17"
+								width="30.81"
+								height="17.87"
+							/>
+						</g>
+						<g>
+							<g>
+								<path
+									class="st19"
+									d="M111.93,306.11v15.87H83.12v-15.87H111.93 M112.93,305.11H82.12v17.87h30.81V305.11L112.93,305.11z"
+								/>
+							</g>
+							<rect
+								x="41.06"
+								y="274.65"
+								class="st20"
+								width="30.81"
+								height="17.87"
+							/>
+						</g>
+						<g>
+							<g>
+								<path
+									class="st1"
+									d="M70.87,245.19v15.87H42.06v-15.87H70.87 M71.87,244.19H41.06v17.87h30.81V244.19L71.87,244.19z"
+								/>
+							</g>
+						</g>
+					</g>
+					<g>
+						<g>
+							<g>
+								<path
+									class="st19"
+									d="M29.81,214.73v15.87H1v-15.87H29.81 M30.81,213.73H0v17.87h30.81V213.73L30.81,213.73z"
+								/>
+							</g>
+							<g>
+								<path
+									class="st19"
+									d="M111.93,214.73v15.87H83.12v-15.87H111.93 M112.93,213.73H82.12v17.87h30.81V213.73L112.93,213.73z"
+								/>
+							</g>
+							<rect
+								x="41.06"
+								y="183.27"
+								class="st20"
+								width="30.81"
+								height="17.87"
+							/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<g>
+								<path
+									class="st19"
+									d="M111.93,123.34v15.87H83.12v-15.87H111.93 M112.93,122.34H82.12v17.87h30.81V122.34L112.93,122.34z"
+								/>
+							</g>
+							<rect
+								x="41.06"
+								y="91.88"
+								class="st20"
+								width="30.81"
+								height="17.87"
+							/>
+						</g>
+						<g>
+							<rect
+								x="41.06"
+								y="61.42"
+								class="st19"
+								width="30.81"
+								height="17.87"
+							/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<g>
+								<path
+									class="st19"
+									d="M29.81,31.96v15.87H1V31.96H29.81 M30.81,30.96H0v17.87h30.81V30.96L30.81,30.96z"
+								/>
+							</g>
+							<rect
+								x="41.06"
+								y="0.5"
+								class="st20"
+								width="30.81"
+								height="17.87"
+							/>
+							<rect
+								x="41.06"
+								y="30.96"
+								class="st1"
+								width="30.81"
+								height="17.87"
+							/>
+						</g>
 					</g>
 				</g>
-				<g>
-					<path class="st19" d="M111.93,580.26v15.87H83.12v-15.87H111.93 M112.93,579.26H82.12v17.87h30.81V579.26L112.93,579.26z"/>
-				</g>
 			</g>
-			<g>
-				<rect x="41.06" y="518.34" class="st20" width="30.81" height="17.87"/>
-				<rect x="41.06" y="548.8" class="st19" width="30.81" height="17.87"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<rect x="82.12" y="457.42" class="st17" width="30.81" height="17.87"/>
-				<g>
-					<path class="st19" d="M111.93,488.88v15.87H83.12v-15.87H111.93 M112.93,487.88H82.12v17.87h30.81V487.88L112.93,487.88z"/>
-				</g>
-				<rect x="41.06" y="457.42" class="st20" width="30.81" height="17.87"/>
-				<rect x="41.06" y="487.88" class="st19" width="30.81" height="17.87"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<g>
-					<path class="st19" d="M29.81,397.49v15.87H1v-15.87H29.81 M30.81,396.49H0v17.87h30.81V396.49L30.81,396.49z"/>
-				</g>
-				<rect x="82.12" y="366.03" class="st0" width="30.81" height="17.87"/>
-				<rect x="41.06" y="396.49" class="st19" width="30.81" height="17.87"/>
-			</g>
-			<g>
-				<rect x="41.06" y="335.57" class="st19" width="30.81" height="17.87"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<rect x="41.06" y="335.57" class="st17" width="30.81" height="17.87"/>
-			</g>
-			<g>
-				<g>
-					<path class="st19" d="M111.93,306.11v15.87H83.12v-15.87H111.93 M112.93,305.11H82.12v17.87h30.81V305.11L112.93,305.11z"/>
-				</g>
-				<rect x="41.06" y="274.65" class="st20" width="30.81" height="17.87"/>
-			</g>
-			<g>
-				<g>
-					<path class="st1" d="M70.87,245.19v15.87H42.06v-15.87H70.87 M71.87,244.19H41.06v17.87h30.81V244.19L71.87,244.19z"/>
-				</g>
-			</g>
-		</g>
-		<g>
-			<g>
-				<g>
-					<path class="st19" d="M29.81,214.73v15.87H1v-15.87H29.81 M30.81,213.73H0v17.87h30.81V213.73L30.81,213.73z"/>
-				</g>
-				<g>
-					<path class="st19" d="M111.93,214.73v15.87H83.12v-15.87H111.93 M112.93,213.73H82.12v17.87h30.81V213.73L112.93,213.73z"/>
-				</g>
-				<rect x="41.06" y="183.27" class="st20" width="30.81" height="17.87"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<g>
-					<path class="st19" d="M111.93,123.34v15.87H83.12v-15.87H111.93 M112.93,122.34H82.12v17.87h30.81V122.34L112.93,122.34z"/>
-				</g>
-				<rect x="41.06" y="91.88" class="st20" width="30.81" height="17.87"/>
-			</g>
-			<g>
-				<rect x="41.06" y="61.42" class="st19" width="30.81" height="17.87"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<g>
-					<path class="st19" d="M29.81,31.96v15.87H1V31.96H29.81 M30.81,30.96H0v17.87h30.81V30.96L30.81,30.96z"/>
-				</g>
-				<rect x="41.06" y="0.5" class="st20" width="30.81" height="17.87"/>
-				<rect x="41.06" y="30.96" class="st1" width="30.81" height="17.87"/>
-			</g>
-		</g>
-	</g>
-</g>
-
-</svg>
-
+		</svg>
 	</div>
 </template>
 <script>
-	
-export default{
-	
-}
-
-
+export default {};
 </script>

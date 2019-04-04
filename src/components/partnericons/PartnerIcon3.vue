@@ -1,8 +1,16 @@
 <template>
 	<div>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 219.73 116.94" style="enable-background:new 0 0 219.73 116.94;" xml:space="preserve">
-<!-- <style type="text/css">
+		<svg
+			version="1.1"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			x="0px"
+			y="0px"
+			viewBox="0 0 219.73 116.94"
+			style="enable-background:new 0 0 219.73 116.94;"
+			xml:space="preserve"
+		>
+			<!-- <style type="text/css">
 	.st0{fill:#0078D4;}
 	.st1{fill:#50E6FF;}
 	.st2{fill:none;stroke:#757575;stroke-miterlimit:10;}
@@ -41,27 +49,21 @@
 	.st35{fill:#349FD9;}
 	.st36{fill:#FCB713;}
 </style> -->
-<g id="Guidelines">
-</g>
-<g id="Guides">
-</g>
-<g id="Layer_8">
-</g>
-<g id="Download_Blade">
-</g>
-<g id="Middle_Section">
-</g>
-<g id="Blade_1">
-</g>
-<g id="Hero">
-</g>
-<g id="Colors">
-</g>
-<g id="Nav_Bars">
-</g>
-<g id="Footers">
-	
-		<image style="overflow:visible;" width="2204" height="1173" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACJwAAASVCAYAAADjO1bTAAABN2lDQ1BBZG9iZSBSR0IgKDE5OTgp
+			<g id="Guidelines"></g>
+			<g id="Guides"></g>
+			<g id="Layer_8"></g>
+			<g id="Download_Blade"></g>
+			<g id="Middle_Section"></g>
+			<g id="Blade_1"></g>
+			<g id="Hero"></g>
+			<g id="Colors"></g>
+			<g id="Nav_Bars"></g>
+			<g id="Footers">
+				<image
+					style="overflow:visible;"
+					width="2204"
+					height="1173"
+					xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACJwAAASVCAYAAADjO1bTAAABN2lDQ1BBZG9iZSBSR0IgKDE5OTgp
 AAAokZWPv0rDUBSHvxtFxaFWCOLgcCdRUGzVwYxJW4ogWKtDkq1JQ5ViEm6uf/oQjm4dXNx9AidH
 wUHxCXwDxamDQ4QMBYvf9J3fORzOAaNi152GUYbzWKt205Gu58vZF2aYAoBOmKV2q3UAECdxxBjf
 7wiA10277jTG+38yH6ZKAyNguxtlIYgK0L/SqQYxBMygn2oQD4CpTto1EE9AqZf7G1AKcv8ASsr1
@@ -2347,23 +2349,17 @@ xAFJklCBrJKfUHxCNYqYO/R/KJYi5qmnkrOArpAroHNFXycAANSdG07SYSFbTj539qUMfcQhF+SD
 b8wbQK2VKYeWkoKT5BlU5eRzB7JMjqISClCKwbgHyqDouc4cDADVK/o6AQAgEQ3btzufAACgZiwu
 s8MBKgAAAAAAdeOGEwAAaqmzIgdFKPWhoAQAAAAAgNQoOAEAoN72VBihEGXPFJMAAAAAAJBpCk4A
 AEjLvooqilaQoogEAAAAAIDCUHACAEBWVVOgUa8iFcUiAAAAAADwFApOAAAoEoUhAAAAAACQgP8P
-WKG0xAgdB7IAAAAASUVORK5CYII=" transform="matrix(0.0997 0 0 0.0997 0 0)">
-	</image>
-</g>
-<g id="Header">
-</g>
-<g id="Names">
-</g>
-<g id="Layer_13">
-</g>
-<g id="Layer_14">
-</g>
-</svg>
-
+WKG0xAgdB7IAAAAASUVORK5CYII="
+					transform="matrix(0.0997 0 0 0.0997 0 0)"
+				></image>
+			</g>
+			<g id="Header"></g>
+			<g id="Names"></g>
+			<g id="Layer_13"></g>
+			<g id="Layer_14"></g>
+		</svg>
 	</div>
 </template>
 <script>
-	export default{
-
-	}
+export default {};
 </script>

@@ -1,8 +1,16 @@
 <template>
-				<div>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 63 62.91" style="enable-background:new 0 0 63 62.91;" xml:space="preserve">
-<!-- <style type="text/css">
+	<div>
+		<svg
+			version="1.1"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			x="0px"
+			y="0px"
+			viewBox="0 0 63 62.91"
+			style="enable-background:new 0 0 63 62.91;"
+			xml:space="preserve"
+		>
+			<!-- <style type="text/css">
 	.st0{fill:#0078D4;}
 	.st1{fill:#50E6FF;}
 	.st2{fill:none;stroke:#757575;stroke-miterlimit:10;}
@@ -41,42 +49,35 @@
 	.st35{fill:#349FD9;}
 	.st36{fill:#FCB713;}
 </style> -->
-<g id="Guidelines">
-	<path class="st0" d="M11.87,11.87h39.26v31.66H11.87V11.87z M0,0v55.4h19.44v7.52h24.12V55.4H63V0H0z"/>
-	<rect x="19.44" y="35.78" class="st1" width="24.12" height="13.53"/>
-</g>
-<g id="Guides">
-</g>
-<g id="Layer_8">
-</g>
-<g id="Download_Blade">
-</g>
-<g id="Middle_Section">
-</g>
-<g id="Blade_1">
-</g>
-<g id="Hero">
-</g>
-<g id="Colors">
-</g>
-<g id="Nav_Bars">
-</g>
-<g id="Footers">
-</g>
-<g id="Header">
-</g>
-<g id="Names">
-</g>
-<g id="Layer_13">
-</g>
-<g id="Layer_14">
-</g>
-</svg>
-				</div>
+			<g id="Guidelines">
+				<path
+					class="st0"
+					d="M11.87,11.87h39.26v31.66H11.87V11.87z M0,0v55.4h19.44v7.52h24.12V55.4H63V0H0z"
+				/>
+				<rect
+					x="19.44"
+					y="35.78"
+					class="st1"
+					width="24.12"
+					height="13.53"
+				/>
+			</g>
+			<g id="Guides"></g>
+			<g id="Layer_8"></g>
+			<g id="Download_Blade"></g>
+			<g id="Middle_Section"></g>
+			<g id="Blade_1"></g>
+			<g id="Hero"></g>
+			<g id="Colors"></g>
+			<g id="Nav_Bars"></g>
+			<g id="Footers"></g>
+			<g id="Header"></g>
+			<g id="Names"></g>
+			<g id="Layer_13"></g>
+			<g id="Layer_14"></g>
+		</svg>
+	</div>
 </template>
 <script>
-export default {
-
-}
-
+export default {};
 </script>

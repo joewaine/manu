@@ -1,8 +1,16 @@
 <template>
-				<div>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 65.75 63.08" style="enable-background:new 0 0 65.75 63.08;" xml:space="preserve">
-<!-- <style type="text/css">
+	<div>
+		<svg
+			version="1.1"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			x="0px"
+			y="0px"
+			viewBox="0 0 65.75 63.08"
+			style="enable-background:new 0 0 65.75 63.08;"
+			xml:space="preserve"
+		>
+			<!-- <style type="text/css">
 	.st0{fill:#0078D4;}
 	.st1{fill:#50E6FF;}
 	.st2{fill:none;stroke:#757575;stroke-miterlimit:10;}
@@ -41,55 +49,54 @@
 	.st35{fill:#349FD9;}
 	.st36{fill:#FCB713;}
 </style> -->
-<g id="Guidelines">
-	<g>
-		<g>
-			<g>
-				<path class="st0" d="M65.75,31.54c0,4.23-3.43,7.67-7.67,7.67s-7.67-3.43-7.67-7.67s3.43-7.67,7.67-7.67S65.75,27.3,65.75,31.54
-					"/>
-				<path class="st0" d="M36.53,31.54c0,2.67-2.17,4.84-4.84,4.84s-4.84-2.17-4.84-4.84s2.17-4.84,4.84-4.84
-					S36.53,28.87,36.53,31.54"/>
-				<path class="st1" d="M58.29,43.17c-2.86,0-5.48-1.04-7.51-2.75c-3.36,7.27-10.71,12.32-19.25,12.32
+			<g id="Guidelines">
+				<g>
+					<g>
+						<g>
+							<path
+								class="st0"
+								d="M65.75,31.54c0,4.23-3.43,7.67-7.67,7.67s-7.67-3.43-7.67-7.67s3.43-7.67,7.67-7.67S65.75,27.3,65.75,31.54
+					"
+							/>
+							<path
+								class="st0"
+								d="M36.53,31.54c0,2.67-2.17,4.84-4.84,4.84s-4.84-2.17-4.84-4.84s2.17-4.84,4.84-4.84
+					S36.53,28.87,36.53,31.54"
+							/>
+							<path
+								class="st1"
+								d="M58.29,43.17c-2.86,0-5.48-1.04-7.51-2.75c-3.36,7.27-10.71,12.32-19.25,12.32
 					c-11.71,0-21.2-9.49-21.2-21.2s9.49-21.2,21.2-21.2c8.53,0,15.89,5.05,19.25,12.32c2.03-1.72,4.65-2.75,7.51-2.75
 					c0.92,0,1.82,0.11,2.68,0.31C56.43,8.4,44.97,0,31.54,0C14.12,0,0,14.12,0,31.54s14.12,31.54,31.54,31.54
-					c13.43,0,24.89-8.4,29.44-20.22C60.11,43.06,59.22,43.17,58.29,43.17"/>
+					c13.43,0,24.89-8.4,29.44-20.22C60.11,43.06,59.22,43.17,58.29,43.17"
+							/>
+						</g>
+						<line
+							class="st3"
+							x1="31.64"
+							y1="31.53"
+							x2="58.5"
+							y2="31.53"
+						/>
+					</g>
+				</g>
 			</g>
-			<line class="st3" x1="31.64" y1="31.53" x2="58.5" y2="31.53"/>
-		</g>
-	</g>
-</g>
-<g id="Guides">
-</g>
-<g id="Layer_8">
-</g>
-<g id="Download_Blade">
-</g>
-<g id="Middle_Section">
-</g>
-<g id="Blade_1">
-</g>
-<g id="Hero">
-</g>
-<g id="Colors">
-</g>
-<g id="Nav_Bars">
-</g>
-<g id="Footers">
-</g>
-<g id="Header">
-</g>
-<g id="Names">
-</g>
-<g id="Layer_13">
-</g>
-<g id="Layer_14">
-</g>
-</svg>
-				</div>
+			<g id="Guides"></g>
+			<g id="Layer_8"></g>
+			<g id="Download_Blade"></g>
+			<g id="Middle_Section"></g>
+			<g id="Blade_1"></g>
+			<g id="Hero"></g>
+			<g id="Colors"></g>
+			<g id="Nav_Bars"></g>
+			<g id="Footers"></g>
+			<g id="Header"></g>
+			<g id="Names"></g>
+			<g id="Layer_13"></g>
+			<g id="Layer_14"></g>
+		</svg>
+	</div>
 </template>
 <script>
-export default {
-
-}
-
+export default {};
 </script>
