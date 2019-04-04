@@ -16,7 +16,7 @@
 																												<p data-aos="fade-right" data-aos-delay="100" class="white-text mb-40">
 																																Evolving customer expectations, thinning profit margins, and the increasing commoditization of products are bringing new challenges to manufacturers around the globe. As a result, customer experience is becoming a key differentiator across industries. As customers demand better, faster service, innovative manufacturers are focused on providing a model designed for success in the field, building customer relatinships, optimizing operations, and increasing profitability across their organizations.
 																												</p>
-																												<div data-aos="fade-right" data-aos-delay="200">
+																												<div data-aos="fade-right" data-aos-delay="200" class="mob-text-center">
 																												<a href="" class="white-link" v-scroll-to="'#next-section'"><span class="ul">Learn More</span> <span class="down-arrow">
 																																				<svg id="learn-more-down" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
 																																								<g id="Hero">
@@ -97,7 +97,7 @@
 																				<div class="row">
 																								<div data-aos="fade-up" class="col-lg-12 drop-shadow-box mb-30 overflow-hidden">
 																												<div class="row">
-																																<div class="col-lg-6">
+																																<div class="col-lg-6 col-md-12 orbit-height-mob no-lr-pad-mob">
 																																				<h2>Digital transformation is enabling manufacturers to create connected networks.</h2>
 																																				<p>
 																																								By leveraging Internet of Things (IoT), machine learning, mixed reality (MR), and big data, manufacturers can drive revenue growth, optimize processes, increase productivity, and improve the customer experience.
@@ -161,7 +161,7 @@
 																																</div>
 																												</div>
 																								</div>
-																								<div class="col-lg-4 no-left-pad mb-30">
+																								<div class="col-lg-4 no-left-pad mb-30 card-third">
 																												<div data-aos="fade-up" class="drop-shadow-box third">
 																																<div class="icon-box-centered third">
 																																				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 81.43 110.42" style="enable-background:new 0 0 81.43 110.42;" xml:space="preserve">
@@ -186,7 +186,7 @@
 																																</p>
 																												</div>
 																								</div>
-																								<div class="col-lg-4 mb-30">
+																								<div class="col-lg-4 mb-30 card-third">
 																												<div data-aos="fade-up" class="drop-shadow-box third">
 																																<div class="icon-box-centered third">
 																																				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 115.51 115.5" style="enable-background:new 0 0 115.51 115.5;" xml:space="preserve">
@@ -221,7 +221,7 @@
 																																</p>
 																												</div>
 																								</div>
-																								<div class="col-lg-4 no-right-pad mb-30">
+																								<div class="col-lg-4 no-right-pad mb-30 card-third">
 																												<div data-aos="fade-up" class="drop-shadow-box third">
 																																<div class="icon-box-centered third">
 																																				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 54.71 109.42" style="enable-background:new 0 0 54.71 109.42;" xml:space="preserve">
@@ -246,8 +246,8 @@
 																																</p>
 																												</div>
 																								</div>
-																								<div class="col-lg-12 sub-text no-lr-pad">
-																												Sources: <sup>1</sup> Astea. <a href="">A Fix for First Time Rates.</a> 2016. | <sup>2</sup> Salesforce. <a href="">Second Annual State of Service.</a> 2017. | <sup>3</sup> MPI. <a href="">The Internet of Things Has Finally Arrived.</a> 2016
+																<div class="col-lg-12 sub-text no-lr-pad">
+																												Sources: <sup>1</sup> Astea. <a href="" target="_blank">A Fix for First Time Rates.</a> 2016. | <sup>2</sup> Salesforce. <a href="http://a.sfdcstatic.com/content/dam/www/ocms/assets/pdf/misc/state-of-service-e-book-2017.pdf" target="_blank">Second Annual State of Service.</a> 2017. | <sup>3</sup> MPI. <a href="http://mpi-group.com/wp-content/uploads/2016/01/IoT-Summary2016.pdf" target="_blank">The Internet of Things Has Finally Arrived.</a> 2016
 																								</div>
 																				</div>
 																</div>
@@ -273,7 +273,7 @@
 
 	</div>
 
-																				<div class="col-lg-6 offset-lg-6 bg-black section-pad-md">
+																				<div class="col-lg-6 offset-lg-6 bg-black section-pad-md col-md-12">
 										
 																								<div class="row justify-content-center">
 
@@ -308,7 +308,7 @@
 																				<div class="row">
 																								<div data-aos="fade-up" class="col-lg-12 drop-shadow-box mb-30 overflow-hidden" v-observe-visibility="visibilityChanged">
 																												<div class="row">
-																																<div class="col-lg-5">
+																																<div class="col-lg-5 no-lr-pad-mob">
 																																				<h2>Less downtime more satisfied customers</h2>
 																																				<p>
 																																								Connected field service solutions enable manufacturers to transform their products and services. IoT capabilities allow devices to be connected and monitored, furnishing visibility into equipment performance. This paves the way for organizations to move from a costly break/fix model to a proactive, predictive service model— gaining awareness of equipment failures before they happen and the ability to systematically
@@ -354,15 +354,15 @@
 																								</div>
 																								<div data-aos="fade-up" class="col-lg-12 drop-shadow-box overflow-hidden icon-thirds">
 																												<div class="row">
-																																<div class="col-lg-12">
+																																<div class="col-lg-12 no-lr-pad-mob">
 																																				<div class="">
 																																								<h2 class="mb-30"> With Connected Field Service solutions, manufacturers can:
 																																								</h2>
 																																				</div>
 																																</div>
 																												</div>
-																												<div class="row">
-																																<div class="col-sm-4 mb-30">
+																												<div class="row list-icon-list">
+																																<div class="col-sm-12 col-md-4 mb-30">
 																																				<div class="list-icon-box">
 																																								<svg id="clock-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 66.66 66.65" style="enable-background:new 0 0 66.66 66.65;" xml:space="preserve">
 																																												<g id="Guidelines">
@@ -378,7 +378,7 @@
 																																				</div>
 																																				<p>Reduce downtime with proactive alerts from connected devices.</p>
 																																</div>
-																																<div class="col-sm-4 mb-30">
+																																<div class="col-sm-12 col-md-4 mb-30">
 																																				<div class="list-icon-box">
 																																								<svg id="tools" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 41.66 66.65" style="enable-background:new 0 0 41.66 66.65;" xml:space="preserve">
 																																												<g id="Guidelines">
@@ -396,7 +396,7 @@
 																																				</div>
 																																				<p>Accelerate repair times by ensuring service technicians are fully equipped to deliver a first-time fix.</p>
 																																</div>
-																																<div class="col-sm-4 mb-30">
+																																<div class="col-sm-12 col-md-4 mb-30">
 																																				<div class="list-icon-box">
 																																								<svg id="money" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 58.32 66.65" style="enable-background:new 0 0 58.32 66.65;" xml:space="preserve">
 																																												<g id="Guidelines">
@@ -423,7 +423,7 @@
 																																				</div>
 																																				<p>Lower maintenance costs by dispatching the right technician only when needed.</p>
 																																</div>
-																																<div class="col-sm-4 mb-30">
+																																<div class="col-sm-12 col-md-4 mb-30">
 																																				<div class="list-icon-box">
 																																								<svg id="mag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70.2 70.2" style="enable-background:new 0 0 70.2 70.2;" xml:space="preserve">
 																																												<g id="Guidelines">
@@ -440,7 +440,7 @@
 																																				</div>
 																																				<p>Gain enhanced visibility into products, services, performance, and customer satisfaction.</p>
 																																</div>
-																																<div class="col-sm-4 mb-30">
+																																<div class="col-sm-12 col-md-4 mb-30">
 																																				<div class="list-icon-box">
 																																								<svg id="c-s" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70.15 70.15" style="enable-background:new 0 0 70.15 70.15;" xml:space="preserve">
 																																												<g id="Guidelines">
@@ -459,7 +459,7 @@
 																																				</div>
 																																				<p>Address issues faster by monitoring devices remotely and keeping customers in the loop.</p>
 																																</div>
-																																<div class="col-sm-4 mb-30">
+																																<div class="col-sm-12 col-md-4 mb-30">
 																																				<div class="list-icon-box">
 																																								<svg id="arrows" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70.2 70.2" style="enable-background:new 0 0 70.2 70.2;" xml:space="preserve">
 																																												<g id="Guidelines">
@@ -491,8 +491,8 @@
 															
 	<div class="container">
 		<div class="row no-lr-margin">
-
-																				<div class="col-lg-6 bg-black section-pad-md">
+<div class="col-lg-6 half-picture-milling mobile"></div>
+																				<div class="col-lg-6 bg-black section-pad-md col-md-12">
 																								<!-- <QuotePattern2 /> -->
 																								<div class="row">
 																												<div data-aos="fade-right" class="col-lg-10">
@@ -508,7 +508,7 @@
 																																</div>
 																												</div>
 																								</div>
-																				</div>					<div class="col-lg-6 half-picture-milling"></div>
+																				</div>					<div class="col-lg-6 half-picture-milling desktop"></div>
 																			<!-- 	<div class="col-xl-6 bg-milling btm-pad-xxl text-center mobile-image no-lr-pad">
 																				</div> -->
 																</div>
@@ -520,7 +520,7 @@
 																				<div class="row">
 																								<div data-aos="fade-up" class="col-lg-12 drop-shadow-box col-lg-12 drop-shadow-box overflow-hidden">
 																												<div class="row">
-																																<div class="col-lg-6">
+																																<div class="col-lg-6 no-mob-pad">
 																																				<h2>The Microsoft Difference</h2>
 																																				<p>
 																																								Microsoft is committed to innovation and developing new capabilities to drive business value across the manufacturing industry.
@@ -701,7 +701,7 @@
 
 
 	</div>
-																				<div class="col-lg-6 offset-lg-6 bg-black section-pad-md">
+																				<div class="col-lg-6 offset-lg-6 bg-black section-pad-md col-md-12">
 										
 																								<div class="row justify-content-center">
 

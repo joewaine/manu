@@ -5,7 +5,6 @@
             active: this.active,
             show: this.revealed
         }"
-        v-if="!disableFeedback"
     >
 
         <section class="feedback-slider__content">
@@ -30,14 +29,14 @@
                 <a
                     title="Yes"
                     id="cta:feedback:helpful"
-                    v-on:click="feedbackFun()"
+                    v-on:click="toggleClass;feedbackFun()"
                     data-bi-bhvr="VOTE" data-bi-fbnm="yes" data-bi-fbcat="content"
                 >Yes
                 </a>
                 <a
                     title="No"
                     id="cta:feedback:not-helpful"
-                    v-on:click="feedbackFun()"
+                    v-on:click="toggleClass;feedbackFun()"
                     data-bi-bhvr="VOTE" data-bi-fbnm="no" data-bi-fbcat="content"
                 >No
                 </a>
@@ -87,7 +86,7 @@ export default {
     feedbackFun() {
       this.feedbackSubmitted = true;
       setTimeout(function () { this.toggleClass() }.bind(this), 1000)
-       setTimeout(()=> {this.disableFeedback = true;}, 1000);
+       // setTimeout(()=> {this.disableFeedback = true;}, 1000);
     },
     isRevealed(isShown) {
       this.revealed = isShown;

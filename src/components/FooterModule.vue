@@ -2,19 +2,19 @@
 	<div>
 				<section class="bg-light-blue section-pad-md">
 								<div class="container">
-												<div v-if="downloadCtas" class="row">
+												<div v-if="downloadCtas" class="row footer-text-row">
 																<h3 class="white-text mb-30">
 																				Download the free e-book to see how Connected Field Service is helping manufacturers transform and build their business.
 																</h3>
 												</div>
-												<div v-if="downloadCtas" class="row mb-40">
-																<a id="url:external-watch-videos-now" href="" target="_blank" class="btn dark-btn white-txt mr-20">Visit Microsoft Connected Field Services</a>
-																<a id="url:external-watch-videos-now" href="" target="_blank" class="btn">Download the e-book</a>
+												<div v-if="downloadCtas" class="row mb-40 footer-text-row">
+																<a id="url:visit-microsoft-cfs" href="https://www.microsoft.com/en-us/enterprise/manufacturing/connected-field-services?rtc=1&activetab=pillars:primaryr4" target="_blank" class="btn dark-btn white-txt mr-20">Visit Microsoft Connected Field Services</a>
+																<a id="url:external-watch-videos-now" href="https://info.microsoft.com/rs/157-GQE-382/images/EN-US-CNTNT-Infographic-Manufacturing-Connected-Field-Service-for-Manufa....pdf" target="_blank" class="btn">Download the e-book</a>
 												</div>
-												<div class="row relative">
+												<div class="row relative footer-text-row">
 																<div v-if="!downloadCtas" class="white-text next mb-30">Next</div>
 												</div>
-												<div class="row relative">
+												<div class="row relative footer-text-row bottom-nav-link">
 																<router-link :to="{ path: this._props.link }" @click.native="scrollToZero" class="underline-link"><span class="txt">{{this._props.linkText}}</span> <span class="right-chevron">
 
 																	<svg width="15" height="15" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 9.89 16.55" xml:space="preserve">

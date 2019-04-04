@@ -1,7 +1,8 @@
 <template>
 				<div>
 								<WayFinder v-bind:pageTitle=" this._props.phase " />
-								<div class="row">
+								<div class="row full-width-head">
+
 												<div class="col-lg-12 mb-30 no-pad-row">
 																<router-link to="/" class="grey-link-md router-link-active" id="url:home"> <svg class="rotate180" width="15" height="15" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 9.89 16.55" xml:space="preserve">
 																								<g>

@@ -1,7 +1,7 @@
 <template>
 				<div>
 								<section class="section-pad-sm bg-light-grey">
-												<div class="container">
+																							<div class="container no-lr-pad-mob">
 
 
 

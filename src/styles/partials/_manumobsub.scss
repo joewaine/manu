@@ -1,0 +1,141 @@
+@media (max-width: 768px) {
+
+
+
+
+.flexbox-container{
+	display: initial;
+}
+
+.flexbox-container > div{
+	width: 100%;
+    height: 300px;
+}
+
+
+.flexbox-container > div.pad-60,
+.flexbox-container > div.pad-40 {
+    width: 100%;
+    padding: 30px;
+        height: auto;
+}
+
+
+.flexbox-container > div.pad-60{
+    padding-bottom: 60px;
+}
+
+.flexbox-container > div.pad-40.large-tb-pad {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.icon-box-logo {
+    width: 80%;
+
+	svg {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+	}
+
+}
+
+
+#stage-1, #stage-2, #stage-3, #stage-4, #stage-5 {
+  width: 100px;
+}
+
+
+.blue-menu-text{
+    font-size: .8em;
+    margin: -18px auto 0;
+}
+
+
+.half-width-sub-header{
+	width: 100%;
+}
+
+.full-width-head{
+	    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+.right{
+    position: absolute;
+    right: 15px;
+    top: 90px;
+    z-index: 100;
+}
+
+.no-lr-pad-mob{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+.icon-box{
+    margin-top: 30px;
+
+}
+
+
+
+
+.grey-link-md{
+
+    margin-left: -2px;
+
+    font-size: 1em;
+    padding-left: 14px;
+
+
+	svg{
+    top: 6px;
+    height: 12px;
+    width: 12px;
+}
+}
+
+
+.row{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+.icon-box-centered {
+    width: 70px;
+    margin: 10px auto 10px auto;
+}
+
+
+
+.underline-link-blue{
+font-size: 1.2em;
+}
+
+.right-chevron svg{
+	    margin-top: 0px;
+    transform: translateX(2px);
+    width: 10px;
+    height: 10px;
+}
+
+.pent-tag{
+    display: none;
+}
+
+.close-modal {
+    width: 40px;
+    height: 40px;
+    top: 30px;
+
+}
+
+}
