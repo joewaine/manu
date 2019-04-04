@@ -11,26 +11,26 @@
 
 
 
-<a data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(1)" @mouseleave="unHoverSiblingtext2(1)" v-on:click="closeModal()" href="#/page1" id="url:page1-page">
+<router-link data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(1)" @mouseleave="unHoverSiblingtext2(1)" v-on:click="closeModal()" href="#/page1" id="url:page1-page">
 <polygon class="st4 hover-wedges" points="69.48,0.98 69.48,69.76 1.13,50.64 					"/>
-	</a>
-<a data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(2)" @mouseleave="unHoverSiblingtext2(2)" v-on:click="closeModal()" href="#/page2" id="url:page2-page">
+	</router-link>
+<router-link data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(2)" @mouseleave="unHoverSiblingtext2(2)" v-on:click="closeModal()" href="#/page2" id="url:page2-page">
 					<polygon class="st4 hover-wedges" points="69.48,0.98 69.48,69.76 137.82,50.64 					"/>
-					</a>
-<a data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(3)" @mouseleave="unHoverSiblingtext2(3)" v-on:click="closeModal()" href="#/page3" id="url:page3-page">
+					</router-link>
+<router-link data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(3)" @mouseleave="unHoverSiblingtext2(3)" v-on:click="closeModal()" href="#/page3" id="url:page3-page">
 					<polygon class="st4 hover-wedges" points="111.71,130.98 69.48,69.76 137.82,50.64 					"/>
 					
-</a>
+</router-link>
 
-<a data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(4)" @mouseleave="unHoverSiblingtext2(4)" v-on:click="closeModal()" href="#/page4" id="url:page4-page">
+<router-link data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(4)" @mouseleave="unHoverSiblingtext2(4)" v-on:click="closeModal()" href="#/page4" id="url:page4-page">
 					<polygon class="st4 hover-wedges" points="111.71,130.98 69.48,69.76 27.24,130.98 					"/>
-</a>
+</router-link>
 
 
-<a data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(5)" @mouseleave="unHoverSiblingtext2(5)"  v-on:click="closeModal()" href="#/page5" id="url:page5-page">
+<router-link data="closemod" class="pent-tag-modal" @mouseover="hoverSiblingtext2(5)" @mouseleave="unHoverSiblingtext2(5)"  v-on:click="closeModal()" href="#/page5" id="url:page5-page">
 					<polygon class="st4 hover-wedges" points="27.24,130.98 69.48,69.76 1.13,50.64 					"/>
 
-</a>
+</router-link>
 
 
 

@@ -61,31 +61,31 @@
 
 
 
-		<a class="pent-tag-landing" href="#/page1" @mouseover="hoverSibling2(1)" @mouseleave="unHoverSibling2(1)" v-on:click="closeModal();scrollToZero();" id="url:page-1-page">Remote monitoring and predictive maintenace</a></div>
+		<router-link class="pent-tag-landing" href="#/page1" @mouseover="hoverSibling2(1)" @mouseleave="unHoverSibling2(1)" v-on:click="closeModal();scrollToZero();" id="url:page-1-page">Remote monitoring and predictive maintenace</router-link></div>
 <div data-aos="fade-down" data-aos-delay="300" class="pent-tag tag-2">
 
 
 
 
-	<a class="pent-tag-landing" @mouseover="hoverSibling2(2)" @mouseleave="unHoverSibling2(2)" href="#/page2" v-on:click="closeModal();scrollToZero();" id="url:page-2-page">Service alerts</a></div>
+	<router-link class="pent-tag-landing" @mouseover="hoverSibling2(2)" @mouseleave="unHoverSibling2(2)" href="#/page2" v-on:click="closeModal();scrollToZero();" id="url:page-2-page">Service alerts</router-link></div>
 <div data-aos="fade-down" data-aos-delay="300" class="pent-tag tag-3">
 
 
 
 
-	<a class="pent-tag-landing" @mouseover="hoverSibling2(3)" @mouseleave="unHoverSibling2(3)" href="#/page3" v-on:click="closeModal();scrollToZero();" id="url:page-3-page">Technician dispatching</a></div>
+	<router-link class="pent-tag-landing" @mouseover="hoverSibling2(3)" @mouseleave="unHoverSibling2(3)" href="#/page3" v-on:click="closeModal();scrollToZero();" id="url:page-3-page">Technician dispatching</router-link></div>
 <div data-aos="fade-down" data-aos-delay="300" class="pent-tag tag-4">
 
 
 
 
-	<a class="pent-tag-landing" @mouseover="hoverSibling2(4)" @mouseleave="unHoverSibling2(4)" href="#/page4" v-on:click="closeModal();scrollToZero();" id="url:page-4-page">Field enablement</a></div>
+	<router-link class="pent-tag-landing" @mouseover="hoverSibling2(4)" @mouseleave="unHoverSibling2(4)" href="#/page4" v-on:click="closeModal();scrollToZero();" id="url:page-4-page">Field enablement</router-link></div>
 <div data-aos="fade-down" data-aos-delay="300" class="pent-tag tag-5">
 
 
 
 
-	<a class="pent-tag-landing" @mouseover="hoverSibling2(5)" @mouseleave="unHoverSibling2(5)" href="#/page5" v-on:click="closeModal();scrollToZero();" id="url:page-5-page">Global visibility</a></div>
+	<router-link class="pent-tag-landing" @mouseover="hoverSibling2(5)" @mouseleave="unHoverSibling2(5)" href="#/page5" v-on:click="closeModal();scrollToZero();" id="url:page-5-page">Global visibility</router-link></div>
 																												<WayFinder data-aos="fade-down" data-aos-delay="200" v-bind:pageTitle="10" />
 																												</div>
 																								</div>
