@@ -49,7 +49,7 @@
 					<div v-else-if="this._props.icon === '4'">
 						<IconPhase4 />
 					</div>
-					<div v-else="this._props.icon === '5'">
+					<div v-else>
 						<IconPhase5 />
 					</div>
 				</div>

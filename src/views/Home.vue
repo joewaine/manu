@@ -10,7 +10,7 @@
 			
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6">
+					<div class="col-xl-6 col-lg-12">
 						<h1 data-aos="fade-right" data-aos-delay="0">
 							Digitally Transform Your Field Service:<br />
 							<span class="white-text">
@@ -82,7 +82,7 @@
 							></a>
 						</div>
 					</div>
-					<div class="col-lg-6 text-center">
+					<div class="col-xl-6 col-lg-12 text-center">
 						<div
 							data-aos="fade-down"
 							data-aos-delay="300"

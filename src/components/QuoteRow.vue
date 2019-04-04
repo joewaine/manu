@@ -16,7 +16,7 @@
 			<div v-else-if="this._props.ctaIcon === '4'">
 				<CsPattern4 />
 			</div>
-			<div v-else="this._props.ctaIcon === '5'">
+			<div v-else>
 				<CsPattern5 />
 			</div>
 
@@ -49,7 +49,7 @@
 				<div v-else-if="this._props.ctaIcon === '4'">
 					<CtaIcon4 />
 				</div>
-				<div v-else="this._props.ctaIcon === '5'">
+				<div v-else>
 					<CtaIcon5 />
 				</div>
 			</div>

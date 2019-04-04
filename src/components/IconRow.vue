@@ -21,7 +21,7 @@
 						<PartnerIcon4 />
 					</div>
 				</div>
-				<div v-else="this._props.logo === '5'">
+				<div v-else>
 					<PartnerIcon5 />
 				</div>
 			</div>

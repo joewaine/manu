@@ -132,7 +132,7 @@ export default {
 		hoverSibling(i) {
 			var links = document.getElementsByClassName("hover-wedges");
 			links[i - 1].style.fill = "#888888";
-			console.log("mouse enter");
+			// console.log("mouse enter");
 
 			var tags = document.getElementsByClassName("pent-tag-modal");
 			tags[i - 1].style.color = "#4ae7fc";
@@ -140,7 +140,7 @@ export default {
 		unHoverSibling(x) {
 			var links2 = document.getElementsByClassName("hover-wedges");
 			links2[x - 1].style.fill = "#0078D4";
-			console.log("mouse leave");
+			// console.log("mouse leave");
 
 			var tags2 = document.getElementsByClassName("pent-tag-modal");
 			tags2[x - 1].style.color = "#fff";
