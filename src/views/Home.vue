@@ -24,10 +24,10 @@
 																																																<g>
 																																																				<g>
 																																																								<g>
-																																																												<circle fill="#0078D4" class="st0" cx="17.5" cy="17.5" r="17.5" />
+																																																												<circle class="st0 down-arrow-svg-blue" cx="17.5" cy="17.5" r="17.5" />
 																																																								</g>
 																																																								<g>
-																																																												<path fill="#ffffff" class="st7" d="M25.68,12.6l0.81,0.81L17.5,22.4l-8.99-8.99l0.81-0.81l8.18,8.18L25.68,12.6z" />
+																																																												<path class="st7 down-arrow-svg-blue" d="M25.68,12.6l0.81,0.81L17.5,22.4l-8.99-8.99l0.81-0.81l8.18,8.18L25.68,12.6z" />
 																																																								</g>
 																																																				</g>
 																																																</g>

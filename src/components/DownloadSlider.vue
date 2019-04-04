@@ -20,7 +20,7 @@
                 </svg>
             </div>
             <div class="download-slider__content__text">
- <a title="[]" id="[Download-ebook-PDF:placeholder-tag]" href="" target="_blank">
+ <a title="Download-ebook-PDF" id="Download-ebook-PDF" href="https://info.microsoft.com/ww-landing-Connected-Field-Service-for-Manufacturing-eBook.html?lcid=en-us" target="_blank">
                   <span>Download e-book</span>
                 </a>
             </div>
