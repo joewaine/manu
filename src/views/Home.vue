@@ -1,7 +1,7 @@
 <template>
 				<div>
 								<div>
-												<section class="bg-black section-pad pb-30 overflow-hidden relative eighty-vh">
+												<section class="bg-black section-pad pb-60 overflow-hidden relative eighty-vh">
 																<HeroLeft />
 																<HeroRight />
 																<div class="container">
@@ -55,7 +55,7 @@
 
 
 
-																												<div class="relative">
+																												<div class="relative" style="height: 100%;">
 	<div data-aos="fade-down" data-aos-delay="300" class="pent-tag tag-1">
 
 
