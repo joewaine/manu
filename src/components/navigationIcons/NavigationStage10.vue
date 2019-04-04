@@ -21,7 +21,7 @@
 									data="closemod"
 									@mouseover="hoverSiblingtext(1)"
 									@mouseleave="unHoverSiblingtext(1)"
-									@click="closeModal()"
+									@click.native="scrollToZero();closeModal()"
 									to="/page1"
 									id="url:page1-page"
 								>
@@ -34,7 +34,7 @@
 									data="closemod"
 									@mouseover="hoverSiblingtext(2)"
 									@mouseleave="unHoverSiblingtext(2)"
-									@click="closeModal()"
+									@click.native="scrollToZero();closeModal()"
 									to="/page2"
 									id="url:page2-page"
 								>
@@ -47,7 +47,7 @@
 									data="closemod"
 									@mouseover="hoverSiblingtext(3)"
 									@mouseleave="unHoverSiblingtext(3)"
-									@click="closeModal()"
+									@click.native="scrollToZero();closeModal()"
 									to="/page3"
 									id="url:page3-page"
 								>
@@ -61,7 +61,7 @@
 									data="closemod"
 									@mouseover="hoverSiblingtext(4)"
 									@mouseleave="unHoverSiblingtext(4)"
-									@click="closeModal()"
+									@click.native="scrollToZero();closeModal()"
 									to="/page4"
 									id="url:page4-page"
 								>
@@ -75,7 +75,7 @@
 									data="closemod"
 									@mouseover="hoverSiblingtext(5)"
 									@mouseleave="unHoverSiblingtext(5)"
-									@click="closeModal()"
+									@click.native="scrollToZero();closeModal()"
 									to="/page5"
 									id="url:page5-page"
 								>
@@ -236,6 +236,9 @@ export default {
 		unHoverSiblingtext(x) {
 			var links2xl = document.getElementsByClassName("pent-tag-landing");
 			links2xl[x - 1].style.color = "#ffffff";
+		},
+		scrollToZero() {
+			window.scrollTo(0, 0);
 		}
 	}
 };

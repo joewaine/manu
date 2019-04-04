@@ -225,7 +225,7 @@
 				<div class="row">
 					<div
 						data-aos="fade-up"
-						class="col-lg-12 drop-shadow-box mb-30 overflow-hidden"
+						class="col-lg-12 drop-shadow-box mb-30 overflow-hidden bottom-graphic orb"
 					>
 						<div class="row">
 							<div
@@ -529,11 +529,11 @@
 				<div class="row">
 					<div
 						data-aos="fade-up"
-						class="col-lg-12 drop-shadow-box mb-30 overflow-hidden"
+						class="col-lg-12 drop-shadow-box mb-30 overflow-hidden bottom-graphic arrows"
 						v-observe-visibility="visibilityChanged"
 					>
 						<div class="row">
-							<div class="col-lg-5 no-lr-pad-mob">
+							<div class="col-lg-5 col-md-12 no-lr-pad-mob">
 								<h2>
 									Less downtime more satisfied customers
 								</h2>
@@ -962,10 +962,10 @@
 				<div class="row">
 					<div
 						data-aos="fade-up"
-						class="col-lg-12 drop-shadow-box col-lg-12 drop-shadow-box overflow-hidden"
+						class="col-lg-12 drop-shadow-box col-lg-12 drop-shadow-box overflow-hidden bottom-graphic ladder"
 					>
 						<div class="row">
-							<div class="col-lg-6 no-mob-pad">
+							<div class="col-lg-6 col-md-12 no-mob-pad">
 								<h2>The Microsoft Difference</h2>
 								<p>
 									Microsoft is committed to innovation and

@@ -350,3 +350,63 @@ font-size: .5em;
 
 }
 
+
+@media (max-width: 960px) {
+
+
+#circle-orbit-container{
+display: none;
+}
+
+.bottom-graphic{
+    // padding-bottom: 250px;    
+
+
+
+&.orb{
+
+    padding-bottom: 70%;
+
+                    background-image: url(assets/img/orb.png);
+                    background-repeat: no-repeat;
+                    background-position: center bottom;
+                -webkit-background-size: 100%;
+                -moz-background-size: 100%;
+                -o-background-size: 100%;
+                background-size: 100%;
+                background-color: #fff;
+}
+
+&.arrows{
+        padding-bottom: 100%;
+                    background-image: url(assets/img/arrows.png);
+                    background-repeat: no-repeat;
+                    background-position: center bottom;
+                -webkit-background-size: 100%;
+                -moz-background-size: 100%;
+                -o-background-size: 100%;
+                background-size: 100%;
+                background-color: #fff;
+}
+
+&.ladder{
+
+    padding-bottom: 40%;
+
+                    background-image: url(assets/img/ladder.png);
+                    background-repeat: no-repeat;
+                    background-position: center bottom;
+                -webkit-background-size: 100%;
+                -moz-background-size: 100%;
+                -o-background-size: 100%;
+                background-size: 100%;
+                background-color: #fff;
+
+}
+
+
+}
+
+
+}
+
