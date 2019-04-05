@@ -83,138 +83,14 @@
 						</div>
 					</div>
 					<div class="col-xl-6 col-lg-12 text-center">
-						<div
-							data-aos="fade-down"
-							data-aos-delay="300"
-							class="turquiose-text pt-20"
-						>
-							How five organizations are transforming field
-							service
-							<svg
-								class="rotate90-chevron"
-								width="15"
-								height="15"
-								version="1.1"
-								id="Layer_1"
-								xmlns="http://www.w3.org/2000/svg"
-								xmlns:xlink="http://www.w3.org/1999/xlink"
-								x="0px"
-								y="0px"
-								viewBox="0 0 9.89 16.55"
-								xml:space="preserve"
-							>
-								<g>
-									<g>
-										<g>
-											<g>
-												<polygon
-													points="1.62,16.55 0,14.94 6.64,8.28 0,1.62 1.62,0 9.89,8.28"
-													class="st0-chevron-turquoise"
-												></polygon>
-											</g>
-										</g>
-									</g>
-								</g>
-							</svg>
-						</div>
-
 						<div class="relative" style="height: 100%;">
-							<div
-								data-aos="fade-down"
-								data-aos-delay="300"
-								class="pent-tag tag-1"
-							>
-								<router-link
-									class="pent-tag-landing"
-									to="/page1"
-									@mouseover="hoverSibling2(1)"
-									@mouseleave="unHoverSibling2(1)"
-									v-on:click="
-										closeModal();
-										scrollToZero();
-									"
-									id="url:page-1-page"
-									>Remote monitoring and predictive
-									maintenace</router-link
-								>
-							</div>
-							<div
-								data-aos="fade-down"
-								data-aos-delay="300"
-								class="pent-tag tag-2"
-							>
-								<router-link
-									class="pent-tag-landing"
-									@mouseover="hoverSibling2(2)"
-									@mouseleave="unHoverSibling2(2)"
-									to="/page2"
-									v-on:click="
-										closeModal();
-										scrollToZero();
-									"
-									id="url:page-2-page"
-									>Service alerts</router-link
-								>
-							</div>
-							<div
-								data-aos="fade-down"
-								data-aos-delay="300"
-								class="pent-tag tag-3"
-							>
-								<router-link
-									class="pent-tag-landing"
-									@mouseover="hoverSibling2(3)"
-									@mouseleave="unHoverSibling2(3)"
-									to="/page3"
-									v-on:click="
-										closeModal();
-										scrollToZero();
-									"
-									id="url:page-3-page"
-									>Technician dispatching</router-link
-								>
-							</div>
-							<div
-								data-aos="fade-down"
-								data-aos-delay="300"
-								class="pent-tag tag-4"
-							>
-								<router-link
-									class="pent-tag-landing"
-									@mouseover="hoverSibling2(4)"
-									@mouseleave="unHoverSibling2(4)"
-									to="/page4"
-									v-on:click="
-										closeModal();
-										scrollToZero();
-									"
-									id="url:page-4-page"
-									>Field enablement</router-link
-								>
-							</div>
-							<div
-								data-aos="fade-down"
-								data-aos-delay="300"
-								class="pent-tag tag-5"
-							>
-								<router-link
-									class="pent-tag-landing"
-									@mouseover="hoverSibling2(5)"
-									@mouseleave="unHoverSibling2(5)"
-									to="/page5"
-									v-on:click="
-										closeModal();
-										scrollToZero();
-									"
-									id="url:page-5-page"
-									>Global visibility</router-link
-								>
-							</div>
+						
+
 							<WayFinder
 								data-aos="fade-down"
 								data-aos-delay="200"
 								v-bind:pageTitle="10"
-							/>
+							/>i
 						</div>
 					</div>
 				</div>

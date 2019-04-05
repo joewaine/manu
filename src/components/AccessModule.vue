@@ -4,10 +4,15 @@
 			<div class="container">
 				<div class="row relative text-center">
 					<div class="turquiose-text pt-100 full-width-100">
-						How five organizations are transforming field service
 
 						<div class="modal-wayfinder-box" style="">
+						
+
+<div style="display: none;">
 							<div class="pent-tag tag-1">
+
+
+
 								<router-link
 									class="pent-tag-modal"
 									to="/page1"
@@ -77,6 +82,9 @@
 									id="url:page-5-page"
 									>Global visibility</router-link
 								>
+
+
+</div>
 							</div>
 
 							<WayFinder

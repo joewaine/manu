@@ -351,6 +351,16 @@ font-size: .5em;
 }
 
 
+
+#pentagonOutlinedDesktop{
+    display: block;
+}
+
+#pentagonOutlinedMobile{
+    display: none;
+}
+
+
 @media (max-width: 960px) {
 
 
@@ -408,5 +418,22 @@ display: none;
 }
 
 
+#pentagonOutlinedDesktop{
+    display: none;
 }
+
+#pentagonOutlinedMobile{
+    display: block;
+}
+
+
+
+}
+
+
+
+
+
+
+
 

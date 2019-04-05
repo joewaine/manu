@@ -57,7 +57,13 @@
 			<div>
 				<div>
 					<div class="icon-box-large">
-						<NavigationStage0 />
+						<!-- <NavigationStage0 /> -->
+
+
+<newNavigationMobile0 />
+<newNavigationDesktop0 />
+
+
 					</div>
 				</div>
 			</div>
@@ -66,7 +72,11 @@
 			<div>
 				<div>
 					<div class="icon-box-large">
-						<NavigationStage10 />
+						<!-- <NavigationStage10 /> -->
+<newNavigationMobile10 />
+<newNavigationDesktop10 />
+
+
 					</div>
 				</div>
 			</div>
@@ -83,6 +93,15 @@ import NavigationStage4 from "../components/navigationIcons/NavigationStage4";
 import NavigationStage5 from "../components/navigationIcons/NavigationStage5";
 import NavigationStage10 from "../components/navigationIcons/NavigationStage10";
 
+import newNavigationMobile10 from "../components/navigationIcons/newNavigationMobile10";
+import newNavigationDesktop10 from "../components/navigationIcons/newNavigationDesktop10";
+
+import newNavigationMobile0 from "../components/navigationIcons/newNavigationMobile0";
+import newNavigationDesktop0 from "../components/navigationIcons/newNavigationDesktop0";
+
+
+
+
 export default {
 	data() {
 		return {};
@@ -94,7 +113,11 @@ export default {
 		NavigationStage3,
 		NavigationStage4,
 		NavigationStage5,
-		NavigationStage10
+		NavigationStage10,
+		newNavigationMobile10,
+		newNavigationDesktop10,
+		newNavigationMobile0,
+		newNavigationDesktop0
 	},
 	props: ["pageTitle"],
 	methods: {
