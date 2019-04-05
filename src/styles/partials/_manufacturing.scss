@@ -868,7 +868,7 @@ width: 100%;
 
 
 .svg-container svg#pentagonOutlinedMobile{
-    display: block;
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -888,9 +888,66 @@ width: 100%;
 }
 
 
+
+.svg-container.desktop{
+    display:block !important;
+} 
+
+
+.svg-container.mobile{
+    display: none !important;
+} 
+
+
     .st7{
 font-family: $segoe--semi;
 font-weight: $semi-bold;
 }
+
+
+
+@media (max-width: 960px) {
+
+
+.svg-container.desktop{
+    display:none !important;
+} 
+
+
+.svg-container.mobile{
+    display: block !important;
+} 
+
+
+
+
+.svg-container svg#pentagonOutlinedMobile{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+width: 100%;
+
+
+
+}
+
+.svg-container svg#pentagonOutlinedDesktop{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+
+
+
+
+}
+
+
+
 
 

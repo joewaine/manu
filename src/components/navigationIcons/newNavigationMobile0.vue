@@ -1,5 +1,5 @@
 <template>
-<div class="svg-container">
+<div class="svg-container mobile">
 		
 <svg id="pentagonOutlinedMobile" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 296.2 321.71" style="enable-background:new 0 0 296.2 321.71;" xml:space="preserve">
