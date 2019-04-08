@@ -37,7 +37,7 @@
 						<div
 							data-aos="fade-right"
 							data-aos-delay="200"
-							class="mob-text-center learn-more-down-container"
+							class="mob-text-center learn-more-down-container desktop"
 						>
 							<a
 								href=""
@@ -83,15 +83,64 @@
 						</div>
 					</div>
 					<div class="col-xl-6 col-lg-12 text-center">
-						<div class="relative" style="height: 100%;">
+						<div class="relative height-adjust-pentagon">
 						
 
 							<WayFinder
 								data-aos="fade-down"
 								data-aos-delay="200"
 								v-bind:pageTitle="10"
-							/>i
+							/>
 						</div>
+
+						<div
+							data-aos="fade-right"
+							data-aos-delay="200"
+							class="mob-text-center learn-more-down-container mobile"
+						>
+							<a
+								href=""
+								class="white-link"
+								v-scroll-to="'#next-section'"
+								><span class="ul">Learn More</span>
+								<span class="down-arrow">
+									<svg
+										id="learn-more-down"
+										version="1.1"
+										xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink"
+										x="0px"
+										y="0px"
+										viewBox="0 0 35 35"
+										style="enable-background:new 0 0 35 35;"
+										xml:space="preserve"
+									>
+										<g id="Hero">
+											<g>
+												<g>
+													<g>
+														<g>
+															<circle
+																class="st0 down-arrow-svg-blue"
+																cx="17.5"
+																cy="17.5"
+																r="17.5"
+															/>
+														</g>
+														<g>
+															<path
+																class="st7 down-arrow-svg-blue"
+																d="M25.68,12.6l0.81,0.81L17.5,22.4l-8.99-8.99l0.81-0.81l8.18,8.18L25.68,12.6z"
+															/>
+														</g>
+													</g>
+												</g>
+											</g>
+										</g>
+									</svg> </span
+							></a>
+						</div>
+
 					</div>
 				</div>
 			</div>

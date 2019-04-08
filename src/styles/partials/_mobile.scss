@@ -1,4 +1,9 @@
 
+.height-adjust-pentagon{
+	height: 85%;
+}
+
+
 .btm-pad-footer{
 
     padding-bottom: 80px;
@@ -8,6 +13,59 @@
 
 .footer-fade-pad{
 	    padding-top: 8em;
+}
+
+
+
+.learn-more-down-container{
+
+&.desktop{
+display: block;	
+}
+
+&.mobile{
+display: none;	
+}
+
+
+
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+
+
+
+.learn-more-down-container{
+
+&.desktop{
+display: none;	
+}
+
+&.mobile{
+display: block;	
+
+
+.white-link{
+margin-left: -20px;
+}
+
+}
+
+
+
+}
+
+
+
+.height-adjust-pentagon{
+	height: 95%;
+}
+
+
 }
 
 

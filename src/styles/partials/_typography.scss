@@ -601,7 +601,7 @@ transition: all .5s ease;
 .grey-link-md{
 
 .txt{
-       border-bottom:1px solid $text--md-grey;
+       border-bottom: 1px solid $text--md-grey;
 
 }
 
@@ -631,7 +631,10 @@ svg{
     &:hover{
         // border-bottom:1px solid $text--md-grey;
 
+.txt{
+       border-bottom: 2px solid $text--md-grey;
 
+}
 
 
 svg{
