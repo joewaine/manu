@@ -37,14 +37,14 @@
 						<div
 							data-aos="fade-right"
 							data-aos-delay="200"
-							class="mob-text-center learn-more-down-container desktop"
+							class="mob-text-center learn-more-down-container desktop learn-more-box"
 						>
 							<a
 								href=""
 								class="white-link"
 								v-scroll-to="'#next-section'"
 								><span class="ul">Learn More</span>
-								<span class="down-arrow">
+								<div class="down-arrow">
 									<svg
 										id="learn-more-down"
 										version="1.1"
@@ -78,7 +78,7 @@
 												</g>
 											</g>
 										</g>
-									</svg> </span
+									</svg> </div
 							></a>
 						</div>
 					</div>
