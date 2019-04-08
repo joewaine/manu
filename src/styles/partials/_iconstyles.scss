@@ -1036,3 +1036,18 @@ transition: all .25s ease;
 }
 
 
+
+.mobile{
+#learn-more-down{
+    top: -22px;
+}
+}
+
+
+.learn-more-down-container.mobile{
+		&:hover{
+			#learn-more-down {
+		    top: -18px;
+		}
+	}
+}
