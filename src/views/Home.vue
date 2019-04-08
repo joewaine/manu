@@ -78,7 +78,7 @@
 												</g>
 											</g>
 										</g>
-									</svg> </div
+									</svg></div
 							></a>
 						</div>
 					</div>
