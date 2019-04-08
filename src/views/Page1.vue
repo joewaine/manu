@@ -38,13 +38,18 @@
 						"
 					/>
 
-					<QuoteRow v-bind:quoteText="'We wanted to go beyond the industry standard of preventative maintenance, to offer predictive and even preemptive maintenance.'"
-					v-bind:quoteAuthor="'Andreas Schierenbeck'"
-					v-bind:quoteTitle="'CEO, ThyssenKrupp Elevator'"
-					v-bind:quoteOrg="''" v-bind:ctaIcon="'1'"
-					v-bind:ctaText="'Read the case study'" v-bind:ctaLink="
-					'https://news.microsoft.com/transform/quicker-fixes-hands-free-when-thyssenkrupp-elevators-service-technicians-use-microsoft-hololens/'
-					"
+					<QuoteRow
+						v-bind:quoteText="
+							'We wanted to go beyond the industry standard of preventative maintenance, to offer predictive and even preemptive maintenance.'
+						"
+						v-bind:quoteAuthor="'Andreas Schierenbeck'"
+						v-bind:quoteTitle="'CEO, ThyssenKrupp Elevator'"
+						v-bind:quoteOrg="''"
+						v-bind:ctaIcon="'1'"
+						v-bind:ctaText="'Read the case study'"
+						v-bind:ctaLink="
+							'https://news.microsoft.com/transform/quicker-fixes-hands-free-when-thyssenkrupp-elevators-service-technicians-use-microsoft-hololens/'
+						"
 					/>
 				</div>
 			</div>

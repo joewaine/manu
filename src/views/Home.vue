@@ -7,7 +7,7 @@
 			<HeroRight />
 			<HeroPatternBottom />
 			<HeroPatternTop />
-			
+
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-6 col-lg-12">
@@ -84,8 +84,6 @@
 					</div>
 					<div class="col-xl-6 col-lg-12 text-center">
 						<div class="relative height-adjust-pentagon">
-						
-
 							<WayFinder
 								data-aos="fade-down"
 								data-aos-delay="200"
@@ -140,7 +138,6 @@
 									</svg> </span
 							></a>
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -380,7 +377,10 @@
 							</p>
 						</div>
 					</div>
-					<div data-aos="fade-left" class="col-lg-12 sub-text no-lr-pad">
+					<div
+						data-aos="fade-left"
+						class="col-lg-12 sub-text no-lr-pad"
+					>
 						Sources: <sup>1</sup> Astea.
 						<a href="" target="_blank"
 							>A Fix for First Time Rates.</a
@@ -414,7 +414,7 @@
 					<div
 						class="col-lg-6 offset-lg-6 bg-black section-pad-md col-md-12"
 					>
-					<QuotePattern1 />
+						<QuotePattern1 />
 						<div class="row justify-content-center">
 							<div
 								data-aos="fade-left"
@@ -1252,7 +1252,7 @@
 					<div
 						class="col-lg-6 offset-lg-6 bg-black section-pad-md col-md-12"
 					>
-					<QuotePattern3 />
+						<QuotePattern3 />
 						<div class="row justify-content-center">
 							<div
 								data-aos="fade-left"
@@ -1304,8 +1304,6 @@ import HeroRight from "../components/griddecoration/HeroRight";
 
 import HeroPatternBottom from "../components/griddecoration/HeroPatternBottom";
 import HeroPatternTop from "../components/griddecoration/HeroPatternTop";
-
-
 
 export default {
 	data() {

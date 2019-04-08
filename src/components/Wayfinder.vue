@@ -59,11 +59,8 @@
 					<div class="icon-box-large">
 						<!-- <NavigationStage0 /> -->
 
-
-<newNavigationMobile0 />
-<newNavigationDesktop0 />
-
-
+						<newNavigationMobile0 />
+						<newNavigationDesktop0 />
 					</div>
 				</div>
 			</div>
@@ -73,10 +70,8 @@
 				<div>
 					<div class="icon-box-large">
 						<!-- <NavigationStage10 /> -->
-<newNavigationMobile10 />
-<newNavigationDesktop10 />
-
-
+						<newNavigationMobile10 />
+						<newNavigationDesktop10 />
 					</div>
 				</div>
 			</div>
@@ -85,13 +80,11 @@
 </template>
 
 <script>
-import NavigationStage0 from "../components/navigationIcons/NavigationStage0";
 import NavigationStage1 from "../components/navigationIcons/NavigationStage1";
 import NavigationStage2 from "../components/navigationIcons/NavigationStage2";
 import NavigationStage3 from "../components/navigationIcons/NavigationStage3";
 import NavigationStage4 from "../components/navigationIcons/NavigationStage4";
 import NavigationStage5 from "../components/navigationIcons/NavigationStage5";
-import NavigationStage10 from "../components/navigationIcons/NavigationStage10";
 
 import newNavigationMobile10 from "../components/navigationIcons/newNavigationMobile10";
 import newNavigationDesktop10 from "../components/navigationIcons/newNavigationDesktop10";
@@ -99,21 +92,16 @@ import newNavigationDesktop10 from "../components/navigationIcons/newNavigationD
 import newNavigationMobile0 from "../components/navigationIcons/newNavigationMobile0";
 import newNavigationDesktop0 from "../components/navigationIcons/newNavigationDesktop0";
 
-
-
-
 export default {
 	data() {
 		return {};
 	},
 	components: {
-		NavigationStage0,
 		NavigationStage1,
 		NavigationStage2,
 		NavigationStage3,
 		NavigationStage4,
 		NavigationStage5,
-		NavigationStage10,
 		newNavigationMobile10,
 		newNavigationDesktop10,
 		newNavigationMobile0,

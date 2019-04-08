@@ -11,7 +11,12 @@
 			xml:space="preserve"
 		>
 			<g id="Layer_1">
-				<rect id="Invisible_Box" class="transparentfill" width="100" height="100" />
+				<rect
+					id="Invisible_Box"
+					class="transparentfill"
+					width="100"
+					height="100"
+				/>
 			</g>
 			<g id="Layer_2">
 				<g>

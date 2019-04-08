@@ -17,20 +17,18 @@
 						<g>
 							<g>
 								<a v-on:click.prevent="openModal()">
-	<polygon
+									<polygon
 										points="69.48,0.98 69.48,69.76 137.82,50.64 					"
 										class="st4"
 									></polygon>
-
-</a>
-
+								</a>
 
 								<a v-on:click.prevent="openModal()">
 									<polygon
 										points="69.48,0.98 69.48,69.76 1.13,50.64 					"
 										class="st4"
 									></polygon>
-</a>
+								</a>
 								<a v-on:click.prevent="openModal()">
 									<polygon
 										points="27.24,130.98 69.48,69.76 1.13,50.64 					"

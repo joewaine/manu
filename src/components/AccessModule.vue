@@ -4,87 +4,79 @@
 			<div class="container">
 				<div class="row relative text-center">
 					<div class="turquiose-text pt-100 full-width-100">
-
 						<div class="modal-wayfinder-box" style="">
-						
-
-<div style="display: none;">
-							<div class="pent-tag tag-1">
-
-
-
-								<router-link
-									class="pent-tag-modal"
-									to="/page1"
-									@mouseover="hoverSibling(1)"
-									@mouseleave="unHoverSibling(1)"
-									v-on:click.native="
-										closeModal();
-										scrollTop();
-									"
-									id="url:page-1-page"
-									>Remote monitoring and predictive
-									maintenace</router-link
-								>
-							</div>
-							<div class="pent-tag tag-2">
-								<router-link
-									class="pent-tag-modal"
-									to="/page2"
-									@mouseover="hoverSibling(2)"
-									@mouseleave="unHoverSibling(2)"
-									v-on:click.native="
-										closeModal();
-										scrollTop();
-									"
-									id="url:page-2-page"
-									>Service alerts</router-link
-								>
-							</div>
-							<div class="pent-tag tag-3">
-								<router-link
-									class="pent-tag-modal"
-									to="/page3"
-									@mouseover="hoverSibling(3)"
-									@mouseleave="unHoverSibling(3)"
-									v-on:click.native="
-										closeModal();
-										scrollTop();
-									"
-									id="url:page-3-page"
-									>Technician dispatching</router-link
-								>
-							</div>
-							<div class="pent-tag tag-4">
-								<router-link
-									class="pent-tag-modal"
-									to="/page4"
-									@mouseover="hoverSibling(4)"
-									@mouseleave="unHoverSibling(4)"
-									v-on:click.native="
-										closeModal();
-										scrollTop();
-									"
-									id="url:page-4-page"
-									>Field enablement</router-link
-								>
-							</div>
-							<div class="pent-tag tag-5">
-								<router-link
-									class="pent-tag-modal"
-									to="/page5"
-									@mouseover="hoverSibling(5)"
-									@mouseleave="unHoverSibling(5)"
-									v-on:click.native="
-										closeModal();
-										scrollTop();
-									"
-									id="url:page-5-page"
-									>Global visibility</router-link
-								>
-
-
-</div>
+							<div style="display: none;">
+								<div class="pent-tag tag-1">
+									<router-link
+										class="pent-tag-modal"
+										to="/page1"
+										@mouseover="hoverSibling(1)"
+										@mouseleave="unHoverSibling(1)"
+										v-on:click.native="
+											closeModal();
+											scrollTop();
+										"
+										id="url:page-1-page"
+										>Remote monitoring and predictive
+										maintenace</router-link
+									>
+								</div>
+								<div class="pent-tag tag-2">
+									<router-link
+										class="pent-tag-modal"
+										to="/page2"
+										@mouseover="hoverSibling(2)"
+										@mouseleave="unHoverSibling(2)"
+										v-on:click.native="
+											closeModal();
+											scrollTop();
+										"
+										id="url:page-2-page"
+										>Service alerts</router-link
+									>
+								</div>
+								<div class="pent-tag tag-3">
+									<router-link
+										class="pent-tag-modal"
+										to="/page3"
+										@mouseover="hoverSibling(3)"
+										@mouseleave="unHoverSibling(3)"
+										v-on:click.native="
+											closeModal();
+											scrollTop();
+										"
+										id="url:page-3-page"
+										>Technician dispatching</router-link
+									>
+								</div>
+								<div class="pent-tag tag-4">
+									<router-link
+										class="pent-tag-modal"
+										to="/page4"
+										@mouseover="hoverSibling(4)"
+										@mouseleave="unHoverSibling(4)"
+										v-on:click.native="
+											closeModal();
+											scrollTop();
+										"
+										id="url:page-4-page"
+										>Field enablement</router-link
+									>
+								</div>
+								<div class="pent-tag tag-5">
+									<router-link
+										class="pent-tag-modal"
+										to="/page5"
+										@mouseover="hoverSibling(5)"
+										@mouseleave="unHoverSibling(5)"
+										v-on:click.native="
+											closeModal();
+											scrollTop();
+										"
+										id="url:page-5-page"
+										>Global visibility</router-link
+									>
+								</div>
 							</div>
 
 							<WayFinder

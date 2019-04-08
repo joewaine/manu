@@ -10,7 +10,6 @@
 			viewBox="0 0 138.95 159.32"
 			style="enable-background:new 0 0 138.95 159.32;"
 			xml:space="preserve"
-
 		>
 			<g id="Guidelines">
 				<g>
@@ -21,7 +20,10 @@
 									data="closemod"
 									@mouseover="hoverSiblingtext(1)"
 									@mouseleave="unHoverSiblingtext(1)"
-									@click.native="scrollToZero();closeModal()"
+									@click.native="
+										scrollToZero();
+										closeModal();
+									"
 									to="/page1"
 									id="url:page1-page"
 								>
@@ -34,7 +36,10 @@
 									data="closemod"
 									@mouseover="hoverSiblingtext(2)"
 									@mouseleave="unHoverSiblingtext(2)"
-									@click.native="scrollToZero();closeModal()"
+									@click.native="
+										scrollToZero();
+										closeModal();
+									"
 									to="/page2"
 									id="url:page2-page"
 								>
@@ -47,7 +52,10 @@
 									data="closemod"
 									@mouseover="hoverSiblingtext(3)"
 									@mouseleave="unHoverSiblingtext(3)"
-									@click.native="scrollToZero();closeModal()"
+									@click.native="
+										scrollToZero();
+										closeModal();
+									"
 									to="/page3"
 									id="url:page3-page"
 								>
@@ -61,7 +69,10 @@
 									data="closemod"
 									@mouseover="hoverSiblingtext(4)"
 									@mouseleave="unHoverSiblingtext(4)"
-									@click.native="scrollToZero();closeModal()"
+									@click.native="
+										scrollToZero();
+										closeModal();
+									"
 									to="/page4"
 									id="url:page4-page"
 								>
@@ -75,7 +86,10 @@
 									data="closemod"
 									@mouseover="hoverSiblingtext(5)"
 									@mouseleave="unHoverSiblingtext(5)"
-									@click.native="scrollToZero();closeModal()"
+									@click.native="
+										scrollToZero();
+										closeModal();
+									"
 									to="/page5"
 									id="url:page5-page"
 								>
@@ -214,13 +228,6 @@
 			</g>
 		</svg>
 		<!-- <div class="blue-menu-text extra-up">MENU</div> -->
-
-
-
-
-
-
-
 	</div>
 </template>
 <script>

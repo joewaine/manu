@@ -176,9 +176,6 @@
 		</svg>
 
 		<div class="blue-menu-text" v-on:click="openModal()">MENU</div>
-
-
-
 	</div>
 </template>
 <script>
