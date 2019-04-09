@@ -1,23 +1,14 @@
 <script>
 import HeaderModule from "./components/HeaderModule";
-import UniversalFooter from "./components/UniversalFooter";
-
 import AccessModule from "./components/AccessModule";
-
 import ShareSlider from "./components/ShareSlider";
 import DownloadSlider from "./components/DownloadSlider";
 import FeedbackSlider from "./components/FeedbackSlider";
-
-import Home from "./views/Home";
-import Page1 from "./views/Page1";
 
 export default {
 	name: "app",
 	components: {
 		HeaderModule,
-		UniversalFooter,
-		Home,
-		Page1,
 		DownloadSlider,
 		FeedbackSlider,
 		ShareSlider,

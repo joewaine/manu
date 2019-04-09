@@ -15,7 +15,7 @@
 				<div class="row">
 					<IconRow
 						v-bind:logo="'2'"
-						v-bind:subheader="'Case Study'"
+						v-bind:subheader="'Customer Success Story'"
 						v-bind:bodyText="
 							'Ecolab—a leading global provider of water, hygiene, and energy technologies and services—is helping companies worldwide operate more sustainably.'
 						"
@@ -47,7 +47,7 @@
 						"
 						v-bind:quoteOrg="'Nalco Water, an Ecolab company'"
 						v-bind:ctaIcon="'2'"
-						v-bind:ctaText="'Read the case study'"
+						v-bind:ctaText="'Read the customer success story'"
 						v-bind:ctaLink="
 							'https://customers.microsoft.com/en-us/story/ecolabcustomerstory'
 						"
@@ -59,11 +59,9 @@
 			v-bind:link="'page3'"
 			v-bind:linkText="'Technician dispatching'"
 		/>
-		<!-- <UniversalFooter /> -->
 	</div>
 </template>
 <script>
-import UniversalFooter from "../components/UniversalFooter";
 import HeaderModule from "../components/HeaderModule";
 import FooterModule from "../components/FooterModule";
 import WayFinder from "../components/Wayfinder";
@@ -79,7 +77,6 @@ export default {
 		};
 	},
 	components: {
-		UniversalFooter,
 		HeaderModule,
 		FooterModule,
 		WayFinder,

@@ -17,25 +17,45 @@
 					<g>
 						<g>
 							<g>
-								<a v-on:click.prevent="openModal()">
+								<a
+									id="navigation:open-modal"
+									v-on:click.prevent="openModal()"
+									v-on:mouseover="underLineMenu()"
+									v-on:mouseleave="underLineMenuRemove()"
+								>
 									<polygon
 										points="111.71,130.98 69.48,69.76 137.82,50.64 					"
 										class="st4"
 									></polygon>
 								</a>
-								<a v-on:click.prevent="openModal()">
+								<a
+									id="navigation:open-modal"
+									v-on:click.prevent="openModal()"
+									v-on:mouseover="underLineMenu()"
+									v-on:mouseleave="underLineMenuRemove()"
+								>
 									<polygon
 										points="69.48,0.98 69.48,69.76 137.82,50.64 					"
 										class="st4"
 									></polygon>
 								</a>
-								<a v-on:click.prevent="openModal()">
+								<a
+									id="navigation:open-modal"
+									v-on:click.prevent="openModal()"
+									v-on:mouseover="underLineMenu()"
+									v-on:mouseleave="underLineMenuRemove()"
+								>
 									<polygon
 										points="69.48,0.98 69.48,69.76 1.13,50.64 					"
 										class="st4"
 									></polygon>
 								</a>
-								<a v-on:click.prevent="openModal()">
+								<a
+									id="navigation:open-modal"
+									v-on:click.prevent="openModal()"
+									v-on:mouseover="underLineMenu()"
+									v-on:mouseleave="underLineMenuRemove()"
+								>
 									<polygon
 										points="27.24,130.98 69.48,69.76 1.13,50.64 					"
 										class="st4"
@@ -175,7 +195,7 @@
 			</g>
 		</svg>
 
-		<div class="blue-menu-text" v-on:click="openModal()">MENU</div>
+		<div class="blue-menu-text" v-on:click="openModal()" v-on:mouseover="underLineMenu()" v-on:mouseleave="underLineMenuRemove()">MENU</div>
 	</div>
 </template>
 <script>
@@ -184,7 +204,17 @@ export default {
 		openModal() {
 			// alert('1234')
 			document.getElementById("access-module").style.display = "block";
-		}
+		},
+underLineMenuRemove(){
+document.querySelector('.blue-menu-text').style.borderBottomColor = "transparent";
+
+},
+underLineMenu(){
+
+document.querySelector('.blue-menu-text').style.borderBottomColor = "#0078D7";
+}
+
+
 	}
 };
 </script>

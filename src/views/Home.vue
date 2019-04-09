@@ -41,6 +41,7 @@
 						>
 							<a
 								href=""
+								id="navigation:in-page-scroll-to-next-section"
 								class="white-link"
 								v-scroll-to="'#next-section'"
 								><span class="ul">Learn More</span>
@@ -143,16 +144,11 @@
 			</div>
 		</section>
 		<section id="next-section" class="section-pad-sm bg-light-grey">
-			<div class="container">
+			<div data-aos="fade-up" class="container">
 				<div class="row">
-					<div
-						data-aos="fade-up"
-						class="col-lg-12 drop-shadow-box mb-30 overflow-hidden bottom-graphic orb"
-					>
+					<div  class="col-lg-12 drop-shadow-box mb-30 overflow-hidden bottom-graphic orb">
 						<div class="row">
-							<div
-								class="col-lg-6 col-md-12 orbit-height-mob no-lr-pad-mob"
-							>
+							<div class="col-lg-6 col-md-12 orbit-height-mob no-lr-pad-mob">
 								<h2>
 									Digital transformation is enabling
 									manufacturers to create connected networks.
@@ -189,14 +185,10 @@
 							<div id="inner-orbit">
 								<div class="inner-orbit-circles"></div>
 							</div>
-							<!-- Circles closest to the central point -->
 							<div id="inner-orbit2">
-								<!-- <div class="inner-orbit-circles2"></div> -->
 							</div>
 							<div id="inner-orbit3"></div>
-							<!-- Circles closest to the central point -->
 							<div id="inner-orbit4"></div>
-							<!-- Circles closest to the central point -->
 							<div id="inner-orbit5"></div>
 							<div id="inner-orbit6"></div>
 							<div id="inner-orbit7">
@@ -209,10 +201,8 @@
 								<div class="inner-orbit-circles9"></div>
 							</div>
 							<div id="inner-orbit10">
-								<!-- <div class="inner-orbit-circles10"></div> -->
 							</div>
 							<div id="inner-orbit11">
-								<!-- <div class="inner-orbit-circles11"></div> -->
 							</div>
 							<div id="inner-orbit12">
 								<div class="inner-orbit-circles12"></div>
@@ -231,9 +221,14 @@
 								<div class="inner-orbit-circles19"></div>
 							</div>
 						</div>
+
+						<MobileOrbits />
+
+						<MobileOrbits2 />
 					</div>
+					
 					<div class="col-lg-4 no-left-pad mb-30 card-third">
-						<div data-aos="fade-up" class="drop-shadow-box third">
+						<div class="drop-shadow-box third">
 							<div class="icon-box-centered third">
 								<svg
 									version="1.1"
@@ -278,8 +273,9 @@
 							</p>
 						</div>
 					</div>
+
 					<div class="col-lg-4 mb-30 card-third">
-						<div data-aos="fade-up" class="drop-shadow-box third">
+						<div class="drop-shadow-box third">
 							<div class="icon-box-centered third">
 								<svg
 									version="1.1"
@@ -329,8 +325,8 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-4 no-right-pad mb-30 card-third">
-						<div data-aos="fade-up" class="drop-shadow-box third">
+				<div class="col-lg-4 no-right-pad mb-30 card-third">
+						<div class="drop-shadow-box third">
 							<div class="icon-box-centered third">
 								<svg
 									version="1.1"
@@ -376,9 +372,8 @@
 								devices.<sup>3</sup>
 							</p>
 						</div>
-					</div>
+					</div> 
 					<div
-						data-aos="fade-left"
 						class="col-lg-12 sub-text no-lr-pad"
 					>
 						Sources: <sup>1</sup> Astea.
@@ -399,9 +394,14 @@
 						>
 						2016
 					</div>
+					</div>
 				</div>
-			</div>
+	
 		</section>
+
+
+
+
 		<!-- full width image section -->
 
 		<section class="bg-two-men-alt">
@@ -1260,20 +1260,16 @@
 							>
 								<Quote />
 								<div class="quote top-pad-sm">
-									Together with Microsoft, we are on the
-									leading edge, combining our technologies to
-									leverage the Internet of Things and people
-									to help realize business and social
-									innovations in this hyper-connected world.
+									What truly impressed me with our Microsoft collaboration was that it was not about selling us a product. It was about building something and addressing the world's water challenge together.
 								</div>
 								<div class="name">
-									Ryosuke Mori
+									Christopher Beck
 								</div>
 								<div class="title">
-									Vice President, Global Strategic Alliances,
+									Executive Vice President and President
 								</div>
 								<div class="org">
-									Fujitsu Ltd.
+									Nalco Water, an Ecolab Company
 								</div>
 							</div>
 						</div>
@@ -1295,6 +1291,10 @@ import WayFinder from "../components/Wayfinder";
 import FooterModule from "../components/FooterModule";
 
 import Quote from "../components/icons/Quote";
+
+import MobileOrbits from "../components/icons/MobileOrbits";
+import MobileOrbits2 from "../components/icons/MobileOrbits2";
+
 import QuotePattern1 from "../components/griddecoration/QuotePattern1";
 import QuotePattern2 from "../components/griddecoration/QuotePattern2";
 import QuotePattern3 from "../components/griddecoration/QuotePattern3";
@@ -1315,6 +1315,8 @@ export default {
 		WayFinder,
 		FooterModule,
 		Quote,
+		MobileOrbits,
+		MobileOrbits2,
 		HeroLeft,
 		HeroRight,
 		QuotePattern1,

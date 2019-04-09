@@ -25,10 +25,15 @@
 					/>
 				</svg>
 			</div>
+
 			<div class="download-slider__content__text">
 				<a
 					title="Download-ebook-PDF"
-					id="Download-ebook-PDF"
+					id="Download-ebook-PDF:Connected-Field-Service-for-Manufacturing-eBook"
+					data-bi-bhvr="DOWNLOAD"
+					data-bi-dltype="e-book"
+					data-bi-dlnm="Connected-Field-Service-for-Manufacturing-Ebook.pdf"
+					download=""
 					href="https://info.microsoft.com/ww-landing-Connected-Field-Service-for-Manufacturing-eBook.html?lcid=en-us"
 					target="_blank"
 				>
@@ -56,8 +61,8 @@ export default {
 			var docHeight = document.documentElement.scrollHeight;
 			var winHeight = 0;
 			var perc = (100 * scrollPos) / (docHeight - winHeight);
-			var isShown = true;
-			if (perc >= 10) {
+			var isShown = false;
+			if (perc >= 5) {
 				isShown = true;
 			} else {
 				isShown = false;
@@ -81,8 +86,8 @@ export default {
 .download-slider {
 	position: fixed;
 	right: -225px;
-	// top: calc(30% + 55px);
-	bottom: calc(30% - 50px);
+
+	bottom: calc(30%);
 	width: 225px !important;
 	height: 50px;
 	border: none;

@@ -809,14 +809,9 @@ var unRecDeskZero = document.getElementsByClassName("mobile-rect-10");
 			unRecDeskZero[j - 1].style.fill = "#4ae7fc";
 
 let letterTag2 = document.querySelectorAll(".letter-tag-" + j );
-console.log(letterTag2);
-
 
 for(let i2 = 0; i2 < letterTag2.length; i2++){
 	letterTag2[i2].style.fill = "#4ae7fc";
-
-
-	console.log(letterTag2[i2].style);
 }
 
 

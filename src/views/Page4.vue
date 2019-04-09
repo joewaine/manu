@@ -15,7 +15,7 @@
 				<div class="row">
 					<IconRow
 						v-bind:logo="'4'"
-						v-bind:subheader="'Case Study'"
+						v-bind:subheader="'Customer Success Story'"
 						v-bind:bodyText="
 							'Tetra Pak, a packaging company in the food industry, is employing digital tools that enable its cloud-connected machines to predict exactly when equipment needs maintenance. When repairs are needed, Tetra Pak service engineers use Microsoft HoloLens headsets to more quickly diagnose and fix machine issues, even in remote locations.'
 						"
@@ -45,7 +45,7 @@
 						v-bind:quoteTitle="'Vice President, Tetra Pak Services'"
 						v-bind:quoteOrg="''"
 						v-bind:ctaIcon="'4'"
-						v-bind:ctaText="'Read the case study'"
+						v-bind:ctaText="'Read the customer success story'"
 						v-bind:ctaLink="
 							'https://news.microsoft.com/transform/total-package-tetra-paks-technology-keeps-food-drink-flowing-safely-from-farm-table/'
 						"
@@ -60,7 +60,6 @@
 	</div>
 </template>
 <script>
-import UniversalFooter from "../components/UniversalFooter";
 import HeaderModule from "../components/HeaderModule";
 import FooterModule from "../components/FooterModule";
 import WayFinder from "../components/Wayfinder";
@@ -76,7 +75,6 @@ export default {
 		};
 	},
 	components: {
-		UniversalFooter,
 		HeaderModule,
 		FooterModule,
 		WayFinder,

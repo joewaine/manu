@@ -110,7 +110,15 @@ margin-top:20px;
 	.st1{fill:#50E6FF;}
 	.st2{fill:none;stroke:#757575;stroke-miterlimit:10;}
 	.st3{fill:none;stroke:#0078D4;stroke-width:2.88;stroke-miterlimit:10;}
-	.st4{fill:#0078D4;stroke:#EBEBEB;stroke-miterlimit:10;}
+	.st4{fill:#0078D4;stroke:#EBEBEB;stroke-miterlimit:10;
+
+
+&:hover{
+fill:#0078D4 !important;
+}
+
+
+	}
 	.st5{fill:#FFFFFF;stroke:#EBEBEB;stroke-miterlimit:10;}
 	.st6{fill:#E6E7E8;stroke:#939598;stroke-miterlimit:10;}
 	.st7{fill:none;}
@@ -162,7 +170,15 @@ margin-top:20px;
 	.st1{fill:#50E6FF;}
 	.st2{fill:none;stroke:#757575;stroke-miterlimit:10;}
 	.st3{fill:none;stroke:#0078D4;stroke-width:2.88;stroke-miterlimit:10;}
-	.st4{fill:#0078D4;stroke:#EBEBEB;stroke-miterlimit:10;}
+	.st4{fill:#0078D4;stroke:#EBEBEB;stroke-miterlimit:10;
+
+
+&:hover{
+fill:#0078D4 !important;
+}
+
+
+	}
 	.st5{fill:#FFFFFF;stroke:#EBEBEB;stroke-miterlimit:10;}
 	.st6{fill:#E6E7E8;stroke:#939598;stroke-miterlimit:10;}
 	.st7{fill:#FFFFFF;}
@@ -209,7 +225,16 @@ margin-top:20px;
 	.st1{fill:#50E6FF;}
 	.st2{fill:none;stroke:#757575;stroke-miterlimit:10;}
 	.st3{fill:none;stroke:#0078D4;stroke-width:2.88;stroke-miterlimit:10;}
-	.st4{fill:#0078D4;stroke:#EBEBEB;stroke-miterlimit:10;}
+	.st4{fill:#0078D4;stroke:#EBEBEB;stroke-miterlimit:10;
+
+
+&:hover{
+fill:#0078D4 !important;
+}
+
+
+
+	}
 	.st5{fill:#FFFFFF;stroke:#EBEBEB;stroke-miterlimit:10;}
 	.st6{fill:#E6E7E8;stroke:#939598;stroke-miterlimit:10;}
 	.st7{fill:#FFFFFF;}
@@ -255,7 +280,16 @@ margin-top:20px;
 	.st1{fill:#50E6FF;}
 	.st2{fill:none;stroke:#757575;stroke-miterlimit:10;}
 	.st3{fill:none;stroke:#0078D4;stroke-width:2.88;stroke-miterlimit:10;}
-	.st4{fill:#0078D4;stroke:#EBEBEB;stroke-miterlimit:10;}
+	.st4{fill:#0078D4;stroke:#EBEBEB;stroke-miterlimit:10;
+
+
+&:hover{
+fill:#0078D4 !important;
+}
+
+
+
+	}
 	.st5{fill:#FFFFFF;stroke:#EBEBEB;stroke-miterlimit:10;}
 	.st6{fill:#E6E7E8;stroke:#939598;stroke-miterlimit:10;}
 	.st7{fill:#FFFFFF;}
@@ -302,7 +336,15 @@ margin-top:20px;
 	.st1{fill:#50E6FF;}
 	.st2{fill:none;stroke:#757575;stroke-miterlimit:10;}
 	.st3{fill:none;stroke:#0078D4;stroke-width:2.88;stroke-miterlimit:10;}
-	.st4{fill:#0078D4;stroke:#EBEBEB;stroke-miterlimit:10;}
+	.st4{fill:#0078D4;stroke:#EBEBEB;stroke-miterlimit:10;
+
+
+&:hover{
+fill:#0078D4 !important;
+}
+
+
+	}
 	.st5{fill:#FFFFFF;stroke:#EBEBEB;stroke-miterlimit:10;}
 	.st6{fill:#E6E7E8;stroke:#939598;stroke-miterlimit:10;}
 	.st7{fill:#FFFFFF;}
@@ -1050,4 +1092,123 @@ transition: all .25s ease;
 		    top: -18px;
 		}
 	}
+}
+
+
+#mobileOrbit2,
+#mobileOrbit{
+	display: none;
+}
+
+@media (max-width: 992px) {
+#mobileOrbit2,
+#mobileOrbit{
+
+	display: block;
+	.st0{fill:none;stroke:#212121;stroke-miterlimit:10;}
+	.st1{fill:#BCBCBC;}
+	.st2{fill:#5E5E5E;}
+	.st3{fill:#0078D4;}
+	.st4{fill:#50E6FF;}
+	.st5{fill:none;}
+}
+
+
+#mobileOrbit2{
+	// display: none;
+	.st0{display: none;}
+
+	transform: scaleX(-1);
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 6s linear infinite;
+  -moz-animation: rotating 6s linear infinite;
+  -ms-animation: rotating 6s linear infinite;
+  -o-animation: rotating 6s linear infinite;
+  animation: rotating 6s linear infinite;
+}
+
+
+.mobile-orbit-container{
+	width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -390px;
+
+&.flip{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+}
+
+}
+
+
+@media (max-width: 768px) {
+.mobile-orbit-container{
+    bottom: -275px;
+}	
+}
+
+
+
+
+
+@media (max-width: 640px) {
+
+.mobile-orbit-container{
+    bottom: -245px;
+}
+
+}
+
+
+@media (max-width: 480px) {
+
+.mobile-orbit-container{
+    bottom: -165px;
+}
+
+}
+
+svg#share{
+
+    margin-top: 8px;
+
+.cls-1{
+	fill: #ffffff;
+}
+
+
 }

@@ -354,7 +354,7 @@ font-size: .5em;
 
 
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
 
 
 #circle-orbit-container{
@@ -368,9 +368,9 @@ display: none;
 
 &.orb{
 
-    padding-bottom: 70%;
+    padding-bottom: 60%;
 
-                    background-image: url(assets/img/orb.png);
+                    // background-image: url(assets/img/orb.png);
                     background-repeat: no-repeat;
                     background-position: center bottom;
                 -webkit-background-size: 100%;

@@ -16,7 +16,7 @@
 				<div class="row">
 					<IconRow
 						v-bind:logo="'1'"
-						v-bind:subheader="'Case Study'"
+						v-bind:subheader="'Customer Success Story'"
 						v-bind:bodyText="
 							'ThyssenKrupp, the global elevator manufacturing company, wanted to better compete in their industry by boosting their preventive maintenance capabilities to greater heights and offering dramatically increased uptime.'
 						"
@@ -46,7 +46,7 @@
 						v-bind:quoteTitle="'CEO, ThyssenKrupp Elevator'"
 						v-bind:quoteOrg="''"
 						v-bind:ctaIcon="'1'"
-						v-bind:ctaText="'Read the case study'"
+						v-bind:ctaText="'Read the customer success story'"
 						v-bind:ctaLink="
 							'https://news.microsoft.com/transform/quicker-fixes-hands-free-when-thyssenkrupp-elevators-service-technicians-use-microsoft-hololens/'
 						"

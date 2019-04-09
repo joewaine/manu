@@ -15,7 +15,7 @@
 				<div class="row">
 					<IconRow
 						v-bind:logo="'3'"
-						v-bind:subheader="'Case Study'"
+						v-bind:subheader="'Customer Success Story'"
 						v-bind:bodyText="
 							'Michelin extends their premium customer service model to a seamless, on-site customer experience with Michelin OnSite, where they send technicians into the field to perform installations and repairs for customers.'
 						"
@@ -60,7 +60,6 @@
 	</div>
 </template>
 <script>
-import UniversalFooter from "../components/UniversalFooter";
 import HeaderModule from "../components/HeaderModule";
 import FooterModule from "../components/FooterModule";
 import WayFinder from "../components/Wayfinder";
@@ -76,7 +75,6 @@ export default {
 		};
 	},
 	components: {
-		UniversalFooter,
 		HeaderModule,
 		FooterModule,
 		WayFinder,

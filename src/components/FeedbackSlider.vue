@@ -94,7 +94,7 @@ export default {
 			var winHeight = 0;
 			var perc = (100 * scrollPos) / (docHeight - winHeight);
 			var isShown = false;
-			if (perc >= 50) {
+			if (perc >= 5) {
 				isShown = true;
 			} else {
 				isShown = false;

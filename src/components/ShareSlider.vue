@@ -12,14 +12,24 @@
 				class="share-slider__content__icon"
 				@click="toggleClass"
 			>
-				<svg
-					width="24"
+				<svg id="share"
+					width="28"
 					height="28"
-					viewBox="0 0 24 28"
+					viewBox="0 0 28 28"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
 				>
-					<path
+
+
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="Nav_Bars" data-name="Nav Bars">
+                <path class="cls-1" d="M0,19.18,3.2,9.59,0,0,28.76,9.59ZM4.8,8.68H20.32L2.86,2.86ZM2.86,16.32,20.32,10.5H4.8Z" />
+            </g>
+        </g>
+    </g>
+
+<!-- 					<path
 						fill-rule="evenodd"
 						clip-rule="evenodd"
 						d="M16.9939 6.54666L7.45714 12.6952L6.37341 11.0142L15.9101 4.86572L16.9939 6.54666Z"
@@ -48,16 +58,18 @@
 						clip-rule="evenodd"
 						d="M18.983 2.3269C17.6177 2.3269 16.548 3.40452 16.548 4.68867C16.548 5.97283 17.6177 7.05044 18.983 7.05044C20.3483 7.05044 21.418 5.97283 21.418 4.68867C21.418 3.40452 20.3483 2.3269 18.983 2.3269ZM14.548 4.68867C14.548 2.25952 16.554 0.326904 18.983 0.326904C21.412 0.326904 23.418 2.25952 23.418 4.68867C23.418 7.11783 21.412 9.05044 18.983 9.05044C16.554 9.05044 14.548 7.11783 14.548 4.68867Z"
 						fill="#FFFFFF"
-					></path>
+					></path> -->
 				</svg>
 			</div>
 			<div class="share-slider__content__text">
 				<a
-					title="Send Mail"
-					id="cta:email-link"
-					href="mailto:?subject=SUBJECT&body=SERIALIZEDURL"
-					@click="toggleClass"
-				>
+				title="Send Mail"
+				data-bi-area="fixed-side-slider-module"
+				data-bi-bhvr="SOCIALSHARE"
+				data-bi-socchn="email-share​"
+				id="social-share-email"
+				href="mailto:?subject=Digitally Transform You Field Service&body=Check out Connected Field Services: https%3A%2F%2Fdiscover.microsoft.com%2Fdigitally-transform-your-field-service" @click="toggleClass">
+
 					<svg
 						fill="#3c3c41"
 						width="29"
@@ -127,7 +139,7 @@ export default {
 			var winHeight = 0;
 			var perc = (100 * scrollPos) / (docHeight - winHeight);
 			var isShown = false;
-			if (perc >= 15) {
+			if (perc >= 5) {
 				isShown = true;
 			} else {
 				isShown = false;
@@ -169,7 +181,8 @@ export default {
 
 	// bottom: calc(30% - 110px);
 
-	bottom: calc(30%);
+
+		bottom: calc(30% - 50px);
 	width: 225px !important;
 	height: 50px;
 	border: none;

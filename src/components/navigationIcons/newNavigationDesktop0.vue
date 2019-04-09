@@ -912,7 +912,7 @@
 					<path
 						d="M428.71,274.36h-2.52v7.52h-1.45v-7.52h-2.51v-1.23h6.48V274.36z"
 						class="st1 letter-tag-3"
-						></path>
+					></path>
 					<path
 						d="M433.91,279.14h-4.26c0.02,0.58,0.19,1.02,0.53,1.34c0.34,0.31,0.81,0.47,1.4,0.47c0.67,0,1.28-0.2,1.84-0.6
 			v1.14c-0.57,0.36-1.32,0.54-2.26,0.54c-0.92,0-1.64-0.28-2.16-0.85s-0.79-1.37-0.79-2.4c0-0.97,0.29-1.76,0.87-2.38
@@ -1382,11 +1382,11 @@ export default {
 			);
 			wedgesDeskZero[i - 1].style.fill = "#888888";
 
-			let letterTag2 = document.querySelectorAll(".letter-tag-" + i );
+			let letterTag2 = document.querySelectorAll(".letter-tag-" + i);
 
-for(let i2 = 0; i2 < letterTag2.length; i2++){
-	letterTag2[i2].style.fill = "#4ae7fc";
-}
+			for (let i2 = 0; i2 < letterTag2.length; i2++) {
+				letterTag2[i2].style.fill = "#4ae7fc";
+			}
 		},
 		unHoverSiblingModalDesktop(x) {
 			var unRecDeskZero = document.getElementsByClassName(
@@ -1399,11 +1399,11 @@ for(let i2 = 0; i2 < letterTag2.length; i2++){
 			);
 			unWedgesDeskZero[x - 1].style.fill = "#007bcd";
 
-			let letterTag2 = document.querySelectorAll(".letter-tag-" + x );
+			let letterTag2 = document.querySelectorAll(".letter-tag-" + x);
 
-for(let i2 = 0; i2 < letterTag2.length; i2++){
-	letterTag2[i2].style.fill = "#FFFFFF";
-}
+			for (let i2 = 0; i2 < letterTag2.length; i2++) {
+				letterTag2[i2].style.fill = "#FFFFFF";
+			}
 		},
 		hoverTextModalDesktop(j) {
 			var wedgesDeskZero = document.getElementsByClassName(
@@ -1416,11 +1416,11 @@ for(let i2 = 0; i2 < letterTag2.length; i2++){
 			);
 			unRecDeskZero[j - 1].style.fill = "#4ae7fc";
 
-			let letterTag2 = document.querySelectorAll(".letter-tag-" + j );
+			let letterTag2 = document.querySelectorAll(".letter-tag-" + j);
 
-for(let i2 = 0; i2 < letterTag2.length; i2++){
-	letterTag2[i2].style.fill = "#4ae7fc";
-}
+			for (let i2 = 0; i2 < letterTag2.length; i2++) {
+				letterTag2[i2].style.fill = "#4ae7fc";
+			}
 		},
 		unHoverTextModalDesktop(k) {
 			var unRecDeskZero = document.getElementsByClassName(
@@ -1433,11 +1433,11 @@ for(let i2 = 0; i2 < letterTag2.length; i2++){
 			);
 			unWedgesDeskZero[k - 1].style.fill = "#007bcd";
 
-			let letterTag2 = document.querySelectorAll(".letter-tag-" + k );
+			let letterTag2 = document.querySelectorAll(".letter-tag-" + k);
 
-for(let i2 = 0; i2 < letterTag2.length; i2++){
-	letterTag2[i2].style.fill = "#FFFFFF";
-}
+			for (let i2 = 0; i2 < letterTag2.length; i2++) {
+				letterTag2[i2].style.fill = "#FFFFFF";
+			}
 		},
 		scrollTop() {
 			window.scrollTo(0, 0);

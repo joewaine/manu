@@ -440,7 +440,7 @@ color: #ebebeb;
 
     font-family: $segoe;
 	font-weight: 400;
-    font-size: 2em;
+    font-size: 1.6em;
 	color: $bg--light-blue;
 
     -webkit-transition: all .25s ease;
@@ -466,6 +466,7 @@ transition: all .25s ease;
 	    svg{
 	    	-webkit-transition: all .25s ease;
 transition: all .25s ease;
+    // transform: translateY(1px);
 	    }
 	}
 

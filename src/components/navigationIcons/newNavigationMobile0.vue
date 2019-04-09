@@ -466,7 +466,7 @@
 								</router-link>
 							</g>
 							<g>
-							<g style="pointer-events: none;">
+								<g style="pointer-events: none;">
 									<path
 										class="st1"
 										d="M199.89,211.17h16.59v13.38h-16.59V211.17z M194.87,206.16v23.41h8.21v3.18h10.19v-3.18h8.21v-23.41
@@ -480,7 +480,7 @@
 										height="5.72"
 									/>
 								</g>
-							<g style="pointer-events: none;">
+								<g style="pointer-events: none;">
 									<path
 										class="st1"
 										d="M87.83,209.78c0,0.16-0.01,0.33-0.02,0.49c0.27-0.02,0.53-0.04,0.81-0.04c3.71,0,6.91,2.19,8.37,5.35
@@ -960,7 +960,6 @@
 						/>
 					</g>
 
-
 					<g data="tag-3">
 						<path
 							class="st1 letter-tag-3"
@@ -1105,8 +1104,6 @@
 				c0,0.44,0.1,0.8,0.31,1.06c0.21,0.27,0.49,0.4,0.83,0.4c0.35,0,0.64-0.13,0.86-0.38C294.42,245.6,294.53,245.28,294.53,244.88z"
 						/>
 					</g>
-
-
 
 					<g data="tag-4">
 						<path
@@ -1306,8 +1303,6 @@
 				h0.02c0.01-0.07,0.04-0.17,0.08-0.32l1.13-3.28H47.09z"
 						/>
 					</g>
-
-
 				</g>
 			</g>
 
@@ -1443,12 +1438,11 @@ export default {
 			);
 			wedgesDeskZero[i - 1].style.fill = "#888888";
 
-let letterTag2 = document.querySelectorAll(".letter-tag-" + i );
+			let letterTag2 = document.querySelectorAll(".letter-tag-" + i);
 
-for(let i2 = 0; i2 < letterTag2.length; i2++){
-	letterTag2[i2].style.fill = "#4ae7fc";
-}
-
+			for (let i2 = 0; i2 < letterTag2.length; i2++) {
+				letterTag2[i2].style.fill = "#4ae7fc";
+			}
 		},
 		unHoverSiblingModalMobile(x) {
 			var unRecDeskZero = document.getElementsByClassName(
@@ -1461,12 +1455,11 @@ for(let i2 = 0; i2 < letterTag2.length; i2++){
 			);
 			unWedgesDeskZero[x - 1].style.fill = "#007bcd";
 
-let letterTag2 = document.querySelectorAll(".letter-tag-" + x );
+			let letterTag2 = document.querySelectorAll(".letter-tag-" + x);
 
-for(let i2 = 0; i2 < letterTag2.length; i2++){
-	letterTag2[i2].style.fill = "#FFFFFF";
-}
-
+			for (let i2 = 0; i2 < letterTag2.length; i2++) {
+				letterTag2[i2].style.fill = "#FFFFFF";
+			}
 		},
 		hoverTextModalMobile(j) {
 			var wedgesDeskZero = document.getElementsByClassName(
@@ -1479,12 +1472,11 @@ for(let i2 = 0; i2 < letterTag2.length; i2++){
 			);
 			unRecDeskZero[j - 1].style.fill = "#4ae7fc";
 
-let letterTag2 = document.querySelectorAll(".letter-tag-" + k );
+			let letterTag2 = document.querySelectorAll(".letter-tag-" + k);
 
-for(let i2 = 0; i2 < letterTag2.length; i2++){
-	letterTag2[i2].style.fill = "#4ae7fc";
-}
-
+			for (let i2 = 0; i2 < letterTag2.length; i2++) {
+				letterTag2[i2].style.fill = "#4ae7fc";
+			}
 		},
 		unHoverTextModalMobile(k) {
 			var unRecDeskZero = document.getElementsByClassName(
@@ -1497,14 +1489,11 @@ for(let i2 = 0; i2 < letterTag2.length; i2++){
 			);
 			unWedgesDeskZero[k - 1].style.fill = "#007bcd";
 
+			let letterTag2 = document.querySelectorAll(".letter-tag-" + k);
 
-let letterTag2 = document.querySelectorAll(".letter-tag-" + k );
-
-for(let i2 = 0; i2 < letterTag2.length; i2++){
-	letterTag2[i2].style.fill = "#FFFFFF";
-}
-
-
+			for (let i2 = 0; i2 < letterTag2.length; i2++) {
+				letterTag2[i2].style.fill = "#FFFFFF";
+			}
 		},
 		scrollTop() {
 			window.scrollTo(0, 0);

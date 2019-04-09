@@ -15,7 +15,7 @@
 						href="https://www.microsoft.com/en-us/enterprise/manufacturing/connected-field-services?rtc=1&activetab=pillars:primaryr4"
 						target="_blank"
 						class="btn dark-btn white-txt mr-20"
-						>Visit Microsoft Connected Field Services</a
+						>Learn more about Microsoft Connected Field Service</a
 					>
 					<a
 						id="url:external-watch-videos-now"

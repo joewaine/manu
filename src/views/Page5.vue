@@ -15,7 +15,7 @@
 				<div class="row">
 					<IconRow
 						v-bind:logo="'5'"
-						v-bind:subheader="'Case Study'"
+						v-bind:subheader="'Customer Success Story'"
 						v-bind:bodyText="
 							'Sandvik Coromant, part of the Sandvik Group, is a global engineering organization that produces machining tools and tooling systems for the manufacturing industry. Sandvik Coromant’s employees have years of in-depth knowledge of machining and tooling processes in multiple industries. These proficiencies enable Coromant’s specialists to offer a personalized approach to help their customers. However, these technical experts can’t be everywhere all the time. Therefore, Sandvik Coromant decided to digitize their knowledge to make the information available to all parts of the production loop. Plus, by applying analysis tools, they were able to provide intelligent feedback—both to the relevant machines and their human operators.'
 						"
@@ -47,7 +47,7 @@
 						"
 						v-bind:quoteOrg="'Sandvik Coromant'"
 						v-bind:ctaIcon="'5'"
-						v-bind:ctaText="'Read the case study'"
+						v-bind:ctaText="'Read the customer success story'"
 						v-bind:ctaLink="
 							'https://customers.microsoft.com/en-US/story/sandvik-coromant-process-manufacturing-sweden'
 						"
@@ -63,10 +63,7 @@
 	</div>
 </template>
 <script>
-import UniversalFooter from "../components/UniversalFooter";
-import HeaderModule from "../components/HeaderModule";
 import FooterModule from "../components/FooterModule";
-import WayFinder from "../components/Wayfinder";
 import SecondHeroModule from "../components/SecondHeroModule";
 import IconRow from "../components/IconRow";
 import ListRow from "../components/ListRow";
@@ -79,10 +76,7 @@ export default {
 		};
 	},
 	components: {
-		UniversalFooter,
-		HeaderModule,
 		FooterModule,
-		WayFinder,
 		SecondHeroModule,
 		IconRow,
 		ListRow,
