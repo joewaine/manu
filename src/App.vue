@@ -26,8 +26,9 @@ export default {
 		<HeaderModule />
 
 		<DownloadSlider />
-		<FeedbackSlider />
 		<ShareSlider />
+		<FeedbackSlider />
+		
 
 		<router-view class="view"></router-view>
 	</div>
