@@ -105,11 +105,10 @@
 				</div>
 			</div>
 		</section>
-
-		<div class="uhf-placeholder">
+<!-- 		<div class="uhf-placeholder">
 			<br /><br /><br />
 			[placeholder footer]
-		</div>
+		</div> -->
 	</div>
 </template>
 <script>

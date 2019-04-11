@@ -1,5 +1,5 @@
 <script>
-import HeaderModule from "./components/HeaderModule";
+// import HeaderModule from "./components/HeaderModule";
 import AccessModule from "./components/AccessModule";
 import ShareSlider from "./components/ShareSlider";
 import DownloadSlider from "./components/DownloadSlider";
@@ -8,7 +8,7 @@ import FeedbackSlider from "./components/FeedbackSlider";
 export default {
 	name: "app",
 	components: {
-		HeaderModule,
+		// HeaderModule,
 		DownloadSlider,
 		FeedbackSlider,
 		ShareSlider,
@@ -22,9 +22,7 @@ export default {
 <template>
 	<div id="app">
 		<AccessModule />
-
-		<HeaderModule />
-
+		<!-- <HeaderModule /> -->
 		<DownloadSlider />
 		<ShareSlider />
 		<FeedbackSlider />

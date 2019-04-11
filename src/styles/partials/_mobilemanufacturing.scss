@@ -41,25 +41,23 @@ display: none;
 }
 
 
-@media (max-width: 1100px) {
+@media (max-width: 1080px) {
 
 
     // .pent-tag-landing{
     //     display: none;
-    // }
+    // }  
+
+      #ladder{
+        // display: none;
+
+    left: 50%;
 
 
-	#ladder{
-		display: none;
+    }
 
-    // bottom: -18%;
-    // top: initial;
-    // height: 46%;
-    // right: auto;
-    // left: 20%;
-    // transform: scaleX(-1) rotate(90deg);
 
-	}
+
 
 .half-picture-milling,
 .half-picture-two-men,
@@ -119,10 +117,44 @@ display: none;
 }
     
 
+
+
+
+
+
 @media (max-width: 992px) {
 
 
+    #ladder{
+        display: none;
 
+    // bottom: -18%;
+    // top: initial;
+    // height: 46%;
+    // right: auto;
+    // left: 20%;
+    // transform: scaleX(-1) rotate(90deg);
+
+    }
+
+
+        .aos-init.aos-animate #arrow-animation{
+    left: 0;
+    bottom: -32% !important;
+    width: 100%;
+
+
+&.seen{
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth{
+        opacity: 1;
+    }
+}
+
+    }
 
 
 }
@@ -205,23 +237,7 @@ display: none;
 
 
 
-.aos-init.aos-animate #arrow-animation{
-    left: 0;
-    bottom: -32% !important;
-    width: 100%;
 
-
-&.seen{
-    .first,
-    .second,
-    .third,
-    .fourth,
-    .fifth{
-        opacity: 1;
-    }
-}
-
-	}
 
 
 

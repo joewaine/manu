@@ -62,7 +62,7 @@ margin-left: -20px;
 
 
 .height-adjust-pentagon{
-	height: 95%;
+	height: 92%;
 }
 
 
@@ -353,6 +353,13 @@ ul.secondary-list li{
 }
 
 }
+
+
+@media (max-width: 960px){
+	   .height-adjust-pentagon{ height: 102%;
+}}
+
+
 
 
 @media (max-width: 768px) {

@@ -37,7 +37,7 @@
 					title="Send Mail"
 					data-bi-area="fixed-side-slider-module"
 					data-bi-bhvr="SOCIALSHARE"
-					data-bi-socchn="email-share​"
+					data-bi-socchn="email-share"
 					id="social-share-email"
 					href="mailto:?subject=Digitally Transform You Field Service&body=Check out Connected Field Services: https%3A%2F%2Fdiscover.microsoft.com%2Fdigitally-transform-your-field-service"
 					@click="toggleClass"

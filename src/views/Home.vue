@@ -391,19 +391,18 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-12 sub-text no-lr-pad">
-						Sources: <sup>1</sup> Astea.
-						<a href="" target="_blank"
-							>A Fix for First Time Rates.</a
-						>
+					<div class="col-lg-12 sub-text">
+						Sources: <sup>1</sup> Astea. A Fix for First Time Rates.
 						2016. | <sup>2</sup> Salesforce.
 						<a
+							id="url:external-sales-force-second-annual-state-of-service"
 							href="http://a.sfdcstatic.com/content/dam/www/ocms/assets/pdf/misc/state-of-service-e-book-2017.pdf"
 							target="_blank"
 							>Second Annual State of Service.</a
 						>
 						2017. | <sup>3</sup> MPI.
 						<a
+							id="url:external-mpi-the-internet-of-things-has-finally-arrived"
 							href="http://mpi-group.com/wp-content/uploads/2016/01/IoT-Summary2016.pdf"
 							target="_blank"
 							>The Internet of Things Has Finally Arrived.</a
@@ -420,13 +419,13 @@
 				<div class="row no-lr-margin">
 					<div class="col-lg-6 half-picture-two-men"></div>
 					<div
-						class="col-lg-6 offset-lg-6 bg-black section-pad-md col-md-12"
+						class="col-lg-6 offset-lg-6 bg-black section-pad-md col-md-12 larger-width-tab no-lm-tab"
 					>
 						<QuotePattern1 />
 						<div class="row justify-content-center">
 							<div
 								data-aos="fade-left"
-								class="col-lg-10 offset-lg-2"
+								class="col-lg-10 offset-lg-2 no-lm-tab"
 							>
 								<Quote />
 								<div class="quote top-pad-sm">
@@ -860,7 +859,7 @@
 			<div class="container">
 				<div class="row no-lr-margin">
 					<div class="col-lg-6 half-picture-milling mobile"></div>
-					<div class="col-lg-6 bg-black section-pad-md col-md-12">
+					<div class="col-lg-6 bg-black section-pad-md col-md-12 larger-width-tab">
 						<QuotePattern2 />
 						<div class="row">
 							<div data-aos="fade-right" class="col-lg-10">
