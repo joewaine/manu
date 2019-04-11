@@ -193,7 +193,14 @@
 				</g>
 			</g>
 		</svg>
-		<div class="blue-menu-text" v-on:click="openModal()" v-on:mouseover="underLineMenu()" v-on:mouseleave="underLineMenuRemove()">MENU</div>
+		<div
+			class="blue-menu-text"
+			v-on:click="openModal()"
+			v-on:mouseover="underLineMenu()"
+			v-on:mouseleave="underLineMenuRemove()"
+		>
+			MENU
+		</div>
 	</div>
 </template>
 <script>
@@ -203,15 +210,14 @@ export default {
 			// alert('1234')
 			document.getElementById("access-module").style.display = "block";
 		},
-		underLineMenuRemove(){
-document.querySelector('.blue-menu-text').style.borderBottomColor = "transparent";
-
-},
-underLineMenu(){
-
-document.querySelector('.blue-menu-text').style.borderBottomColor = "#0078D7";
-}
-
+		underLineMenuRemove() {
+			document.querySelector(".blue-menu-text").style.borderBottomColor =
+				"transparent";
+		},
+		underLineMenu() {
+			document.querySelector(".blue-menu-text").style.borderBottomColor =
+				"#0078D7";
+		}
 	}
 };
 </script>

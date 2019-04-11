@@ -28,7 +28,6 @@ export default {
 		<DownloadSlider />
 		<ShareSlider />
 		<FeedbackSlider />
-		
 
 		<router-view class="view"></router-view>
 	</div>

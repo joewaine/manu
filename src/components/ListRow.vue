@@ -1,6 +1,7 @@
 <template>
 	<div
-		data-aos="fade-up" data-aos-delay="200"
+		data-aos="fade-up"
+		data-aos-delay="200"
 		class="col-lg-12 drop-shadow-box no-pad flexbox-container mb-30 list-row"
 	>
 		<div v-bind:class="this._props.backgroundImage"></div>

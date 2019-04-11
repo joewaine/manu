@@ -12,33 +12,36 @@
 				class="share-slider__content__icon"
 				@click="toggleClass"
 			>
-				<svg id="share"
+				<svg
+					id="share"
 					width="28"
 					height="28"
 					viewBox="0 0 28 28"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
 				>
-
-
-    <g id="Layer_2" data-name="Layer 2">
-        <g id="Layer_1-2" data-name="Layer 1">
-            <g id="Nav_Bars" data-name="Nav Bars">
-                <path class="cls-1" d="M0,19.18,3.2,9.59,0,0,28.76,9.59ZM4.8,8.68H20.32L2.86,2.86ZM2.86,16.32,20.32,10.5H4.8Z" />
-            </g>
-        </g>
-    </g>
+					<g id="Layer_2" data-name="Layer 2">
+						<g id="Layer_1-2" data-name="Layer 1">
+							<g id="Nav_Bars" data-name="Nav Bars">
+								<path
+									class="cls-1"
+									d="M0,19.18,3.2,9.59,0,0,28.76,9.59ZM4.8,8.68H20.32L2.86,2.86ZM2.86,16.32,20.32,10.5H4.8Z"
+								/>
+							</g>
+						</g>
+					</g>
 				</svg>
 			</div>
 			<div class="share-slider__content__text">
 				<a
-				title="Send Mail"
-				data-bi-area="fixed-side-slider-module"
-				data-bi-bhvr="SOCIALSHARE"
-				data-bi-socchn="email-share​"
-				id="social-share-email"
-				href="mailto:?subject=Digitally Transform You Field Service&body=Check out Connected Field Services: https%3A%2F%2Fdiscover.microsoft.com%2Fdigitally-transform-your-field-service" @click="toggleClass">
-
+					title="Send Mail"
+					data-bi-area="fixed-side-slider-module"
+					data-bi-bhvr="SOCIALSHARE"
+					data-bi-socchn="email-share​"
+					id="social-share-email"
+					href="mailto:?subject=Digitally Transform You Field Service&body=Check out Connected Field Services: https%3A%2F%2Fdiscover.microsoft.com%2Fdigitally-transform-your-field-service"
+					@click="toggleClass"
+				>
 					<svg
 						fill="#3c3c41"
 						width="29"
@@ -150,8 +153,7 @@ export default {
 
 	// bottom: calc(30% - 110px);
 
-
-		bottom: calc(30% - 50px);
+	bottom: calc(30% - 50px);
 	width: 225px !important;
 	height: 50px;
 	border: none;

@@ -60,9 +60,7 @@
 	</div>
 </template>
 <script>
-import HeaderModule from "../components/HeaderModule";
 import FooterModule from "../components/FooterModule";
-import WayFinder from "../components/Wayfinder";
 import SecondHeroModule from "../components/SecondHeroModule";
 import IconRow from "../components/IconRow";
 import ListRow from "../components/ListRow";
@@ -75,9 +73,7 @@ export default {
 		};
 	},
 	components: {
-		HeaderModule,
 		FooterModule,
-		WayFinder,
 		SecondHeroModule,
 		IconRow,
 		ListRow,
