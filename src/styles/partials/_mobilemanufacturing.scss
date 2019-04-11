@@ -51,6 +51,14 @@ display: none;
 
 	#ladder{
 		display: none;
+
+    // bottom: -18%;
+    // top: initial;
+    // height: 46%;
+    // right: auto;
+    // left: 20%;
+    // transform: scaleX(-1) rotate(90deg);
+
 	}
 
 .half-picture-milling,
@@ -123,8 +131,21 @@ display: none;
 
 @media (max-width: 960px) {
 
-	#arrow-animation{
-		display: none;
+
+
+#arrow-animation{
+        left: 0 !important;
+    bottom: -82% !important;
+        width: 100%;
+    }
+
+
+
+
+.aos-init.aos-animate #arrow-animation{
+    left: 0;
+    bottom: -32% !important;
+    width: 100%;
 	}
 
 
@@ -373,5 +394,11 @@ h1, h2 {
     font-size: 1.8em;
     line-height: 1.2em;
 }
+
+
+.modal-wayfinder-box{
+    width: 100%;
+}
+
 
 }

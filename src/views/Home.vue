@@ -186,11 +186,20 @@
 								<div class="inner-orbit-circles"></div>
 							</div>
 							<div id="inner-orbit2">
+												<div class="inner-orbit-circles2"></div>
 							</div>
-							<div id="inner-orbit3"></div>
-							<div id="inner-orbit4"></div>
-							<div id="inner-orbit5"></div>
-							<div id="inner-orbit6"></div>
+							<div id="inner-orbit3">
+												<div class="inner-orbit-circles3"></div>
+							</div>
+							<div id="inner-orbit4">
+												<div class="inner-orbit-circles4"></div>
+							</div>
+							<div id="inner-orbit5">
+												<div class="inner-orbit-circles5"></div>
+							</div>
+							<div id="inner-orbit6">
+												<div class="inner-orbit-circles6"></div>
+							</div>
 							<div id="inner-orbit7">
 								<div class="inner-orbit-circles7"></div>
 							</div>
@@ -201,8 +210,10 @@
 								<div class="inner-orbit-circles9"></div>
 							</div>
 							<div id="inner-orbit10">
+												<div class="inner-orbit-circles10"></div>
 							</div>
 							<div id="inner-orbit11">
+												<!-- <div class="inner-orbit-circles11"></div> -->
 							</div>
 							<div id="inner-orbit12">
 								<div class="inner-orbit-circles12"></div>
@@ -210,17 +221,27 @@
 							<div id="inner-orbit13">
 								<div class="inner-orbit-circles13"></div>
 							</div>
-							<div id="inner-orbit14"></div>
-							<div id="inner-orbit15"></div>
-							<div id="inner-orbit16"></div>
+							<div id="inner-orbit14">
+												<div class="inner-orbit-circles14"></div>
+							</div>
+							<div id="inner-orbit15">
+												<div class="inner-orbit-circles15"></div>
+							</div>
+							<div id="inner-orbit16">
+												<div class="inner-orbit-circles16"></div>
+							</div>
 							<div id="inner-orbit17">
 								<div class="inner-orbit-circles17"></div>
 							</div>
-							<div id="inner-orbit18"></div>
+							<div id="inner-orbit18">
+												<div class="inner-orbit-circles18"></div>
+							</div>
 							<div id="inner-orbit19">
-								<div class="inner-orbit-circles19"></div>
+								<div class="inner-orbit-circles19">
+								</div>
 							</div>
 						</div>
+
 
 						<MobileOrbits />
 

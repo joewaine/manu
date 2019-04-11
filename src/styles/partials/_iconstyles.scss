@@ -1150,11 +1150,11 @@ transition: all .25s ease;
   }
 }
 .rotating {
-  -webkit-animation: rotating 6s linear infinite;
-  -moz-animation: rotating 6s linear infinite;
-  -ms-animation: rotating 6s linear infinite;
-  -o-animation: rotating 6s linear infinite;
-  animation: rotating 6s linear infinite;
+  -webkit-animation: rotating 8s linear infinite;
+  -moz-animation: rotating 8s linear infinite;
+  -ms-animation: rotating 8s linear infinite;
+  -o-animation: rotating 8s linear infinite;
+  animation: rotating 8s linear infinite;
 }
 
 
@@ -1201,6 +1201,18 @@ transition: all .25s ease;
 }
 
 }
+
+
+@media (max-width: 320px) {
+
+.mobile-orbit-container{
+    bottom: -135px;
+}
+
+}
+
+   
+
 
 svg#share{
 

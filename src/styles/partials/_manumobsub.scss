@@ -380,17 +380,8 @@ display: none;
                 background-color: #fff;
 }
 
-&.arrows{
-        padding-bottom: 100%;
-                    background-image: url(assets/img/arrows.png);
-                    background-repeat: no-repeat;
-                    background-position: center bottom;
-                -webkit-background-size: 100%;
-                -moz-background-size: 100%;
-                -o-background-size: 100%;
-                background-size: 100%;
-                background-color: #fff;
-}
+
+
 
 &.ladder{
 
@@ -409,6 +400,40 @@ display: none;
 
 
 }
+
+
+
+
+
+.arrows{
+        padding-bottom: 100%;
+                    // background-image: url(assets/img/arrows.png);
+                    background-repeat: no-repeat;
+                    background-position: center 820px;
+                -webkit-background-size: 100%;
+                -moz-background-size: 100%;
+                -o-background-size: 100%;
+                background-size: 100%;
+                background-color: #fff;
+
+                -webkit-transition: all .5s ease;
+                transition: all .5s ease;
+
+
+    &.aos-animate{
+
+background-position: center bottom;
+    }
+
+}
+
+
+
+
+
+
+
+
 
 
 
