@@ -7,6 +7,68 @@
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 
+
+.first{
+	opacity: 0;
+
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+
+	 -webkit-transition-delay: 0s;
+	 transition-delay: 0.0s;
+
+}
+
+
+.second{
+	opacity: 0;
+
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+
+	 -webkit-transition-delay: 0.1s;
+	 transition-delay: 0.1s;
+
+}
+
+
+.third{
+	opacity: 0;
+
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+
+	 -webkit-transition-delay: .2s;
+	 transition-delay: .2s;
+
+}
+
+
+.fourth{
+	opacity: 0;
+
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+
+	 -webkit-transition-delay: .3s;
+	 transition-delay: .3s;
+
+}
+
+.fifth{
+	opacity: 0;
+
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+
+	 -webkit-transition-delay: .4s;
+	 transition-delay: .4s;
+
+
+}
+
+
+
 	}
 
 	&.aos-animate{
@@ -17,6 +79,27 @@
 	 -webkit-transition-delay: 0.25s;
 	 transition-delay: 0.25s;
 
+
+&.seen{
+
+
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth{
+	
+opacity: 1;
+
+
+
+}
+
+
+}
+
+
 		}
 
 	}
@@ -24,6 +107,7 @@
 }
 
 
+#ladder-mobile,
 #ladder{
 
 
