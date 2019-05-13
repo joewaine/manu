@@ -1,6 +1,6 @@
-# Client - Project Name (Project #) 
+# Microsoft - GEP Manufacturing Ebook (Project #68145)
 
-Describe in a few words, what this project is all about.
+GEP - Digitally Transform Field Service - discover.microsoft.com
 
 ## URLs
 
@@ -39,9 +39,5 @@ npm run build
 npm run lint
 ```
 
-## Deployment
-
-Describe where and how the project is being deployed. If CI is used, describe where it is configured and which branch is automatically deployed.
-# netlify_repo
-# manu
-# manu
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
