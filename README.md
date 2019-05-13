@@ -24,7 +24,7 @@ npm install
 ### Development
 
 ```
-npm run serve
+npm run-script serve
 ```
 
 ### Build for production
