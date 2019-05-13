@@ -5,10 +5,10 @@ Describe in a few words, what this project is all about.
 ## URLs
 
 ### Staging
-https://link-to-staging.com
+https://blissful-ptolemy-4b2f73.netlify.com
 
 ### Production
-https://link-to-live.com
+https://discover.microsoft.com/digitally-transform-your-field-service/
 
 ## Installation
 
